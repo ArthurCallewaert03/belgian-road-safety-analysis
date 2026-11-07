@@ -8,7 +8,7 @@ os.environ['JUPYTER_RUNTIME_DIR']=str(runtime)
 os.environ['IPYTHONDIR']=str(runtime/'ipython')
 os.environ['MPLCONFIGDIR']=str(runtime/'matplotlib')
 kernels=BASE/'.jupyter/kernels/mdp-analysis';kernels.mkdir(parents=True,exist_ok=True)
-python=BASE/'.venv/Scripts/python.exe'
+python=Path(sys.executable).resolve()
 (kernels/'kernel.json').write_text(json.dumps({'argv':[str(python),'-m','ipykernel_launcher','-f','{connection_file}'],
  'display_name':'Python (MDP analyse)','language':'python'}),encoding='utf-8')
 os.environ['JUPYTER_PATH']=str(BASE/'.jupyter')

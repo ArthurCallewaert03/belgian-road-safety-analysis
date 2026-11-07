@@ -1,4 +1,4 @@
-$base = [System.IO.Path]::GetFullPath('C:/Users/arthu/Documents/Vlerick/1_Courses/MDP/group_assignment/data')
+$base = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../data'))
 $manifest = Get-Content -LiteralPath (Join-Path (Split-Path $base) 'pipeline/source_manifest.json') -Raw | ConvertFrom-Json
 foreach ($entry in $manifest) {
     $original = [System.IO.Path]::GetFullPath((Join-Path $base $entry.source))

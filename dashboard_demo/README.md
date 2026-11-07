@@ -4,13 +4,13 @@ An offline, presentation-ready dashboard based on the supplied Statbel crash map
 
 ## Run locally
 
-From the `group_assignment` directory:
+From the repository root after cloning (Python 3 only; no package installation or original data folder is needed):
 
 ```powershell
-python -m http.server 8765 --directory dashboard_demo/dist
+python -m http.server 8765 --bind 127.0.0.1 --directory dashboard_demo/dist
 ```
 
-Open `http://localhost:8765`. A local server is needed because browsers do not reliably load `data.json` from a `file://` page.
+Open `http://127.0.0.1:8765`. A local server is needed because browsers do not reliably load `data.json` from a `file://` page. The committed `dist/data.json` and `dist/roads.json` are enough to view the dashboard; rebuilding is optional.
 
 ## Interactions
 
@@ -23,9 +23,13 @@ Open `http://localhost:8765`. A local server is needed because browsers do not r
 
 ## Rebuild the bundled data
 
+First download the Git LFS files with `git lfs pull` and install the analysis dependencies as described in [`analysis_notebooks/README.md`](../analysis_notebooks/README.md). Then, from the repository root in PowerShell, run:
+
 ```powershell
-analysis_notebooks/.venv/Scripts/python.exe dashboard_demo/build_data.py
+& ./analysis_notebooks/.venv/Scripts/python.exe dashboard_demo/build_data.py
 ```
+
+On macOS/Linux, use `analysis_notebooks/.venv/bin/python` instead.
 
 This reads `data/gold/accident_map/accident_map.parquet`, geographic exclusions in `analysis_notebooks/tables/geo_uitgesloten.csv`, the GISCO Belgian boundary and the OSM road cache in `analysis_notebooks/reference_data`. It writes `dist/data.json` and `dist/roads.json`. The data metadata includes the source hash, column order and row count.
 

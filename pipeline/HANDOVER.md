@@ -4,7 +4,7 @@
 
 Deze pipeline bereidt de aangeleverde verkeersgegevens voor verdere analyse voor. Er worden geen conclusies over verkeersveiligheid berekend. De bronbestanden zijn de lokale Excelbestanden, niet een live of vernieuwde externe dataset.
 
-Alle datalagen staan onder `group_assignment/data`:
+Alle datalagen staan onder `data/` in de repository-root:
 
 - `bronze/raw`: ongewijzigde Excelbestanden inclusief de metadatawerkboeken; SHA-256 gecontroleerd.
 - `bronze/tables/<onderwerp>`: één Parquetbestand per gegevenswerkboek. Bronwaarden worden als tekst uitgelezen; Excel-opmaak wordt uitsluitend in raw bewaard. Volledig lege rijen worden uitgesloten. Bronblad en werkelijk Excel-rijnummer blijven beschikbaar.
@@ -51,12 +51,16 @@ Er is geen veilige rechtstreekse koppeling op ongevalniveau. Een join op gemeent
 
 ## Uitvoeren en onderhouden
 
-Benodigd: Python met de versies in `requirements.txt`. Uitvoering vanuit een willekeurige werkmap:
+Benodigd: Python 3, de packages uit `pipeline/requirements.txt` en de bronbestanden uit Git LFS. Voer vanaf de root van de gekloonde repository uit (in PowerShell):
 
 ```powershell
-python "C:/Users/arthu/Documents/Vlerick/1_Courses/MDP/group_assignment/pipeline/prepare_data.py"
-python "C:/Users/arthu/Documents/Vlerick/1_Courses/MDP/group_assignment/pipeline/validate_outputs.py"
+git lfs pull
+python -m venv .venv-pipeline
+& ./.venv-pipeline/Scripts/python.exe -m pip install -r pipeline/requirements.txt
+& ./.venv-pipeline/Scripts/python.exe pipeline/validate_outputs.py
 ```
+
+De laatste opdracht controleert de meegeleverde outputs zonder ze te vervangen. Voer `pipeline/prepare_data.py` pas uit als je bronze opnieuw naar silver en gold wilt verwerken, met dezelfde Python-omgeving. Op macOS/Linux staat de interpreter onder `.venv-pipeline/bin/python`.
 
 De uitvoermap wordt afgeleid van de locatie van het script. Het script kan opnieuw uit bronze/raw draaien wanneer de oorspronkelijke bestanden naar die map zijn georganiseerd. Silver/gold en documentatie worden bij een nieuwe run vervangen; bronze/raw blijft beschermd tegen stille wijzigingen. Maak voor een toekomstige gewijzigde bronlevering een aparte versie/snapshot. Deze pipeline is afgestemd op de aangeleverde 2017–2024-bestanden; pas de jaarherkenning en controles expliciet aan bij nieuwe jaren. Onderbreking kan gedeeltelijk vernieuwde output achterlaten: alleen een run met `COMPLETE` en een bijgewerkt `run.json` als geslaagd beschouwen.
 
@@ -65,7 +69,7 @@ Voorkeursformaat voor analyse is Parquet, zodat codes en ontbrekende waarden hun
 ```python
 from pathlib import Path
 import pandas as pd
-data = Path('C:/Users/arthu/Documents/Vlerick/1_Courses/MDP/group_assignment/data')
+data = Path('data')  # uitvoeren vanuit de repository-root
 accidents = pd.read_parquet(data/'gold/road_accidents/road_accidents.parquet')
 annual = accidents.groupby('analysis_year')['MS_ACCT'].sum(min_count=1)
 ```

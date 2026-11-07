@@ -16,9 +16,16 @@ De notebooks lezen `../data/gold`. Ze wijzigen bronze, silver en gold niet. De n
 
 ## Uitvoeren
 
-In VS Code: open de map `group_assignment`, open een notebook en selecteer de Python-interpreter `analysis_notebooks/.venv/Scripts/python.exe`. De lokale omgeving bevat GeoPandas; algemene notebookbibliotheken worden in deze werkplek ook uit de bestaande Python-installatie gebruikt.
+Kloon eerst de repository en voer `git lfs pull` uit, zodat de data en referentiebestanden beschikbaar zijn. Maak vanuit de repository-root een eigen virtuele omgeving:
 
-Uitvoering van beide notebooks vanuit PowerShell:
+```powershell
+python -m venv analysis_notebooks/.venv
+& ./analysis_notebooks/.venv/Scripts/python.exe -m pip install -r analysis_notebooks/requirements.txt
+```
+
+Open in VS Code de repository-root en selecteer `analysis_notebooks/.venv/Scripts/python.exe` als kernel. Op macOS/Linux is dit `analysis_notebooks/.venv/bin/python`. Gebruik een aparte omgeving voor de pipeline: de versies in `pipeline/requirements.txt` en dit bestand verschillen.
+
+Uitvoering van de eerste twee notebooks vanuit de repository-root in PowerShell:
 
 ```powershell
 & './analysis_notebooks/.venv/Scripts/python.exe' './analysis_notebooks/execute_notebooks.py'
@@ -26,7 +33,7 @@ Uitvoering van beide notebooks vanuit PowerShell:
 
 De uitvoerder registreert alleen een projectlokale kernel, zet tijdelijke bestanden in `.runtime`, voert alle cellen in volgorde uit. `build_notebooks.py` is de auteurshulp: deze overschrijft notebooks en verwijdert daarbij oude outputs. Gebruik voor gewoon opnieuw rekenen uitsluitend `execute_notebooks.py`.
 
-Op een andere computer: maak een nieuwe virtuele omgeving en installeer `requirements.txt`. Selecteer die omgeving als notebookkernel. Pas eventueel de interpreterlocatie in `execute_notebooks.py` aan bij een ander besturingssysteem. De notebooks zelf gebruiken relatieve projectpaden.
+De uitvoerder gebruikt de Python-interpreter waarmee hij gestart is, ook op macOS/Linux. Geef desgewenst specifieke notebookbestandsnamen als argumenten mee. De notebooks zelf gebruiken relatieve projectpaden.
 
 De eerste wegenverwerking is zwaarder: circa 500 MB bron-Shapefiles wordt geprojecteerd en op België uitgesneden. De GeoParquet-cache versnelt volgende runs. Alle figuren kunnen vervolgens offline worden gereproduceerd. `download_reference_data.py` haalt alleen ontbrekende openbare referentiebestanden op; het verandert de oorspronkelijke gold-datasets niet.
 

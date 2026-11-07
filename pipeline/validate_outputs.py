@@ -48,7 +48,8 @@ for item in catalog:
 for name,data in [('annual_measure_reconciliation.csv',controls),('missingness_by_year.csv',yearly_nulls),('hour_review.csv',hourly),('review_samples.csv',review_samples)]:
     pd.DataFrame(data).to_csv(P/name,index=False,encoding='utf-8-sig')
 for item in json.loads((P/'source_manifest.json').read_text(encoding='utf-8')):
-    assert hashlib.sha256((ROOT/item['bronze_raw']).read_bytes()).hexdigest()==item['sha256']
+    raw_path=ROOT.joinpath(*item['bronze_raw'].replace('\\','/').split('/'))
+    assert hashlib.sha256(raw_path.read_bytes()).hexdigest()==item['sha256']
 (P/'validation.json').write_text(json.dumps(dict(status='PASS',datasets=4,annual_measure_checks=len(controls),csv_row_and_id_checks='PASS',parquet_retained_values='PASS',raw_hash_checks=28),indent=2),encoding='utf-8')
 print('VALIDATED',len(controls),'annual measure totals; 4 CSV and Parquet datasets; raw hashes')
 checks=json.loads((P/'quality_checks.json').read_text(encoding='utf-8'))

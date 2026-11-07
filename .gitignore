@@ -1,5 +1,6 @@
 # Local environments and notebook state
 analysis_notebooks/.venv/
+.venv-pipeline/
 analysis_notebooks/.runtime/
 analysis_notebooks/.jupyter/
 **/.ipynb_checkpoints/
