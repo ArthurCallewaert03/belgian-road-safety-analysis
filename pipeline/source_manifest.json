@@ -1,0 +1,170 @@
+[
+  {
+    "source": "OPENDATA_MAP_2017-2024.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\OPENDATA_MAP_2017-2024.xlsx",
+    "sha256": "ac264c5a0d021840343c90b810e74c34a1c7f84b54593255ce50c487aa503113",
+    "bytes": 60821188
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS.xlsx",
+    "sha256": "20776ce27765bb3eb9fd99f7f781b17e5b5d097b16af3a1174161a0313a86500",
+    "bytes": 9559
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2017.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2017.xlsx",
+    "sha256": "4b1fc5f44b2d416099b448878441196d23daa87c89dbc2c5119e9e69f990cdf1",
+    "bytes": 4605560
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2018.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2018.xlsx",
+    "sha256": "83059e3c1c0c33836f127e49326680099074e19802fdc27bde38de1b334ea63b",
+    "bytes": 4661372
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2019.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2019.xlsx",
+    "sha256": "1ce79f4c8a206f27758ff105e8722eaf3a8573d0b07545bf2a559c9edb7eaa6b",
+    "bytes": 4570903
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2020.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2020.xlsx",
+    "sha256": "00b121954ae79bddcd5d73461c20185a56839af3a1eea12e017c864750a4fe69",
+    "bytes": 3685391
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2021.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2021.xlsx",
+    "sha256": "4c8964d0d97574d9bc371b6c3c5b6844310593d73a11c3538c267ea937248da5",
+    "bytes": 4193255
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2022.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2022.xlsx",
+    "sha256": "d7c5052888c4e9bd77e8d753da0360bdb46f360e96600b797d5bdb021f4e407b",
+    "bytes": 4561042
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2023.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2023.xlsx",
+    "sha256": "1c78d2fe07f84e99e67ada18f8cd4495d046979a8624f35cf21f6defe47303c9",
+    "bytes": 4473238
+  },
+  {
+    "source": "Road accidents\\TF_ACCIDENTS_2024.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road accidents\\TF_ACCIDENTS_2024.xlsx",
+    "sha256": "7528d0fcc762563bdda29d7e0b2a004b91e606fa79c6e8cba34953e2c0d5c6f4",
+    "bytes": 4356742
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2017.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2017.xlsx",
+    "sha256": "3d018e2bc7bf1f3ce000a126c86c1bd878d8a586e241cd01358a9693f5506847",
+    "bytes": 13221371
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2018.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2018.xlsx",
+    "sha256": "9703cffda5048b8950cdc499befef0bbd17fc28afabf936dfcc40ec58fda7cc7",
+    "bytes": 13350214
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2019.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2019.xlsx",
+    "sha256": "a394342de5557a8f31301889f3c81a47d8cd0624302eb52970d04286653ad3b8",
+    "bytes": 12979113
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2020.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2020.xlsx",
+    "sha256": "b8ea937e9e3594edc2a056e7770969e19eee41d98c45ba65a8f38c8604cf20ca",
+    "bytes": 10022358
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2021.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2021.xlsx",
+    "sha256": "0cd73b6026b94e72b6243c4ed23c521205adbef75b091dc236f3ed2c08c98ffb",
+    "bytes": 11603092
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2022.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2022.xlsx",
+    "sha256": "675b182ec45a55979047c09791800e45f07790487534a485e27de297d6da594b",
+    "bytes": 12575829
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2023.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2023.xlsx",
+    "sha256": "9f509e2616eeaf0454beb048791637f5f6211fd156e5399946970091dd7c543d",
+    "bytes": 12443568
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_2024.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_2024.xlsx",
+    "sha256": "5b5ead717ecbae6ae53401aaae35dea355872e0ee077a962fb7b37db0ef23177",
+    "bytes": 12197851
+  },
+  {
+    "source": "Road casualties\\TF_ACCIDENTS_VICTIMS_META.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Road casualties\\TF_ACCIDENTS_VICTIMS_META.xlsx",
+    "sha256": "8a85f4b8daed4686ae64129bf67ebb0d833a2edf0a398d034c375837453e25be",
+    "bytes": 10823
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\LIST_VARIABLES_VEHICLES_COLLISION.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\LIST_VARIABLES_VEHICLES_COLLISION.xlsx",
+    "sha256": "9d818378304ee9953f7b612de2a8943254c993bc0ed737cbb5d6fc8966c37ad7",
+    "bytes": 20637
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2017.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2017.xlsx",
+    "sha256": "fc4dca43a292720db783c3626de6d223cb77890183dcc509be79587211411882",
+    "bytes": 11123286
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2018.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2018.xlsx",
+    "sha256": "620457b1cae015a5f246c41de7bd84b3337f0e905ff0b154678149a0292551b5",
+    "bytes": 11211236
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2019.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2019.xlsx",
+    "sha256": "e573a4d0b50ecf412c8ae79da68d4e18495324ae2d46aaca69529e988cc2b953",
+    "bytes": 10253809
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2020.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2020.xlsx",
+    "sha256": "53957260d46f57d702abf0306471ddf999757ca8241b2b37c21e2313f9e10db6",
+    "bytes": 7972443
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2021.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2021.xlsx",
+    "sha256": "102b28ff5cc29103d3eee3904dab0fb8c52047051e6353123d4471b30f2bcc21",
+    "bytes": 9603276
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2022.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2022.xlsx",
+    "sha256": "6b1c55622743d4f30c4624bc363668b2f3b5fb4d5f63b069d14b529b509acc41",
+    "bytes": 10108576
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2023.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2023.xlsx",
+    "sha256": "614acc73b129e07d1cf2c460dc4e94ad033120314e2adc9ced646291e1bffd9f",
+    "bytes": 9885698
+  },
+  {
+    "source": "Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2024.xlsx",
+    "bronze_raw": "data\\bronze\\raw\\Traffic accidents by type of vehicle\\TF_VEHICLES_COLLISION_2024.xlsx",
+    "sha256": "b1f8fe58c47eb56effb40f7496c7549600e43f6d50307e3b41af6cd945a21ed1",
+    "bytes": 11765330
+  }
+]

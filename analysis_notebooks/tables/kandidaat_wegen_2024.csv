@@ -1,0 +1,1286 @@
+TX_MUNTY_COLLISION_NL,wegnaam,CD_ROAD_TYPE_NL,registraties,ernstige_klasse,mediane_afstand_m,ernstaand_pct
+Antwerpen,R1,Autosnelweg,122,5,0.7470783622655885,4.098360655737705
+Antwerpen,Boomsesteenweg,Gewestweg,67,1,0.39248791045140446,1.492537313432836
+Anderlecht,Chaussée de Mons - Bergense Steenweg,Gewestweg,56,1,0.44025558134260767,1.7857142857142858
+Antwerpen,Bredabaan,Gewestweg,54,5,0.4448866545661329,9.25925925925926
+Antwerpen,Bisschoppenhoflaan,Gewestweg,47,3,0.40107404341706754,6.382978723404255
+Brasschaat,Bredabaan,Gewestweg,39,1,0.2890150402962715,2.5641025641025643
+Oostende,Torhoutsesteenweg,Gewestweg,37,5,1.8204539546183778,13.513513513513514
+Sint-Jans-Molenbeek,Chaussée de Gand - Steenweg op Gent,Gewestweg,37,2,0.4076812911114704,5.405405405405405
+Antwerpen,Noorderlaan,Gewestweg,37,1,0.6452119152519888,2.7027027027027026
+Antwerpen,Noordersingel,Gewestweg,37,0,0.7583477861899162,0.0
+Antwerpen,Sint-Bernardsesteenweg,Gewestweg,36,2,0.26182617201313657,5.555555555555555
+Gent,Brusselsesteenweg,Gewestweg,36,1,0.25973939014504716,2.7777777777777777
+Antwerpen,Plantin en Moretuslei,Gewestweg,31,0,0.2662847123091142,0.0
+Brussel,Boulevard Émile Bockstael - Emile Bockstaellaan,Gemeenteweg,30,3,0.2689827311862797,10.0
+Houthalen-Helchteren,Grote Baan,Gewestweg,29,2,0.3860408284160644,6.896551724137931
+Maasmechelen,Rijksweg,Gewestweg,29,1,0.31805320848632956,3.4482758620689653
+Antwerpen,Turnhoutsebaan,Gewestweg,28,3,0.6538707902105894,10.714285714285714
+Waterloo,Chaussée de Bruxelles,Gewestweg,28,1,0.3731347341806543,3.5714285714285716
+Zaventem,R0,Autosnelweg,28,1,0.6212048817150713,3.5714285714285716
+Ranst,Koning Boudewijnsnelweg,Autosnelweg,25,3,0.2731089540870002,12.0
+Gent,Antwerpsesteenweg,Gewestweg,25,1,0.3683251829348806,4.0
+Gent,Kortrijksesteenweg,Gewestweg,25,1,0.4587341732827338,4.0
+Antwerpen,Jan Van Rijswijcklaan,Gewestweg,25,0,0.4800544263749688,0.0
+Sint-Pieters-Woluwe,Avenue de Tervueren - Tervurenlaan,Gewestweg,25,0,0.9167990306113524,0.0
+Antwerpen,Blancefloerlaan,Gewestweg,24,3,0.5176598555868706,12.5
+Meise,A12,Autosnelweg,24,3,0.38052183358242053,12.5
+Wommelgem,Autolei,Gewestweg,24,2,0.25833702222163657,8.333333333333334
+Ternat,Assesteenweg,Gewestweg,24,1,0.3092362304055103,4.166666666666667
+Antwerpen,Frankrijklei,Gewestweg,24,0,1.0290522603299859,0.0
+Antwerpen,Grotesteenweg,Gewestweg,24,0,0.44956890635859514,0.0
+Dilbeek,E40,Autosnelweg,24,0,0.47751840079905833,0.0
+Merelbeke,Hundelgemsesteenweg,Gewestweg,23,3,0.1765473694276168,13.043478260869565
+Oostende,Nieuwpoortsesteenweg,Gewestweg,23,2,0.27570316626546854,8.695652173913043
+Boom,Antwerpsestraat,Gewestweg,23,1,0.2051498304089451,4.3478260869565215
+Dilbeek,Ninoofsesteenweg,Gewestweg,23,1,0.38156037958874983,4.3478260869565215
+Gent,E17,Autosnelweg,23,1,0.6549616049117271,4.3478260869565215
+Putte,Mechelbaan,Gewestweg,23,1,0.3135338792789829,4.3478260869565215
+Ukkel,Chaussée de Waterloo - Waterloosesteenweg,Gewestweg,23,1,0.19370914739597905,4.3478260869565215
+Antwerpen,Groenendaallaan,Gewestweg,23,0,0.7287480738132597,0.0
+Herstal,Autoroute Roi Baudouin,Autosnelweg,23,0,0.35876444967221366,0.0
+Grimbergen,R0,Autosnelweg,22,2,0.5287012368973947,9.090909090909092
+Schaarbeek,Boulevard Lambermont - Lambermontlaan,Gewestweg,22,2,0.12579393178781864,9.090909090909092
+Bornem,Rijksweg,Gewestweg,21,6,0.4585195332547189,28.571428571428573
+Genk,Hasseltweg,Gewestweg,21,2,0.26129995295388825,9.523809523809524
+Brussel,Boulevard du Jardin Botanique - Kruidtuinlaan,Gemeenteweg,21,1,1.2599915077067627,4.761904761904762
+Gent,Brugsevaart,Gewestweg,21,1,1.622667221259531,4.761904761904762
+Luik,Rue de Herve,Gewestweg,21,1,0.43368757364919913,4.761904761904762
+Sint-Jans-Molenbeek,Chaussée de Ninove - Ninoofsesteenweg,Gewestweg,21,1,1.5997872107896658,4.761904761904762
+Brugge,Maalse Steenweg,Gewestweg,21,0,0.38093471712508115,0.0
+Roeselare,Meensesteenweg,Gewestweg,21,0,0.8922741138291854,0.0
+Zaventem,E40,Autosnelweg,21,0,0.49984404406210653,0.0
+Leuven,Tervuursevest,Gewestweg,20,3,0.4324785536513132,15.0
+Brussel,Rue Belliard - Belliardstraat,Gewestweg,20,1,0.4720378870083721,5.0
+Anderlecht,Boulevard Industriel - Industrielaan,Gewestweg,20,0,0.28645473863305165,0.0
+Lokeren,Zelebaan,Gewestweg,20,0,0.20808316932988752,0.0
+Dilsen-Stokkem,Rijksweg,Gewestweg,19,4,0.20584497197397447,21.05263157894737
+Brugge,Gistelse Steenweg,Gewestweg,19,3,0.4276962524323546,15.789473684210526
+Doornik,Autoroute de Wallonie,Autosnelweg,19,3,1.9475985253087917,15.789473684210526
+Gent,E40,Autosnelweg,19,3,0.35468980242429277,15.789473684210526
+Brussel,Chaussée de Vilvorde - Vilvoordsesteenweg,Gewestweg,19,2,0.27836638904689764,10.526315789473685
+Sint-Pieters-Leeuw,Bergensesteenweg,Gewestweg,19,2,1.8015386888399287,10.526315789473685
+Antwerpen,Herentalsebaan,Gewestweg,19,1,0.8473869744536412,5.2631578947368425
+Borsbeek,Frans Beirenslaan,Gewestweg,19,1,0.4673618524164871,5.2631578947368425
+Antwerpen,Ruggeveldlaan,Gemeenteweg,19,0,0.67670785687065,0.0
+Genk,Europalaan,Gewestweg,18,2,0.4098893076745349,11.11111111111111
+Antwerpen,Desguinlei,Gewestweg,18,1,0.5079561796099582,5.555555555555555
+Elsene,Boulevard Général Jacques - Generaal Jacqueslaan,Gewestweg,18,1,1.581649935019732,5.555555555555555
+Mechelen,E19,Autosnelweg,18,1,0.360770554275262,5.555555555555555
+Schaarbeek,Chaussée de Louvain - Leuvensesteenweg,Gewestweg,18,1,0.4067316940438501,5.555555555555555
+Antwerpen,A12,Autosnelweg,18,0,0.20517592566220194,0.0
+Antwerpen,Italiëlei,Gewestweg,18,0,0.24249236987478273,0.0
+Beringen,Koolmijnlaan,Gewestweg,18,0,0.1617763767950296,0.0
+Schilde,Turnhoutsebaan,Gewestweg,18,0,0.424389277536688,0.0
+Brussel,Avenue Louise - Louizalaan,Gewestweg,17,4,0.9282457111849168,23.529411764705884
+Brugge,Kustlaan,Gewestweg,17,2,0.7711811543051799,11.764705882352942
+Elsene,Avenue de la Couronne - Kroonlaan,Gewestweg,17,2,0.11852700019315876,11.764705882352942
+Overijse,Brusselsesteenweg,Gewestweg,17,2,0.4334571712820106,11.764705882352942
+Tongeren,Luikersteenweg,Gewestweg,17,2,0.7108446507135614,11.764705882352942
+Bergen,Autoroute de Wallonie,Autosnelweg,17,1,1.6001802066502022,5.882352941176471
+Brussel,Avenue du Port - Havenlaan,Gewestweg,17,1,0.4421815037716694,5.882352941176471
+Brussel,Rue Marie-Christine - Maria-Christinastraat,Gemeenteweg,17,1,0.20010041890796734,5.882352941176471
+Destelbergen,Dendermondesteenweg,Gewestweg,17,1,0.2880400879652721,5.882352941176471
+Hasselt,Kempische Steenweg,Gewestweg,17,1,0.5928578261730113,5.882352941176471
+Oostkamp,E40,Autosnelweg,17,1,0.7922632979955002,5.882352941176471
+Schoten,E19,Autosnelweg,17,1,0.5758201060453293,5.882352941176471
+Sint-Niklaas,Parklaan,Gewestweg,17,1,0.5467065230805055,5.882352941176471
+Antwerpen,Koning Boudewijnsnelweg,Autosnelweg,17,0,1.1558097770657025,0.0
+Antwerpen,Lambrechtshoekenlaan,Gemeenteweg,17,0,0.7513312604392854,0.0
+Antwerpen,Stenenbrug,Gewestweg,17,0,1.2394838771983683,0.0
+Gent,Brugsesteenweg,Gemeenteweg,17,0,0.6118643970767889,0.0
+Leuven,Aarschotsesteenweg,Gewestweg,17,0,0.1424374845448472,0.0
+Luik,Quai des Ardennes,Gewestweg,17,0,0.38618662794988884,0.0
+Mortsel,Antwerpsestraat,Gewestweg,16,3,0.3311101846494925,18.75
+Zandhoven,Koning Boudewijnsnelweg,Autosnelweg,16,3,0.4984811990785286,18.75
+Aalter,E40,Autosnelweg,16,2,0.4469290980077728,12.5
+Asse,Brusselsesteenweg,Gewestweg,16,2,0.8050719004247824,12.5
+Brugge,Moerkerkse Steenweg,Gemeenteweg,16,2,0.2954717704768985,12.5
+Aalst,E40,Autosnelweg,16,1,0.443116300571311,6.25
+Antwerpen,Luitenant Lippenslaan,Gewestweg,16,1,0.22945294410160239,6.25
+Brugge,Torhoutse Steenweg,Gewestweg,16,1,0.14510034703893937,6.25
+Charleroi,Route de Philippeville,Gewestweg,16,1,3.114628076790461,6.25
+Dilbeek,R0,Autosnelweg,16,1,0.8799753709453078,6.25
+Edegem,Prins Boudewijnlaan,Gewestweg,16,1,0.5704966476492679,6.25
+Gent,Rooigemlaan,Gewestweg,16,1,0.4125523105901495,6.25
+Melle,E40,Autosnelweg,16,1,0.5462865189734503,6.25
+Turnhout,Parklaan,Gewestweg,16,1,0.4415654066178279,6.25
+Ukkel,Chaussée d'Alsemberg - Alsembergsesteenweg,Gemeenteweg,16,1,0.36197646996835603,6.25
+Wemmel,R0,Autosnelweg,16,1,0.39238560281229595,6.25
+Antwerpen,E19,Autosnelweg,16,0,0.5785127554329754,0.0
+Elsene,Chaussée d'Ixelles - Elsense Steenweg,Gewestweg,16,0,0.42845436428606065,0.0
+Lier,Antwerpsesteenweg,Gewestweg,16,0,0.9266074235942028,0.0
+Lokeren,E17,Autosnelweg,16,0,0.45124762337471835,0.0
+Perwijs,Chaussée de Charleroi,Gewestweg,16,0,0.4212589184152359,0.0
+Antwerpen,Boterlaarbaan,Gewestweg,15,3,3.0727570418814727,20.0
+Brussel,Avenue Houba-de Strooper - Houba-de Strooperlaan,Gemeenteweg,15,2,0.7555075789709557,13.333333333333334
+Brussel,Rue de la Loi - Wetstraat,Gewestweg,15,2,0.8798870254020499,13.333333333333334
+Genk,Westerring,Gewestweg,15,2,0.482671243927504,13.333333333333334
+Houthalen-Helchteren,Kazernelaan,Gewestweg,15,2,0.4620101673311608,13.333333333333334
+Kontich,Expressweg,Gewestweg,15,2,0.38106793087949026,13.333333333333334
+Sint-Niklaas,Heistraat,Gemeenteweg,15,2,1.2111814482229069,13.333333333333334
+Sint-Truiden,Luikersteenweg,Gewestweg,15,2,0.6596473508447566,13.333333333333334
+Antwerpen,Schijnpoortweg,Gewestweg,15,1,0.5309913730712904,6.666666666666667
+Hasselt,Luikersteenweg,Gewestweg,15,1,0.35247930806113653,6.666666666666667
+Heusden-Zolder,E314,Autosnelweg,15,1,0.5995441968217614,6.666666666666667
+Kontich,E19,Autosnelweg,15,1,1.023057003134639,6.666666666666667
+Sint-Gillis,Chaussée de Charleroi - Charleroise Steenweg,Gewestweg,15,1,0.08393251287248135,6.666666666666667
+Antwerpen,Belgiëlei,Gemeenteweg,15,0,1.624750311405352,0.0
+Edegem,Drie Eikenstraat,Gewestweg,15,0,0.1150445444573217,0.0
+Eigenbrakel,R0,Autosnelweg,15,0,0.4472223369228788,0.0
+Elsene,Chaussée de Waterloo - Waterloose Steenweg,Gewestweg,15,0,0.1792642476458651,0.0
+Erquelinnes,Route de Mons,Gewestweg,15,0,0.20179140068466048,0.0
+Halle,Bergensesteenweg,Gewestweg,15,0,0.8820419669486587,0.0
+Sint-Agatha-Berchem,Avenue Charles-Quint - Keizer Karellaan,Gewestweg,15,0,0.22494298724294562,0.0
+Lier,Mechelsesteenweg,Gewestweg,14,4,0.2770799314555716,28.571428571428573
+Gent,John Kennedylaan,Gewestweg,14,3,0.1518387448671042,21.428571428571427
+Hasselt,Sint-Truidersteenweg,Gewestweg,14,3,0.15742797563805921,21.428571428571427
+Aat,Chaussée de Mons,Gewestweg,14,2,0.3680356235954152,14.285714285714286
+Charleroi,Petite ceinture de Charleroi,Gewestweg,14,2,0.8476686841038461,14.285714285714286
+Kortrijk,Oudenaardsesteenweg,Gewestweg,14,2,0.38077795024578187,14.285714285714286
+Lommel,Stationsstraat,Gewestweg,14,2,0.6253794971185928,14.285714285714286
+Machelen,R0,Autosnelweg,14,2,0.39473117026045246,14.285714285714286
+Antwerpen,Slachthuislaan,Gewestweg,14,1,0.38885700828799663,7.142857142857143
+Boechout,Provinciesteenweg,Gewestweg,14,1,0.5729239311263292,7.142857142857143
+Hasselt,Kuringersteenweg,Gewestweg,14,1,0.21965457901335414,7.142857142857143
+La Louvière,Autoroute de Wallonie,Autosnelweg,14,1,0.4902472977885908,7.142857142857143
+Malle,Antwerpsesteenweg,Gewestweg,14,1,1.33667175673766,7.142857142857143
+Namen,Chaussée de Louvain,Gewestweg,14,1,0.46429004754184555,7.142857142857143
+Roeselare,Westlaan,Gewestweg,14,1,0.3663663293064432,7.142857142857143
+Gembloux,Chaussée de Charleroi,Gewestweg,14,0,0.690933160591651,0.0
+Halle,R0,Autosnelweg,14,0,0.3041643534187989,0.0
+Maasmechelen,E314,Autosnelweg,14,0,0.25305074082725765,0.0
+Melle,Brusselsesteenweg,Gewestweg,14,0,0.6551392321830438,0.0
+Sambreville,N98,Gewestweg,14,0,0.3127652234280286,0.0
+Waver,Chaussée de Bruxelles,Gewestweg,14,0,0.17002469208822416,0.0
+Herent,Brusselsesteenweg,Gewestweg,13,3,1.1669895397345447,23.076923076923077
+Boortmeerbeek,Leuvensesteenweg,Gewestweg,13,2,0.6009515952015819,15.384615384615385
+Wommelgem,Herentalsebaan,Gewestweg,13,2,3.720117322703924,15.384615384615385
+Brecht,E19,Autosnelweg,13,1,1.0676949141160135,7.6923076923076925
+Brussel,Boulevard du Midi - Zuidlaan,Gewestweg,13,1,4.601483647072249,7.6923076923076925
+Kruisem,E17,Autosnelweg,13,1,1.2702249623648738,7.6923076923076925
+Leuven,Tiensesteenweg,Gewestweg,13,1,2.388612522615075,7.6923076923076925
+Ninove,Brusselsesteenweg,Gewestweg,13,1,0.3540590507575976,7.6923076923076925
+Antwerpen,Kapelsesteenweg,Gewestweg,13,0,0.4990219827954509,0.0
+Antwerpen,Kolonel Silvertopstraat,Gewestweg,13,0,1.3379504951019219,0.0
+Antwerpen,Pelikaanstraat,Gemeenteweg,13,0,2.184052157431444,0.0
+Brussel,Boulevard de l'Abattoir - Slachthuislaan,Gewestweg,13,0,0.20604395391759092,0.0
+Brussel,Rue Royale - Koningsstraat,Gemeenteweg,13,0,0.24331958050360972,0.0
+Charleroi,La Carolorégienne,Autosnelweg,13,0,0.38904749088087925,0.0
+Dendermonde,Mechelsesteenweg,Gewestweg,13,0,0.29117038491740144,0.0
+Hechtel-Eksel,Peerderbaan,Gewestweg,13,0,0.0904500370330961,0.0
+Herzele,Provincieweg,Gewestweg,13,0,0.4588322679325347,0.0
+Kortrijk,Meensesteenweg,Gewestweg,13,0,0.49069950029911535,0.0
+Luik,A602,Autosnelweg,13,0,0.3233692755111894,0.0
+Mechelen,Liersesteenweg,Gewestweg,13,0,3.404293115164991,0.0
+Vilvoorde,Schaarbeeklei,Gewestweg,12,3,0.20195000361734466,25.0
+Aartselaar,Antwerpsesteenweg,Gewestweg,12,2,2.3475186687164786,16.666666666666668
+Antwerpen,Havenweg,Autosnelweg,12,2,0.6721110685613364,16.666666666666668
+Brussel,Avenue de Vilvorde - Vilvoordselaan,Gewestweg,12,2,0.3235633935079175,16.666666666666668
+Ganshoren,Avenue Charles-Quint - Keizer Karellaan,Gewestweg,12,2,0.43160895933235316,16.666666666666668
+Wijnegem,Turnhoutsebaan,Gewestweg,12,2,0.6635590738972272,16.666666666666668
+Zoersel,Kapellei,Gewestweg,12,2,0.2925811025420224,16.666666666666668
+Aarschot,Herseltsesteenweg,Gewestweg,12,1,0.22121195003859678,8.333333333333334
+Antwerpen,August Van de Wielelei,Gewestweg,12,1,0.23967942367282957,8.333333333333334
+Dendermonde,Bevrijdingslaan,Gewestweg,12,1,0.20208189510076807,8.333333333333334
+Erpe-Mere,Oudenaardsesteenweg,Gewestweg,12,1,3.206107628406409,8.333333333333334
+Gent,Deinsesteenweg,Gewestweg,12,1,0.7731242486704388,8.333333333333334
+Gent,Drongensesteenweg,Gewestweg,12,1,0.31572718936481137,8.333333333333334
+Hasselt,Herkenrodesingel,Gewestweg,12,1,0.4251981607289189,8.333333333333334
+Hooglede,Bruggesteenweg,Gewestweg,12,1,3.250216973931953,8.333333333333334
+Knokke-Heist,Natiënlaan,Gemeenteweg,12,1,0.49394685654865833,8.333333333333334
+Lichtervelde,E403,Autosnelweg,12,1,0.7292626510490654,8.333333333333334
+Oostende,Elisabethlaan,Gewestweg,12,1,0.5810089894868533,8.333333333333334
+Oudergem,Chaussée de Wavre - Waversesteenweg,Gewestweg,12,1,0.43675446460246214,8.333333333333334
+Sint-Truiden,Tiensesteenweg,Gewestweg,12,1,0.532699777847139,8.333333333333334
+Ternat,E40,Autosnelweg,12,1,0.7044671469163037,8.333333333333334
+Waasmunster,E17,Autosnelweg,12,1,0.12392010200485817,8.333333333333334
+Westerlo,de Merodedreef,Gewestweg,12,1,0.4753152530541576,8.333333333333334
+Antwerpen,Mechelsesteenweg,Gewestweg,12,0,0.4778420533775529,0.0
+Asse,R0,Autosnelweg,12,0,0.3590499575274675,0.0
+Gembloux,Chaussée de Namur,Gewestweg,12,0,0.7603878207512123,0.0
+Gent,Land van Waaslaan,Gewestweg,12,0,0.29003796042544505,0.0
+Halle,Edingensesteenweg,Gewestweg,12,0,0.3120184464036716,0.0
+Kampenhout,Haachtsesteenweg,Gewestweg,12,0,4.379358027417455,0.0
+Knokke-Heist,Lippenslaan,Gemeenteweg,12,0,0.3352868679467101,0.0
+Leuven,Tiensevest,Gewestweg,12,0,0.39417817952278905,0.0
+Pelt,Ringlaan,Gewestweg,12,0,1.4863574123265113,0.0
+Schaarbeek,Chaussée de Haecht - Haachtsesteenweg,Gewestweg,12,0,0.07149028124915457,0.0
+Waver,Rue Provinciale,Gewestweg,12,0,0.40173461362326535,0.0
+Beveren,E34,Autosnelweg,11,3,0.5491723122522583,27.272727272727273
+Beveren,Steenlandlaan,Gemeenteweg,11,3,0.08313723135587846,27.272727272727273
+Aarlen,Autoroute du Soleil,Autosnelweg,11,2,0.15636844800550764,18.181818181818183
+Brugge,Blankenbergse Steenweg,Gewestweg,11,2,0.614531883285311,18.181818181818183
+Leuven,E314,Autosnelweg,11,2,0.3835734168023673,18.181818181818183
+Luik,Chaussée de Tongres,Gewestweg,11,2,0.8106443621355213,18.181818181818183
+Ranst,E34,Autosnelweg,11,2,0.5280692882637378,18.181818181818183
+Zedelgem,Torhoutsesteenweg,Gewestweg,11,2,1.3000500695434114,18.181818181818183
+Aalst,Parklaan,Gewestweg,11,1,0.3360083946848286,9.090909090909092
+Antwerpen,Jan De Voslei,Gewestweg,11,1,0.7089186985044182,9.090909090909092
+Antwerpen,Posthoflei,Gewestweg,11,1,0.9135505738646112,9.090909090909092
+Bree,Rode Kruislaan,Gewestweg,11,1,0.5673818578891353,9.090909090909092
+Brussel,Boulevard de Waterloo - Waterloolaan,Gemeenteweg,11,1,1.923355238008319,9.090909090909092
+Charleroi,Chaussée de Bruxelles,Gewestweg,11,1,4.473582266702674,9.090909090909092
+Doornik,Chaussée de Tournai,Gewestweg,11,1,1.4609985531353955,9.090909090909092
+Etterbeek,Boulevard Louis Schmidt - Louis Schmidtlaan,Gewestweg,11,1,0.31410997792775724,9.090909090909092
+Hasselt,Prins-Bisschopssingel,Gewestweg,11,1,0.34652095910170594,9.090909090909092
+Kalmthout,Kapellensteenweg,Gewestweg,11,1,0.3959907431090144,9.090909090909092
+Lochristi,Dorp-Oost,Gewestweg,11,1,0.6154246441950955,9.090909090909092
+Manage,Rue de Bascoup,Gemeenteweg,11,1,0.9351224418262364,9.090909090909092
+Mechelen,Leuvensesteenweg,Gewestweg,11,1,0.23611147393596746,9.090909090909092
+Mortsel,Krijgsbaan,Gewestweg,11,1,0.2566530543910405,9.090909090909092
+Rijkevorsel,Merksplassesteenweg,Gewestweg,11,1,0.6211855677389154,9.090909090909092
+Roeselare,Brugsesteenweg,Gewestweg,11,1,2.996944841175984,9.090909090909092
+Sint-Gillis,Chaussée de Waterloo - Waterlose Steenweg,Gewestweg,11,1,0.1781339991286157,9.090909090909092
+Sint-Jans-Molenbeek,Boulevard Louis Mettewie - Louis Mettewielaan,Gewestweg,11,1,0.16302177110494306,9.090909090909092
+Sint-Truiden,Tongersesteenweg,Gewestweg,11,1,0.22982658641761644,9.090909090909092
+Temse,E17,Autosnelweg,11,1,0.5654779677362428,9.090909090909092
+Turnhout,Steenweg op Gierle,Gewestweg,11,1,0.30263370026898745,9.090909090909092
+Willebroek,Mechelsesteenweg,Gewestweg,11,1,0.3675933449632045,9.090909090909092
+Zemst,Tervuursesteenweg,Gewestweg,11,1,0.2861511469363381,9.090909090909092
+Zonhoven,E314,Autosnelweg,11,1,0.2790408241383138,9.090909090909092
+Ans,A602,Autosnelweg,11,0,0.4499758934788928,0.0
+Antwerpen,Britselei,Gewestweg,11,0,0.5630557641120985,0.0
+Antwerpen,Carnotstraat,Gewestweg,11,0,1.3555343302355174,0.0
+Charleroi,Chaussée de Châtelet,Gewestweg,11,0,0.8522793863441225,0.0
+Geel,Antwerpseweg,Gewestweg,11,0,0.6749917792069872,0.0
+Gent,Blaisantvest,Gewestweg,11,0,0.20107968168791707,0.0
+Gent,Dendermondsesteenweg,Gewestweg,11,0,0.3406488845035357,0.0
+Gent,Nieuwevaart,Gewestweg,11,0,0.1918608163192525,0.0
+Hasselt,Gouverneur Verwilghensingel,Gewestweg,11,0,0.2084481507391413,0.0
+Mol,Turnhoutsebaan,Gewestweg,11,0,0.572634396254819,0.0
+Namen,Rue de Dave,Gewestweg,11,0,0.9557816055901289,0.0
+Nazareth,E17,Autosnelweg,11,0,1.4863652713702498,0.0
+Ninove,Edingsesteenweg,Gewestweg,11,0,0.5118295185190799,0.0
+Sint-Niklaas,Prins Boudewijnlaan,Gewestweg,11,0,0.7535860866870125,0.0
+Tongeren,Bilzersteenweg,Gewestweg,11,0,0.24788561179525162,0.0
+Tongeren,Maastrichtersteenweg,Gewestweg,11,0,0.39408864993616377,0.0
+Waver,Autoroute des Ardennes,Autosnelweg,11,0,0.6334054966670654,0.0
+Waver,Boulevard de l'Europe,Gewestweg,11,0,0.8520477796262289,0.0
+Zoersel,Handelslei,Gewestweg,11,0,0.31167889622518713,0.0
+Lommel,Luikersteenweg,Gewestweg,10,4,0.49909682676779976,40.0
+Bierbeek,Tiensesteenweg,Gewestweg,10,3,0.5660615609113442,30.0
+Dendermonde,Martelarenlaan,Gewestweg,10,2,1.1275653707171085,20.0
+Diest,Leuvensesteenweg,Gewestweg,10,2,2.6867826592706576,20.0
+Doornik,Grand'Route,Gewestweg,10,2,2.7132324353449304,20.0
+Kortrijk,Gentsesteenweg,Gewestweg,10,2,0.33214191594900055,20.0
+Leuven,Geldenaaksebaan,Gemeenteweg,10,2,0.47051282591617055,20.0
+Merelbeke,Gaversesteenweg,Gemeenteweg,10,2,0.3120681987131291,20.0
+Temse,Hoogkamerstraat,Gemeenteweg,10,2,1.2490583255152359,20.0
+Zele,Gentsesteenweg,Gewestweg,10,2,0.4615062063774183,20.0
+Zwijndrecht,Pastoor Coplaan,Gemeenteweg,10,2,0.27322439271245524,20.0
+Aartselaar,N177,Gewestweg,10,1,0.7600127574502483,10.0
+Alken,Steenweg,Gewestweg,10,1,0.2591115382362391,10.0
+Antwerpen,Burgemeester Gabriel Theunisbrug,Gewestweg,10,1,2.0533506856149124,10.0
+Antwerpen,Lange Leemstraat,Gemeenteweg,10,1,0.4115455204526086,10.0
+Antwerpen,Montignystraat,Gemeenteweg,10,1,0.460675424620112,10.0
+Antwerpen,VIIde-Olympiadelaan,Gemeenteweg,10,1,0.5693955158419536,10.0
+Beveren,Grote Baan,Gewestweg,10,1,0.4075378583840762,10.0
+Brasschaat,Miksebaan,Gewestweg,10,1,0.3671507620817249,10.0
+Brugge,Expressweg,Gewestweg,10,1,0.3021197459043698,10.0
+Brussel,Avenue Franklin Roosevelt - Franklin Rooseveltlaan,Gewestweg,10,1,0.8668253159698569,10.0
+Brussel,Avenue de la Reine - Koninginnelaan,Gewestweg,10,1,0.34587447502719665,10.0
+Brussel,Boulevard Maurice Lemonnier - Maurice Lemonnierlaan,Gemeenteweg,10,1,0.1879512974118196,10.0
+Charleroi,Chaussée de Lodelinsart,Gewestweg,10,1,1.0968786087462388,10.0
+Charleroi,Rue de Mons,Gewestweg,10,1,0.41095193171762545,10.0
+Frasnes-lez-Anvaing,Chaussée de Renaix,Gewestweg,10,1,0.12237017276724049,10.0
+Genk,Oosterring,Gewestweg,10,1,0.26279993728195256,10.0
+Grobbendonk,Koning Boudewijnsnelweg,Autosnelweg,10,1,0.19240106586396297,10.0
+Grâce-Hollogne,Autoroute de Wallonie,Autosnelweg,10,1,1.794802394899822,10.0
+Jabbeke,Gistelsteenweg,Gewestweg,10,1,0.5230181039036826,10.0
+Kortrijk,E17,Autosnelweg,10,1,0.797830289311146,10.0
+Maasmechelen,Oude Baan,Gemeenteweg,10,1,0.6372547713399641,10.0
+Namen,Chaussée de Marche,Gewestweg,10,1,0.3550050074885842,10.0
+Overijse,E411,Autosnelweg,10,1,0.38785401040821715,10.0
+Puurs-Sint-Amands,A12,Autosnelweg,10,1,0.46377919436516585,10.0
+Sint-Niklaas,Plezantstraat,Gewestweg,10,1,0.2882857842823977,10.0
+Wachtebeke,E34,Autosnelweg,10,1,0.21483819425241718,10.0
+Waregem,E17,Autosnelweg,10,1,0.5230648007964093,10.0
+Wetteren,Oosterzelesteenweg,Gewestweg,10,1,1.4275865837588286,10.0
+Anderlecht,Boulevard Sylvain Dupuis - Sylvain Dupuislaan,Gewestweg,10,0,0.4524573535276666,0.0
+Antwerpen,De Bruynlaan,Gemeenteweg,10,0,0.49057126612499413,0.0
+Antwerpen,Kennedytunnel,Autosnelweg,10,0,0.30346173854325376,0.0
+Antwerpen,Veltwijcklaan,Gemeenteweg,10,0,0.5113586219833203,0.0
+Blankenberge,Kerkstraat,Gewestweg,10,0,1.2278360857740924,0.0
+Brugge,Pathoekeweg,Gemeenteweg,10,0,0.7508246310504307,0.0
+Chaumont-Gistoux,Chaussée de Huy,Gewestweg,10,0,0.24487260001674638,0.0
+Dison,E42,Autosnelweg,10,0,0.4539511143045435,0.0
+Doornik,Chaussée de Lille,Gewestweg,10,0,0.31180826067259726,0.0
+Elsene,Chaussée de Wavre - Waverse Steenweg,Gewestweg,10,0,0.6581052971319366,0.0
+Geldenaken,Chaussée de Wavre,Gewestweg,10,0,0.11402400934811177,0.0
+Genepiën,Chaussée de Bruxelles,Gewestweg,10,0,1.4236430744254829,0.0
+Genk,E314,Autosnelweg,10,0,0.304285520317401,0.0
+Genk,Henry Fordlaan,Gewestweg,10,0,0.7913309734802838,0.0
+Genk,Hoevenzavellaan,Gewestweg,10,0,0.3147889846273101,0.0
+Gent,Godshuizenlaan,Gewestweg,10,0,0.6336633599321009,0.0
+Hasselt,Genkersteenweg,Gewestweg,10,0,0.23277850365809827,0.0
+Heusden-Zolder,Koolmijnlaan,Gewestweg,10,0,0.5095019010000438,0.0
+Kortrijk,Kortrijksestraat,Gemeenteweg,10,0,0.5106273778367757,0.0
+Kraainem,R0,Autosnelweg,10,0,0.33825815197047404,0.0
+Namen,Autoroute de Wallonie,Autosnelweg,10,0,1.9692378899938032,0.0
+Oostende,Gistelsesteenweg,Gemeenteweg,10,0,0.3645019557533846,0.0
+Schaarbeek,Chaussée de Helmet - Helmetsesteenweg,Gemeenteweg,10,0,0.2838227167138078,0.0
+Schoten,Bredabaan,Gewestweg,10,0,0.6436925857984841,0.0
+Sint-Truiden,Naamsesteenweg,Gewestweg,10,0,0.1802400720022698,0.0
+Soumagne,Autoroute Roi Baudouin,Autosnelweg,10,0,0.20615325301786439,0.0
+Steenokkerzeel,Haachtsesteenweg,Gewestweg,10,0,1.040990157477812,0.0
+Wetteren,E40,Autosnelweg,10,0,0.29690663442014686,0.0
+Gent,Groendreef,Gemeenteweg,9,3,1.0030251844597722,33.333333333333336
+Luik,Quai Vercour,Gewestweg,9,3,0.17631688453057778,33.333333333333336
+Moeskroen,Boulevard des Alliés - Geallieerdenlaan,Gewestweg,9,3,0.1443602523546701,33.333333333333336
+Fleurus,Autoroute de Wallonie,Autosnelweg,9,2,1.5307629451272131,22.22222222222222
+Kuurne,Brugsesteenweg,Gewestweg,9,2,0.6644632706038064,22.22222222222222
+Wezembeek-Oppem,R0,Autosnelweg,9,2,0.22001366542220108,22.22222222222222
+Aalter,Urselseweg,Gewestweg,9,1,0.3169177167012339,11.11111111111111
+Aat,Chaussée de Tournai,Gewestweg,9,1,0.3503307031106547,11.11111111111111
+Anderlecht,Route de Lennik - Lennikse Baan,Gewestweg,9,1,0.5714758568033589,11.11111111111111
+Antwerpen,Gitschotellei,Gemeenteweg,9,1,5.357645215106903,11.11111111111111
+Bertem,E40,Autosnelweg,9,1,0.9100403894276087,11.11111111111111
+Binche,Route de Mons,Gewestweg,9,1,0.26828128361472514,11.11111111111111
+Brasschaat,Lage Kaart,Gemeenteweg,9,1,0.36857359193976824,11.11111111111111
+Deinze,Gaversesteenweg,Gewestweg,9,1,0.49114123443282504,11.11111111111111
+Eigenbrakel,Grand'Route,Gewestweg,9,1,0.0880820823997762,11.11111111111111
+Evere,Chaussée de Louvain - Leuvensesteenweg,Gewestweg,9,1,0.4432569744940023,11.11111111111111
+Genk,Noordlaan,Gemeenteweg,9,1,0.455724716242808,11.11111111111111
+Hasselt,Koning Boudewijnsnelweg,Autosnelweg,9,1,0.35513685631394915,11.11111111111111
+Kortrijk,Doorniksesteenweg,Gewestweg,9,1,3.315222043987484,11.11111111111111
+Laarne,Heirweg,Gewestweg,9,1,0.11554188127281223,11.11111111111111
+Marche-en-Famenne,Avenue de France,Gewestweg,9,1,0.30703885809548387,11.11111111111111
+Merelbeke,E40,Autosnelweg,9,1,0.5833132089956659,11.11111111111111
+Mol,Zuiderring,Gewestweg,9,1,0.17501662795187378,11.11111111111111
+Mortsel,Deurnestraat,Gemeenteweg,9,1,0.26638563517911035,11.11111111111111
+Opzullik,Chaussée de Ghislenghien,Gewestweg,9,1,0.18962698400463246,11.11111111111111
+Roeselare,Ardooisesteenweg,Gewestweg,9,1,0.40741102562104825,11.11111111111111
+Ronse,Zonnestraat - Rue du Soleil,Gewestweg,9,1,0.3076209915645509,11.11111111111111
+Sint-Gillis,Avenue Fonsny - Fonsnylaan,Gewestweg,9,1,0.49217059973909766,11.11111111111111
+Sint-Jans-Molenbeek,Boulevard Léopold II - Leopold II-laan,Gemeenteweg,9,1,1.5500675110217905,11.11111111111111
+Wezet,E25,Autosnelweg,9,1,0.6893259145670035,11.11111111111111
+Zaventem,Mechelsesteenweg,Gewestweg,9,1,0.7223091364837188,11.11111111111111
+Aalst,Albrechtlaan,Gewestweg,9,0,0.3938306656936263,0.0
+Aalst,Brusselbaan,Gewestweg,9,0,1.6803201771119514,0.0
+Aartselaar,Boomsesteenweg,Gewestweg,9,0,0.7334970670729193,0.0
+Anderlecht,Boulevard Poincaré - Poincarélaan,Gewestweg,9,0,1.8040823442160112,0.0
+Anderlecht,Chaussée de Ninove - Ninoofse Steenweg,Gewestweg,9,0,0.3465157769219422,0.0
+Antwerpen,Abdijstraat,Gemeenteweg,9,0,0.15655941640072704,0.0
+Antwerpen,Binnensingel,Gewestweg,9,0,0.3755405503327315,0.0
+Antwerpen,De Keyserlei,Gemeenteweg,9,0,1.04992713448206,0.0
+Antwerpen,Groenenborgerlaan,Gemeenteweg,9,0,0.16110369258261123,0.0
+Antwerpen,Pothoekstraat,Gemeenteweg,9,0,0.3167097897545111,0.0
+Antwerpen,Prins Boudewijnlaan,Gewestweg,9,0,0.2934274267932775,0.0
+Beernem,E40,Autosnelweg,9,0,0.3101458991789807,0.0
+Beersel,R0,Autosnelweg,9,0,0.20858774042208197,0.0
+Bekkevoort,Staatsbaan,Gewestweg,9,0,0.6021193064301285,0.0
+Beloeil,Rue de Tournai,Gewestweg,9,0,0.2844944203677742,0.0
+Borsbeek,de Robianostraat,Gemeenteweg,9,0,0.8380864130730241,0.0
+Brugge,Baron Ruzettelaan,Gewestweg,9,0,0.06274038015558499,0.0
+Brussel,Rue Antoine Dansaert - Antoine Dansaertstraat,Gemeenteweg,9,0,0.2959224228873128,0.0
+Charleroi,Avenue Eugène Mascaux,Gewestweg,9,0,0.5525545623591194,0.0
+Charleroi,Avenue Paul Pastur,Gewestweg,9,0,0.6908103015012789,0.0
+Charleroi,Route de Châtelet,Gewestweg,9,0,0.6874633534504453,0.0
+Chaudfontaine,Rue du Général Jacques,Gewestweg,9,0,0.35228037181086713,0.0
+Courcelles,Autoroute de Wallonie,Autosnelweg,9,0,1.8272860127345865,0.0
+Dendermonde,Sint-Gillislaan,Gewestweg,9,0,0.518743532076911,0.0
+Doornik,Avenue de Maire,Gewestweg,9,0,0.48664888608512813,0.0
+Doornik,Boulevard Delwart,Gemeenteweg,9,0,1.131078690996788,0.0
+Elsene,Place Eugène Flagey - Eugène Flageyplein,Gemeenteweg,9,0,0.8137927873179431,0.0
+Erpe-Mere,Gentsesteenweg,Gewestweg,9,0,2.482561232254208,0.0
+Gent,Burggravenlaan,Gemeenteweg,9,0,0.7460339348692275,0.0
+Gent,Oudenaardsesteenweg,Gewestweg,9,0,0.2542355576508589,0.0
+Geraardsbergen,Guilleminlaan,Gewestweg,9,0,0.3813878785185991,0.0
+Gerpinnes,Chaussée de Philippeville,Gewestweg,9,0,1.6323413578358401,0.0
+Gooik,Edingsesteenweg,Gewestweg,9,0,0.5337828019165844,0.0
+Grimbergen,Brusselsesteenweg,Gewestweg,9,0,0.29852304467727153,0.0
+Habay,Autoroute du Soleil,Autosnelweg,9,0,0.7856971380354464,0.0
+Halen,Staatsbaan,Gewestweg,9,0,1.7324784835585916,0.0
+Ieper,Noorderring,Gewestweg,9,0,0.2818229517063641,0.0
+Jemeppe-sur-Sambre,Autoroute de Wallonie,Autosnelweg,9,0,2.0282345326035722,0.0
+Kapellen,Antwerpsesteenweg,Gewestweg,9,0,0.37874797166857666,0.0
+Kasteelbrakel,Rue de Nivelles,Gewestweg,9,0,0.23980709186686286,0.0
+Leuven,Diestsesteenweg,Gewestweg,9,0,0.49460579664880244,0.0
+Libramont-Chevigny,N89,Gewestweg,9,0,0.29216191055194946,0.0
+Lokeren,Gentse Steenweg,Gewestweg,9,0,0.2973794988733625,0.0
+Luik,Boulevard Frère-Orban,Gewestweg,9,0,0.17048579715653825,0.0
+Luik,Rue de Visé,Gewestweg,9,0,0.6580652289256366,0.0
+Mettet,Rue Saint-Donat,Gewestweg,9,0,0.08254144412160752,0.0
+Namen,Autoroute des Ardennes,Autosnelweg,9,0,0.22562397772175213,0.0
+Namen,Avenue Gouverneur Bovesse,Gewestweg,9,0,0.7027708157436682,0.0
+Namen,Boulevard Cauchy,Gewestweg,9,0,0.8650073649348391,0.0
+Namen,Chaussée de Nivelles,Gewestweg,9,0,0.2557724297276719,0.0
+Olen,Koning Boudewijnsnelweg,Autosnelweg,9,0,0.2404146954467717,0.0
+Oostende,Alfons Pieterslaan,Gewestweg,9,0,0.24276069513200801,0.0
+Oud-Turnhout,Steenweg op Mol,Gewestweg,9,0,0.31178224895687157,0.0
+Schoten,Brechtsebaan,Gewestweg,9,0,1.0722566643683236,0.0
+Schoten,Kopstraat,Gewestweg,9,0,0.6052046375660765,0.0
+Sint-Jans-Molenbeek,Rue Alphonse Vandenpeereboom - Alphonse Vandenpeereboomstraat,Gemeenteweg,9,0,1.1565319299995498,0.0
+Sint-Pieters-Leeuw,R0,Autosnelweg,9,0,0.3643595745319702,0.0
+Tubeke,Rue de Bruxelles,Gewestweg,9,0,2.0663238538724698,0.0
+Turnhout,Steenweg op Zevendonk,Gewestweg,9,0,0.4798010853731359,0.0
+Deerlijk,E17,Autosnelweg,8,4,0.4932723192744013,50.0
+Izegem,Roeselaarsestraat,Gewestweg,8,3,0.6351682591600623,37.5
+Oostende,Zandvoordestraat,Gemeenteweg,8,3,0.8379507574194884,37.5
+Schaarbeek,Boulevard Auguste Reyers - Auguste Reyerslaan,Gewestweg,8,3,0.5593936936758849,37.5
+Aalter,Knokkebaan,Gemeenteweg,8,2,0.2655928692384346,25.0
+Antwerpen,Emiel Vloorsstraat,Gemeenteweg,8,2,0.7221297005089256,25.0
+Antwerpen,Zoomse Weg,Autosnelweg,8,2,0.5295251276890517,25.0
+Denderleeuw,Steenweg,Gewestweg,8,2,0.814115295754642,25.0
+Geraardsbergen,Astridlaan,Gewestweg,8,2,1.9664691225858155,25.0
+Lille,E34,Autosnelweg,8,2,0.36959837906050885,25.0
+Menen,Ieperstraat,Gewestweg,8,2,0.3275996685706487,25.0
+Oud-Turnhout,Steenweg op Turnhout,Gewestweg,8,2,0.34020398176875954,25.0
+Roeselare,Rumbeeksesteenweg,Gewestweg,8,2,0.2788297685184461,25.0
+Sint-Genesius-Rode,Waterloose Steenweg - Chaussée de Waterloo,Gewestweg,8,2,0.2542479030565398,25.0
+Sint-Niklaas,Vijfstraten,Gewestweg,8,2,0.4817509844202227,25.0
+Aalst,Brusselse steenweg,Gewestweg,8,1,2.9365346481333585,12.5
+Antwerpen,Dascottelei,Gemeenteweg,8,1,1.2545379764661362,12.5
+Antwerpen,Driehoekstraat,Gemeenteweg,8,1,0.79237022995063,12.5
+Antwerpen,Maantjessteenweg,Gemeenteweg,8,1,0.17935266938577304,12.5
+Antwerpen,Nationalestraat,Gemeenteweg,8,1,0.7038191297297272,12.5
+Antwerpen,Scheldelaan,Gemeenteweg,8,1,1.1040570192650225,12.5
+Antwerpen,Schotensesteenweg,Gemeenteweg,8,1,0.5638622772013836,12.5
+Antwerpen,Van Eycklei,Gewestweg,8,1,0.21700519884432484,12.5
+Blankenberge,Koning Albert-I-laan,Gewestweg,8,1,0.45142944717878075,12.5
+Borsbeek,Herentalsebaan,Gewestweg,8,1,0.2885989584968956,12.5
+Brugge,Astridlaan,Gewestweg,8,1,0.17392218903860485,12.5
+Brugge,Oostendse Steenweg,Gewestweg,8,1,1.5087367958328477,12.5
+Brussel,R20,Gemeenteweg,8,1,0.26675614973300427,12.5
+Charleroi,N5,Gewestweg,8,1,0.2783529560776704,12.5
+Charleroi,Route de la Basse Sambre,Gewestweg,8,1,0.3373391642903873,12.5
+Dendermonde,Gentsesteenweg,Gewestweg,8,1,1.0912935509893904,12.5
+Destelbergen,E17,Autosnelweg,8,1,0.39978860454170906,12.5
+Dilbeek,Brusselstraat,Gemeenteweg,8,1,0.1943588006689002,12.5
+Elsene,Avenue Louise - Louizalaan,Gemeenteweg,8,1,11.023690985901323,12.5
+Elsene,Chaussée de Vleurgat - Vleurgatse Steenweg,Gemeenteweg,8,1,0.7903732093701057,12.5
+Engis,N90,Gewestweg,8,1,0.7188395361385762,12.5
+Hasselt,Guffenslaan,Gewestweg,8,1,0.36570315084517085,12.5
+Herselt,Aarschotsesteenweg,Gewestweg,8,1,0.21884987768247427,12.5
+Hoogstraten,Gelmelstraat,Gewestweg,8,1,0.27948834660178073,12.5
+Ieper,Poperingseweg,Gewestweg,8,1,0.469883552949685,12.5
+Kontich,Mechelsesteenweg,Gewestweg,8,1,0.7162119858835116,12.5
+Kraainem,E40,Autosnelweg,8,1,0.2745129420007347,12.5
+Le Roeulx,Autoroute de Wallonie,Autosnelweg,8,1,1.2388724463888612,12.5
+Lebbeke,Brusselsesteenweg,Gewestweg,8,1,0.16889163110688127,12.5
+Libin,Autoroute des Ardennes,Autosnelweg,8,1,0.3701851407832826,12.5
+Lier,Aarschotsesteenweg,Gewestweg,8,1,0.479665647962623,12.5
+Lokeren,Koningin Fabiolalaan,Gewestweg,8,1,0.18063920454498406,12.5
+Lommel,Ringlaan,Gewestweg,8,1,0.4278009748112249,12.5
+Machelen,Woluwelaan,Gewestweg,8,1,0.6069524559577681,12.5
+Mechelen,Oscar Van Kesbeeckstraat,Gewestweg,8,1,0.35321104433879236,12.5
+Mortsel,Statielei,Gewestweg,8,1,0.5400498539067774,12.5
+Nijvel,E19,Autosnelweg,8,1,0.5117858271833021,12.5
+Ninove,Aalstersesteenweg,Gewestweg,8,1,0.835282902637069,12.5
+Oosterzele,Geraardsbergse steenweg,Gewestweg,8,1,0.3639890764137338,12.5
+Tervuren,Sint-Jansbergsteenweg,Autosnelweg,8,1,0.7776056388692933,12.5
+Tielt-Winge,Leuvensesteenweg,Gewestweg,8,1,0.6227254084485716,12.5
+Villers-la-Ville,Chaussée de Namur,Gewestweg,8,1,1.097260367948107,12.5
+Welkenraedt,Chaussée de Liège,Gewestweg,8,1,0.6062348102643621,12.5
+Aartselaar,Kontichsesteenweg,Gemeenteweg,8,0,0.44687897851099523,0.0
+Ans,Rue Jean Jaurès,Gewestweg,8,0,0.18051077754288522,0.0
+Antwerpen,A12,Gewestweg,8,0,0.09155992313153864,0.0
+Antwerpen,Antwerpsesteenweg,Gemeenteweg,8,0,0.48455351292234744,0.0
+Antwerpen,Brederodestraat,Gemeenteweg,8,0,0.42606397909545424,0.0
+Antwerpen,Diksmuidelaan,Gemeenteweg,8,0,0.15667066124774534,0.0
+Antwerpen,Jules Moretuslei,Gewestweg,8,0,0.37397669385443766,0.0
+Antwerpen,Merksemsesteenweg,Gewestweg,8,0,0.4427726746259968,0.0
+Antwerpen,Paleisstraat,Gemeenteweg,8,0,0.8196314907767289,0.0
+Antwerpen,Viaduct van Merksem,Autosnelweg,8,0,0.16256359725286373,0.0
+Aywaille,Autoroute du Soleil,Autosnelweg,8,0,0.337852632849475,0.0
+Beringen,Paalsesteenweg,Gewestweg,8,0,0.35101375574657523,0.0
+Brussel,Avenue de Cortenbergh - Kortenberglaan,Gewestweg,8,0,0.5503017267909864,0.0
+Brussel,Avenue du Parc Royal - Koninklijk Parklaan,Gewestweg,8,0,0.10185576255172327,0.0
+Brussel,Boulevard Baudouin - Boudewijnlaan,Gemeenteweg,8,0,0.33851518081374576,0.0
+Brussel,Boulevard Simon Bolivar - Simon Bolivarlaan,Gewestweg,8,0,0.31346803757478686,0.0
+Brussel,Chaussée d'Anvers - Antwerpsesteenweg,Gemeenteweg,8,0,0.1680698242258433,0.0
+Brussel,Chaussée de Haecht - Haachtsesteenweg,Gewestweg,8,0,0.6449663710805418,0.0
+Brussel,Place de l'Yser - IJzerplein,Gemeenteweg,8,0,0.4147087408719331,0.0
+Brussel,Quai de Willebroeck - Willebroekkaai,Gemeenteweg,8,0,0.23014865203547796,0.0
+Brussel,Rue du Lombard - Lombardstraat,Gemeenteweg,8,0,0.6516762163895127,0.0
+Charleroi,Chaussée de Courcelles,Gewestweg,8,0,0.3335877184219297,0.0
+Chaudfontaine,Voie de l'Ardenne,Gewestweg,8,0,0.6281395582007028,0.0
+De Pinte,E17,Autosnelweg,8,0,0.9701608200741991,0.0
+Doornik,Chaussée de Bruxelles,Gewestweg,8,0,0.20863370203651582,0.0
+Doornik,Chaussée de Saint-Amand,Gewestweg,8,0,0.865722964078768,0.0
+Fléron,Avenue des Martyrs,Gewestweg,8,0,0.1646295607819231,0.0
+Fléron,Rue Bureau,Gewestweg,8,0,0.14701959731321385,0.0
+Fosses-la-Ville,Route de Tamines,Gewestweg,8,0,0.773631781845845,0.0
+Gembloux,Chaussée de Nivelles,Gewestweg,8,0,0.8822467121884803,0.0
+Gent,Charles de Kerchovelaan,Gewestweg,8,0,0.2747132966709319,0.0
+Gent,Victor Braeckmanlaan,Gewestweg,8,0,3.1118769579769903,0.0
+Gent,Wiedauwkaai,Gewestweg,8,0,0.4113297858559598,0.0
+Graven,Chaussée de Wavre,Gewestweg,8,0,0.35427064026117744,0.0
+Hechtel-Eksel,Kamperbaan,Gewestweg,8,0,0.4703194143218393,0.0
+Héron,Autoroute de Wallonie,Autosnelweg,8,0,1.8448934252225817,0.0
+Jemeppe-sur-Sambre,Route de la Basse Sambre,Gewestweg,8,0,0.8850784752978457,0.0
+Kontich,Pierstraat,Gemeenteweg,8,0,1.0300326624379823,0.0
+La Louvière,Rue Gustave Boël,Gewestweg,8,0,1.352654310535951,0.0
+Leuven,Bondgenotenlaan,Gemeenteweg,8,0,0.2902911781405759,0.0
+Lier,R16,Gewestweg,8,0,0.19419673118506292,0.0
+Luik,Boulevard d'Avroy,Gewestweg,8,0,0.6740124969905024,0.0
+Luik,Boulevard du Rectorat,Gemeenteweg,8,0,0.01624804619797722,0.0
+Luik,Route du Condroz,Gewestweg,8,0,0.27396480141338697,0.0
+Luik,Rue Saint-Nicolas,Gemeenteweg,8,0,0.9091450533421706,0.0
+Maasmechelen,Ringlaan,Gewestweg,8,0,0.8787315408005044,0.0
+Maldegem,Aalterbaan,Gewestweg,8,0,0.2119944811249162,0.0
+Manage,Autoroute de Wallonie,Autosnelweg,8,0,1.5465730949803993,0.0
+Mechelen,Brusselsesteenweg,Gewestweg,8,0,0.41681478490495694,0.0
+Namen,Avenue du Bourgmestre Jean Materne,Gewestweg,8,0,0.3219923138160783,0.0
+Namen,Chaussée de Dinant,Gewestweg,8,0,0.3327263786656303,0.0
+Namen,Chaussée de Liège,Gewestweg,8,0,3.773306649993164,0.0
+Oudergem,Boulevard du Souverain - Vorstlaan,Gewestweg,8,0,0.39989074408386444,0.0
+Roeselare,Rijksweg,Gewestweg,8,0,1.2275848105670308,0.0
+Rumst,E19,Autosnelweg,8,0,0.29871854806647435,0.0
+Schaarbeek,Avenue Chazal - Chazallaan,Gemeenteweg,8,0,0.16359268865582804,0.0
+Schaarbeek,Boulevard Général Wahis - Generaal Wahislaan,Gewestweg,8,0,0.5291567563728994,0.0
+Sint-Jans-Molenbeek,Tunnel Annie Cordy - Annie Cordytunnel,Gemeenteweg,8,0,1.7355652937620822,0.0
+Sint-Lambrechts-Woluwe,Boulevard de la Woluwe - Woluwedal,Gewestweg,8,0,0.48021016057513155,0.0
+Sint-Niklaas,Koningin Astridlaan,Gewestweg,8,0,0.8566547168872021,0.0
+Sint-Niklaas,Raapstraat,Gemeenteweg,8,0,0.586451075420895,0.0
+Sint-Truiden,Hasseltsesteenweg,Gewestweg,8,0,0.4434820960236697,0.0
+Tongeren,Hasseltsesteenweg,Gewestweg,8,0,0.25436644717070556,0.0
+Turnhout,de Merodelei,Gemeenteweg,8,0,0.4119165004707124,0.0
+Wetteren,Brusselsesteenweg,Gewestweg,8,0,2.1258974649113425,0.0
+Wetteren,Noordlaan,Gewestweg,8,0,1.3204071052199349,0.0
+Wevelgem,Kortrijkstraat/N8,Gewestweg,8,0,0.17609306405136582,0.0
+Wijnegem,Merksemsebaan,Gewestweg,8,0,0.7469835985675397,0.0
+Zandhoven,Liersebaan,Gewestweg,8,0,0.5809680413376431,0.0
+Zwijndrecht,E17,Autosnelweg,8,0,0.787991750691,0.0
+Diksmuide,Oostendestraat,Gewestweg,7,4,0.22766577548942943,57.142857142857146
+Elsene,Avenue de l'Hippodrome - Renbaanlaan,Gemeenteweg,7,3,0.3393315111426038,42.857142857142854
+Ieper,Meenseweg,Gewestweg,7,3,0.3463265365370871,42.857142857142854
+Nijlen,Bouwelsesteenweg,Gewestweg,7,3,0.3087625753123049,42.857142857142854
+Ans,Rue Walthère Jamar,Gewestweg,7,2,0.35934947748206664,28.571428571428573
+Berlaar,Markt,Gemeenteweg,7,2,0.1714397443178607,28.571428571428573
+Charleroi,Chaussée de Gilly,Gemeenteweg,7,2,0.9228380803365047,28.571428571428573
+Edegem,Mechelsesteenweg,Gewestweg,7,2,0.3080104471601712,28.571428571428573
+Heist-op-den-Berg,Schriekstraat,Gemeenteweg,7,2,0.18174725540470715,28.571428571428573
+La Louvière,Chaussée Paul Houtart,Gewestweg,7,2,0.6073820084644644,28.571428571428573
+Langemark-Poelkapelle,Brugseweg,Gewestweg,7,2,0.3546710609410442,28.571428571428573
+Maarkedal,Rijksweg,Gewestweg,7,2,0.2794211573508187,28.571428571428573
+Marche-en-Famenne,N4,Gewestweg,7,2,0.22124728724609846,28.571428571428573
+Meise,Vilvoordsesteenweg,Gewestweg,7,2,0.33620282132705914,28.571428571428573
+Mol,Ginderbuiten,Gewestweg,7,2,1.0085273405756097,28.571428571428573
+Oud-Turnhout,Steenweg op Ravels,Gewestweg,7,2,0.16205693691405765,28.571428571428573
+Oudenaarde,Westerring,Gewestweg,7,2,0.14179490716375986,28.571428571428573
+Seneffe,E19,Autosnelweg,7,2,0.4592841499492106,28.571428571428573
+Sint-Niklaas,Dendermondsesteenweg,Gemeenteweg,7,2,1.7530962095370444,28.571428571428573
+Sint-Niklaas,Heidebaan,Gewestweg,7,2,0.7789662487090209,28.571428571428573
+Stekene,Trompstraat,Gewestweg,7,2,0.8126167682111629,28.571428571428573
+Affligem,E40,Autosnelweg,7,1,0.7911696574149513,14.285714285714286
+Anderlecht,Avenue Frans van Kalken - Frans van Kalkenlaan,Gemeenteweg,7,1,0.35736835056877997,14.285714285714286
+Anderlues,Chaussée de Mons,Gewestweg,7,1,0.5400726072511683,14.285714285714286
+Antwerpen,Minister Delbekelaan,Gewestweg,7,1,0.6778893254213596,14.285714285714286
+Assesse,Autoroute des Ardennes,Autosnelweg,7,1,0.24495692484002055,14.285714285714286
+Bergen,Chaussée du Rœulx,Gewestweg,7,1,0.33891760874965726,14.285714285714286
+Beveren,Vesten,Gewestweg,7,1,0.2968311524392143,14.285714285714286
+Bree,Toleikstraat,Gewestweg,7,1,1.1614358477125535,14.285714285714286
+Charleroi,Faubourg de Bruxelles,Gemeenteweg,7,1,2.683315692191553,14.285714285714286
+Charleroi,Rue de Beaumont,Gewestweg,7,1,0.17481436130651068,14.285714285714286
+Eeklo,Oostveldstraat,Gemeenteweg,7,1,0.30261535967439473,14.285714285714286
+Florenville,N83,Gewestweg,7,1,0.8988529645930374,14.285714285714286
+Gent,Industrieweg,Gemeenteweg,7,1,0.2919018430559024,14.285714285714286
+Gent,Kasteellaan,Gewestweg,7,1,0.27505709772752784,14.285714285714286
+Geraardsbergen,Zonnebloemstraat,Gewestweg,7,1,0.35683614411865155,14.285714285714286
+Ham,Staatsbaan,Gewestweg,7,1,0.531438528128714,14.285714285714286
+Hoogstraten,E19,Autosnelweg,7,1,0.5702542492575284,14.285714285714286
+Izegem,Meensesteenweg,Gemeenteweg,7,1,0.2110366766170064,14.285714285714286
+Kruibeke,E17,Autosnelweg,7,1,1.4760803622811522,14.285714285714286
+Leuven,E40,Autosnelweg,7,1,0.6515131570229131,14.285714285714286
+Lier,Lispersteenweg,Gewestweg,7,1,0.6329085694374913,14.285714285714286
+Luik,Rue d'Ougrée,Gewestweg,7,1,0.48912808951890796,14.285714285714286
+Ninove,Brakelsesteenweg,Gewestweg,7,1,0.5613455118638133,14.285714285714286
+Oostkamp,Kortrijksestraat,Gewestweg,7,1,0.3780776150646313,14.285714285714286
+Oudsbergen,Weg naar Zwartberg,Gewestweg,7,1,0.3429492274157104,14.285714285714286
+Péruwelz,Autoroute de Wallonie,Autosnelweg,7,1,0.7044455477124597,14.285714285714286
+Schaarbeek,Rue des Palais - Paleizenstraat,Gewestweg,7,1,0.15787547857736847,14.285714285714286
+Schelle,N177,Gewestweg,7,1,0.8802147627788893,14.285714285714286
+Schoten,Paalstraat,Gemeenteweg,7,1,0.3962195954020583,14.285714285714286
+Seneffe,Route Baccara,Gewestweg,7,1,0.1670374978042332,14.285714285714286
+Sint-Agatha-Berchem,Chaussée de Gand - Gentsesteenweg,Gewestweg,7,1,0.1969216752186066,14.285714285714286
+Temse,Kapelstraat,Gewestweg,7,1,0.5852735730552656,14.285714285714286
+Wanze,Chaussée de Tirlemont,Gewestweg,7,1,0.24749792163047746,14.285714285714286
+Wemmel,De Limburg Stirumlaan - Avenue de Limburg Stirum,Gemeenteweg,7,1,0.639135959022549,14.285714285714286
+Wetteren,Zuidlaan,Gewestweg,7,1,1.3863845161520698,14.285714285714286
+Aalst,Geraardsbergsesteenweg,Gewestweg,7,0,0.48421583311482075,0.0
+Aalst,Moorselbaan,Gewestweg,7,0,0.6896471846625406,0.0
+Amay,Chaussée de Liège,Gewestweg,7,0,0.6993055093558083,0.0
+Anderlecht,Rue des Vétérinaires - Veeartsenstraat,Gemeenteweg,7,0,0.13247215806113333,0.0
+Antwerpen,Generaal Lemanstraat,Gewestweg,7,0,0.48248404318293275,0.0
+Antwerpen,Kroonstraat,Gemeenteweg,7,0,0.7489727836653889,0.0
+Antwerpen,Quinten Matsijslei,Gemeenteweg,7,0,0.37443896549942535,0.0
+Antwerpen,Ter Heydelaan,Gemeenteweg,7,0,0.3085146098292342,0.0
+Asse,Nerviërsstraat,Gewestweg,7,0,3.254109807960408,0.0
+Balen,Vaartstraat,Gewestweg,7,0,0.24328988736063176,0.0
+Beringen,Industrieweg,Gemeenteweg,7,0,0.18110787258523675,0.0
+Beyne-Heusay,Grand'Route,Gewestweg,7,0,0.5176192140254395,0.0
+Blankenberge,Brugse Steenweg,Gewestweg,7,0,4.353104513254648,0.0
+Borgworm,Chaussée Romaine,Gewestweg,7,0,3.6870763946808225,0.0
+Brugge,Isabellalaan,Gewestweg,7,0,0.34057885421663237,0.0
+Brugge,Koning Albert I-laan,Gewestweg,7,0,0.2553459980056948,0.0
+Brussel,Chaussée Romaine - Romeinsesteenweg,Gemeenteweg,7,0,0.5541744634157084,0.0
+Charleroi,Chaussee de Charleroi,Gewestweg,7,0,0.37028127540020395,0.0
+Charleroi,Grand Ring de Charleroi,Autosnelweg,7,0,0.16354674148002915,0.0
+Châtelet,Grand Ring de Charleroi,Autosnelweg,7,0,0.3401728456723676,0.0
+Court-Saint-Etienne,N25,Gewestweg,7,0,0.9781596036668698,0.0
+Duffel,Mechelsebaan,Gewestweg,7,0,0.24409578105634433,0.0
+Eghezée,Chaussée de Namur,Gewestweg,7,0,0.31280375714246494,0.0
+Eigenbrakel,Chaussée de Nivelles,Gewestweg,7,0,0.5280013719005109,0.0
+Eigenbrakel,Chaussée de Tubize,Gemeenteweg,7,0,0.1866107298409168,0.0
+Elsene,Avenue Adolphe Buyl - Adolphe Buyllaan,Gemeenteweg,7,0,0.6732554441055835,0.0
+Elsene,Chaussée de Boondael - Boondaalse Steenweg,Gemeenteweg,7,0,0.14039270635242423,0.0
+Elsene,Rue de la Brasserie - Brouwerijstraat,Gemeenteweg,7,0,0.10213974950213964,0.0
+Etterbeek,Chaussée de Wavre - Steenweg op Waver,Gewestweg,7,0,0.6352527580073064,0.0
+Fléron,Rue de la Clef,Gewestweg,7,0,0.6846547696341742,0.0
+Gembloux,Chaussée de Wavre,Gewestweg,7,0,0.7606564242133094,0.0
+Gent,Binnenring-Zwijnaarde,Gemeenteweg,7,0,0.7802393824184652,0.0
+Gent,Buitenring-Drongen,Autosnelweg,7,0,0.7066415774448361,0.0
+Gent,Citadellaan,Gewestweg,7,0,0.702709017829923,0.0
+Gent,Gasmeterlaan,Gewestweg,7,0,0.5574063325116873,0.0
+Gent,Heerweg-Noord,Gemeenteweg,7,0,0.0487351867732448,0.0
+Gent,Zwijnaardsesteenweg,Gemeenteweg,7,0,0.2616771597012818,0.0
+Grimbergen,Chaussée Romaine - Romeinsesteenweg,Gemeenteweg,7,0,0.44178443598695805,0.0
+Grimbergen,Wolvertemsesteenweg,Gewestweg,7,0,0.4515547513366443,0.0
+Halle,Auguste Demaeghtlaan,Gewestweg,7,0,0.9038722741077173,0.0
+Harelbeke,Kortrijksesteenweg,Gewestweg,7,0,0.9000751194911077,0.0
+Hechtel-Eksel,Eindhovensebaan,Gewestweg,7,0,0.2959789488042272,0.0
+Heist-op-den-Berg,Liersesteenweg,Gewestweg,7,0,0.5515806438686801,0.0
+Herent,Mechelsesteenweg,Gewestweg,7,0,0.3341934553729694,0.0
+Herve,Autoroute Roi Baudouin,Autosnelweg,7,0,0.7395009294390471,0.0
+Houthalen-Helchteren,E314,Autosnelweg,7,0,0.3355654427897571,0.0
+Jurbeke,Route d'Ath,Gewestweg,7,0,0.20261101259690678,0.0
+Keerbergen,Putsebaan,Gemeenteweg,7,0,0.34101882206815054,0.0
+Kontich,Molenstraat,Gemeenteweg,7,0,0.2197370505246471,0.0
+La Louvière,Chaussée de Mons,Gewestweg,7,0,1.6261465063827019,0.0
+La Louvière,N55,Gewestweg,7,0,0.577817392647551,0.0
+Lanaken,Steenweg,Gewestweg,7,0,0.22989435886328927,0.0
+Leopoldsburg,Lommelsesteenweg,Gewestweg,7,0,0.6407534827261842,0.0
+Lier,Lintsesteenweg,Gemeenteweg,7,0,1.1979540857816318,0.0
+Lochristi,Antwerpse Steenweg,Gewestweg,7,0,0.5331529302782605,0.0
+Londerzeel,A12,Autosnelweg,7,0,0.2760012155448333,0.0
+Luik,Avenue de l'Observatoire,Gemeenteweg,7,0,0.9496415943189405,0.0
+Luik,Quai de la Boverie,Gewestweg,7,0,0.29396742413094323,0.0
+Luik,Rue Grétry,Gemeenteweg,7,0,1.068673853303745,0.0
+Luik,Rue Puits-en-Sock,Gewestweg,7,0,0.09199505296355448,0.0
+Luik,Rue de Tilff,Gewestweg,7,0,0.4956940004333111,0.0
+Machelen,E19,Autosnelweg,7,0,0.8895562318682363,0.0
+Machelen,Haachtsesteenweg,Gewestweg,7,0,0.1751278585899123,0.0
+Maldegem,Koning Leopoldlaan,Gewestweg,7,0,2.743438365344316,0.0
+Mechelen,Antwerpsesteenweg,Gewestweg,7,0,2.799948263569104,0.0
+Mechelen,Battelsesteenweg,Gewestweg,7,0,0.7702420147183571,0.0
+Mechelen,Nekkerspoelstraat,Gewestweg,7,0,0.6036010940306259,0.0
+Menen,Kortrijkstraat,Gewestweg,7,0,0.1607671435493722,0.0
+Mol,Statiestraat,Gewestweg,7,0,0.10975946704816888,0.0
+Namen,Chaussée de Waterloo,Gewestweg,7,0,0.4657528945421113,0.0
+Nazareth,Nieuwe Steenweg,Gewestweg,7,0,1.1426537337135192,0.0
+Neupré,Route du Condroz,Gewestweg,7,0,0.400389513017539,0.0
+Nijvel,Chaussée de Namur,Gewestweg,7,0,0.3241823609618225,0.0
+Nijvel,Contournement Sud,Gewestweg,7,0,0.2752600205911099,0.0
+Oudenburg,Brugsesteenweg,Gewestweg,7,0,0.15547970835541536,0.0
+Philippeville,N5,Gewestweg,7,0,0.2925051185569652,0.0
+Roeselare,Beversesteenweg,Gemeenteweg,7,0,0.16409903110815463,0.0
+Roeselare,Koning Albert I-laan,Gewestweg,7,0,0.1592939751608023,0.0
+Roeselare,Mandellaan,Gemeenteweg,7,0,0.7899341528970476,0.0
+Ronse,Kruisstraat - Rue de la Croix,Gewestweg,7,0,0.3750764812519689,0.0
+Rumst,N177,Gewestweg,7,0,0.6639633658301886,0.0
+Schaarbeek,Rue de Brabant - Brabantstraat,Gemeenteweg,7,0,0.3376122905957239,0.0
+Seraing,Quai Jules Destrée,Gewestweg,7,0,1.5410646493876419,0.0
+Sint-Lambrechts-Woluwe,Avenue Paul Hymans - Paul Hymanslaan,Gewestweg,7,0,0.26592666957457084,0.0
+Sint-Niklaas,N41,Gewestweg,7,0,0.28285418147529673,0.0
+Sint-Niklaas,Nieuwkerkenstraat,Gemeenteweg,7,0,0.9233575414563742,0.0
+Sint-Niklaas,Singel,Gewestweg,7,0,0.4017850443202029,0.0
+Sombreffe,Chaussée de Charleroi,Gemeenteweg,7,0,0.738580241123156,0.0
+Soumagne,Avenue de la Résistance,Gewestweg,7,0,0.6985182194660535,0.0
+Sprimont,Autoroute du Soleil,Autosnelweg,7,0,0.1272818497863002,0.0
+Stabroek,Laageind,Gewestweg,7,0,0.9010110178811733,0.0
+Steenokkerzeel,Tervuursesteenweg,Gewestweg,7,0,0.13109653561395856,0.0
+Stekene,Dorpsstraat,Gemeenteweg,7,0,0.4555951984399853,0.0
+Tielt-Winge,Aarschotsesteenweg,Gewestweg,7,0,1.1359631500635912,0.0
+Ukkel,Avenue Brugmann - Brugmannlaan,Gewestweg,7,0,0.29086787520171886,0.0
+Verviers,Rue Grand'Ville,Gewestweg,7,0,2.1495716668866978,0.0
+Vorst,Avenue Van Volxem - Van Volxemlaan,Gewestweg,7,0,0.31147786149201984,0.0
+Wanze,Chaussée de Wavre,Gewestweg,7,0,0.333985643918095,0.0
+Waregem,Gentseweg,Gewestweg,7,0,0.15245727128557882,0.0
+Waterloo,Drève Richelle,Gemeenteweg,7,0,0.14445472021403225,0.0
+Willebroek,A12,Autosnelweg,7,0,0.38443793705000034,0.0
+Zele,Europalaan,Gemeenteweg,7,0,0.23438817733868744,0.0
+Zinnik,Chaussée de Mons,Gewestweg,7,0,0.541172098033768,0.0
+Andenne,Avenue Reine Elisabeth,Gewestweg,6,2,0.3029694906681845,33.333333333333336
+Antwerpen,Drakenhoflaan,Gemeenteweg,6,2,0.8018569281200839,33.333333333333336
+Berlare,Dendermondse Steenweg,Gewestweg,6,2,0.2521080397826355,33.333333333333336
+Brecht,Vaartstraat,Gewestweg,6,2,0.29720973454566385,33.333333333333336
+Bree,'t Hasseltkiezel,Gewestweg,6,2,0.21041279566858176,33.333333333333336
+Brussel,Avenue de Diane - Dianalaan,Gemeenteweg,6,2,0.5509478361717786,33.333333333333336
+Charleroi,Route de Mons,Gewestweg,6,2,1.6496701630392607,33.333333333333336
+Diest,Koningin Astridlaan,Gewestweg,6,2,0.24300704134518636,33.333333333333336
+Eeklo,Markt,Gewestweg,6,2,0.6278161228850612,33.333333333333336
+Eeklo,Stationsstraat,Gewestweg,6,2,0.7208042237961652,33.333333333333336
+Gent,Visserij,Gemeenteweg,6,2,0.6348238558447391,33.333333333333336
+Grobbendonk,Herentalse steenweg,Gewestweg,6,2,0.39617894203336174,33.333333333333336
+Hemiksem,Sint-Bernardsesteenweg,Gewestweg,6,2,0.2548999523956518,33.333333333333336
+Laakdal,Koning Boudewijnsnelweg,Autosnelweg,6,2,0.11490550340077943,33.333333333333336
+Lennik,Ninoofsesteenweg,Gewestweg,6,2,0.39220667179628976,33.333333333333336
+Middelkerke,Oostendelaan,Gewestweg,6,2,0.37883590519526295,33.333333333333336
+Moeskroen,Avenue Wolfgang Amadeus Mozart - Wolfgang Amadeus Mozartlaan,Gewestweg,6,2,0.18678692027854724,33.333333333333336
+Mol,Molderdijk,Gewestweg,6,2,0.3626075708135582,33.333333333333336
+Sint-Niklaas,Hospitaalstraat,Gemeenteweg,6,2,0.7424814150460288,33.333333333333336
+Spa,Rue de la Sauvenière,Gewestweg,6,2,0.1350961947574278,33.333333333333336
+Aalst,Boudewijnlaan,Gewestweg,6,1,0.28541483549635477,16.666666666666668
+Anderlecht,Boulevard de la Grande Ceinture - Grote-Ringlaan,Gewestweg,6,1,0.23808038512496482,16.666666666666668
+Antwerpen,Provinciestraat,Gemeenteweg,6,1,0.9453582308118718,16.666666666666668
+Berlaar,Liersesteenweg,Gemeenteweg,6,1,0.22984258577718147,16.666666666666668
+Bertrix,N89,Gewestweg,6,1,0.1858998296216049,16.666666666666668
+Brugge,N31,Gewestweg,6,1,0.6871321757941062,16.666666666666668
+Brugge,Spoorwegstraat,Gewestweg,6,1,0.11753301892778736,16.666666666666668
+Brussel,Quai des Usines - Werkhuizenkaai,Gewestweg,6,1,0.2166758718535957,16.666666666666668
+Brussel,Tunnel Louise - Louizatunnel,Gemeenteweg,6,1,24.808400158303158,16.666666666666668
+Charleroi,Chaussée de Fleurus,Gewestweg,6,1,0.32682172682762634,16.666666666666668
+Charleroi,Chaussée de Thuin,Gemeenteweg,6,1,0.469717426035989,16.666666666666668
+Charleroi,Rue de Dampremy,Gemeenteweg,6,1,0.7463637435580655,16.666666666666668
+Charleroi,Rue du Grand Central,Gemeenteweg,6,1,0.22689266997279772,16.666666666666668
+Diepenbeek,Steenweg,Gewestweg,6,1,0.0851374219608587,16.666666666666668
+Doornik,Boulevard des Combattants,Gemeenteweg,6,1,0.7230296291050835,16.666666666666668
+Elsene,Rue du Trône - Troonstraat,Gewestweg,6,1,0.6154986647251505,16.666666666666668
+Evergem,Jacques Paryslaan,Gemeenteweg,6,1,0.15287309292262774,16.666666666666668
+Geel,Molseweg,Gewestweg,6,1,0.4499227867914364,16.666666666666668
+Geel,Winkelomseheide,Gewestweg,6,1,0.3348510250624077,16.666666666666668
+Genepiën,N25,Gewestweg,6,1,0.4313354982217754,16.666666666666668
+Gent,Begijnhoflaan,Gewestweg,6,1,0.09664076774309618,16.666666666666668
+Gent,Botestraat,Gemeenteweg,6,1,0.13063840491678008,16.666666666666668
+Gent,Evergemsesteenweg,Gewestweg,6,1,1.6638594318543576,16.666666666666668
+Gent,Zeeschipstraat,Gewestweg,6,1,0.5770232656983514,16.666666666666668
+Haaltert,Hoogstraat,Gewestweg,6,1,0.6982004472535022,16.666666666666668
+Heist-op-den-Berg,Schrieksesteenweg,Gemeenteweg,6,1,0.3477831977755571,16.666666666666668
+Herentals,Aarschotseweg,Gewestweg,6,1,0.33436962256571473,16.666666666666668
+Herstal,Boulevard Zénobe Gramme,Gewestweg,6,1,6.867563337226363,16.666666666666668
+Herzele,Gentweg,Gewestweg,6,1,0.399738786378503,16.666666666666668
+Heusden-Zolder,Meylandtlaan,Gewestweg,6,1,0.20452313598342353,16.666666666666668
+Hoeilaart,Sint Jansberglaan,Autosnelweg,6,1,0.49042594193003597,16.666666666666668
+Izegem,Rijksweg,Gewestweg,6,1,1.773932884585508,16.666666666666668
+Jabbeke,E40,Autosnelweg,6,1,0.3656545412842486,16.666666666666668
+Jalhay,E42,Autosnelweg,6,1,0.5821108004283435,16.666666666666668
+Knokke-Heist,Westkapellestraat,Gemeenteweg,6,1,0.7022786513588013,16.666666666666668
+Kortrijk,Burgemeester Vercruysselaan,Gewestweg,6,1,0.6031680983452337,16.666666666666668
+Kortrijk,R8,Autosnelweg,6,1,0.5758702606553647,16.666666666666668
+La Bruyère,Autoroute de Wallonie,Autosnelweg,6,1,1.9246791272212782,16.666666666666668
+La Louvière,Chaussée de Redemont,Gewestweg,6,1,0.37987256624120536,16.666666666666668
+Lasne,Chaussée de Charleroi,Gewestweg,6,1,3.3096135775816453,16.666666666666668
+Lokeren,Heirbrugstraat,Gemeenteweg,6,1,0.1773454913763809,16.666666666666668
+Luik,Rue Saint-Laurent,Gemeenteweg,6,1,0.2874623833747413,16.666666666666668
+Lummen,Koning Boudewijnsnelweg,Autosnelweg,6,1,0.3264554827622484,16.666666666666668
+Mechelen,Guido Gezellelaan,Gewestweg,6,1,1.0113194045680425,16.666666666666668
+Ninove,Albertlaan,Gewestweg,6,1,0.6944398669187809,16.666666666666668
+Ranst,Liersesteenweg,Gewestweg,6,1,0.5170570086650781,16.666666666666668
+Roeselare,Diksmuidsesteenweg,Gewestweg,6,1,0.32771056700715806,16.666666666666668
+Roeselare,Moorseelsesteenweg,Gemeenteweg,6,1,0.6089983863567541,16.666666666666668
+Rotselaar,Aarschotsesteenweg,Gewestweg,6,1,0.4000227825047886,16.666666666666668
+Seraing,Rue de la Station,Gewestweg,6,1,0.990591678946952,16.666666666666668
+Sint-Lievens-Houtem,E40,Autosnelweg,6,1,0.3719278577309555,16.666666666666668
+Sint-Niklaas,Breedstraat,Gemeenteweg,6,1,0.3756852259365351,16.666666666666668
+Sint-Niklaas,Prinses Josephine-Charlottelaan,Gewestweg,6,1,2.49044760971959,16.666666666666668
+Tellin,Autoroute des Ardennes,Autosnelweg,6,1,0.7622668895872473,16.666666666666668
+Temse,Gewestweg,Gewestweg,6,1,0.7676836025234418,16.666666666666668
+Thimister-Clermont,Chaussée Charlemagne,Gewestweg,6,1,0.2955696340847036,16.666666666666668
+Thuin,Rue de Beaumont,Gewestweg,6,1,0.49786889594240624,16.666666666666668
+Thuin,Rue de Marchienne,Gewestweg,6,1,0.5656060307822997,16.666666666666668
+Torhout,Vredelaan,Gewestweg,6,1,0.7453382030783875,16.666666666666668
+Vorst,Chaussée de Neerstalle - Neerstalse Steenweg,Gemeenteweg,6,1,0.27748517447858395,16.666666666666668
+Waregem,Zuiderlaan,Gewestweg,6,1,0.37426814881844994,16.666666666666668
+Waver,Chaussée de Namur,Gewestweg,6,1,1.6638646590984236,16.666666666666668
+Westerlo,Olenseweg,Gewestweg,6,1,0.37100649469636493,16.666666666666668
+Wevelgem,Koningin Fabiolastraat,Gemeenteweg,6,1,0.27163867963464716,16.666666666666668
+Zaventem,Vilvoordelaan,Gewestweg,6,1,0.769543994816068,16.666666666666668
+Zele,Europalaan,Gewestweg,6,1,0.2984896849509893,16.666666666666668
+Zonhoven,Heuveneindeweg,Gewestweg,6,1,0.30313204469805105,16.666666666666668
+Zuienkerke,Oostendse Steenweg,Gewestweg,6,1,0.310460813419136,16.666666666666668
+Aalst,Gentse steenweg,Gewestweg,6,0,1.979314211594299,0.0
+Aalst,Pierre Corneliskaai,Gemeenteweg,6,0,0.7456953875211505,0.0
+Aalter,Knokkebaan,Gewestweg,6,0,0.24669272670514852,0.0
+Aarschot,Liersesteenweg,Gewestweg,6,0,0.45807800311509517,0.0
+Aartselaar,Kapellestraat,Gemeenteweg,6,0,0.39520872389084793,0.0
+Anderlecht,Rue Bara - Barastraat,Gemeenteweg,6,0,0.1657414159495033,0.0
+Anderlecht,Rue Henri Deleers - Henri Deleersstraat,Gemeenteweg,6,0,0.07122345201142852,0.0
+Antwerpen,Alfons Schneiderlaan,Gemeenteweg,6,0,0.16221145328173772,0.0
+Antwerpen,Antwerpsebaan,Gemeenteweg,6,0,1.3524491835949395,0.0
+Antwerpen,Bikschotelaan,Gemeenteweg,6,0,0.46830417508910727,0.0
+Antwerpen,Doornstraat,Gewestweg,6,0,0.4267040320198972,0.0
+Antwerpen,Handelstraat,Gemeenteweg,6,0,0.8787398763158318,0.0
+Antwerpen,Kerkstraat,Gemeenteweg,6,0,0.7173059438859,0.0
+Antwerpen,Koninklijkelaan,Gewestweg,6,0,0.8502210779577474,0.0
+Antwerpen,Laarsebaan,Gemeenteweg,6,0,0.5122643270737616,0.0
+Antwerpen,Lamorinièrestraat,Gemeenteweg,6,0,0.32130208907928937,0.0
+Antwerpen,Vosseschijnstraat,Gemeenteweg,6,0,0.701062738775725,0.0
+Assesse,N4,Gewestweg,6,0,0.34361069522948723,0.0
+Beerse,Antwerpseweg,Gewestweg,6,0,0.24690834994582264,0.0
+Bergen,Chaussée de Beaumont,Gewestweg,6,0,0.46875398624840275,0.0
+Bergen,Rue de Frameries,Gewestweg,6,0,0.7587432562525255,0.0
+Bertem,Tervuursesteenweg,Gewestweg,6,0,0.20630484275902253,0.0
+Blegny,Autoroute Roi Baudouin,Autosnelweg,6,0,0.5765592607608206,0.0
+Boom,Frans De Schutterlaan,Gewestweg,6,0,0.201964416339799,0.0
+Bouillon,Route de Florenville,Gewestweg,6,0,0.42002958670541035,0.0
+Bree,Gruitroderkiezel,Gewestweg,6,0,0.17653532925043675,0.0
+Brugge,Generaal Lemanlaan,Gewestweg,6,0,1.6112820073274343,0.0
+Brussel,Avenue Van Praet - Van Praetlaan,Gewestweg,6,0,0.4560594408663401,0.0
+Brussel,Avenue de Versailles - Versailleslaan,Gemeenteweg,6,0,0.048431377204771316,0.0
+Brussel,Boulevard Barthélémy - Barthélémylaan,Gewestweg,6,0,0.5204392089694033,0.0
+Brussel,Boulevard de l'Impératrice - Keizerinlaan,Gemeenteweg,6,0,0.7649275837395135,0.0
+Brussel,Place des Armateurs - Redersplein,Gewestweg,6,0,0.5741529935419432,0.0
+Brussel,Rue Claessens - Claessensstraat,Gemeenteweg,6,0,0.6608393426009214,0.0
+Brussel,Rue Haute - Hoogstraat,Gemeenteweg,6,0,0.4828842786037877,0.0
+Charleroi,Boulevard Joseph Tirou,Gewestweg,6,0,0.9628678639862953,0.0
+Charleroi,Route de Trazegnies,Gemeenteweg,6,0,0.18949700476813436,0.0
+Charleroi,Rue de la Station,Gemeenteweg,6,0,0.2480549909463795,0.0
+Charleroi,Square Jules Hiernaux,Gemeenteweg,6,0,0.18060485889867955,0.0
+Deinze,E40,Autosnelweg,6,0,0.2813014857544721,0.0
+Dendermonde,Zeelsebaan,Gewestweg,6,0,0.25839556815409687,0.0
+Diepenbeek,Verbindingslaan,Gewestweg,6,0,0.5254643314483517,0.0
+Dilbeek,Robert Dansaertlaan,Gemeenteweg,6,0,0.3183785639237799,0.0
+Doornik,Boulevard Walter de Marvis,Gemeenteweg,6,0,0.37014863661610536,0.0
+Doornik,Chaussée de Renaix,Gewestweg,6,0,0.11751262318697313,0.0
+Edegem,E19,Autosnelweg,6,0,1.3557088674699174,0.0
+Eupen,Herbesthaler Straße,Gewestweg,6,0,0.3419245036497572,0.0
+Fleurus,Chaussée de Charleroi,Gewestweg,6,0,2.099236241569308,0.0
+Floreffe,N90,Gewestweg,6,0,0.9886306743506477,0.0
+Flémalle,Grand'Route,Gemeenteweg,6,0,1.0623065589769247,0.0
+Flémalle,Quai du Halage,Gewestweg,6,0,0.5688151402082797,0.0
+Fontaine-l’Evêque,Grand Ring de Charleroi,Autosnelweg,6,0,0.348898516516878,0.0
+Genk,Onderwijslaan,Gewestweg,6,0,0.8645325157494892,0.0
+Genk,Weg Naar As,Gewestweg,6,0,1.091077289418949,0.0
+Gent,Hoogstraat,Gemeenteweg,6,0,0.6908388023570214,0.0
+Gent,Nieuwewandeling,Gewestweg,6,0,0.157700307165468,0.0
+Gent,Oktrooiplein,Gewestweg,6,0,0.7155904130523668,0.0
+Gent,Opgeëistenlaan,Gewestweg,6,0,1.0464954648765024,0.0
+Grimbergen,Hellebeekstraat,Gewestweg,6,0,0.6696292144572178,0.0
+Grimbergen,Vilvoordsesteenweg,Gewestweg,6,0,0.5294256591841211,0.0
+Grâce-Hollogne,Chaussée de Liège,Gewestweg,6,0,0.3285589691940545,0.0
+Hannuit,Rue de Huy,Gewestweg,6,0,0.15791755461002818,0.0
+Heist-op-den-Berg,Boudewijnlaan,Gewestweg,6,0,2.899680022228356,0.0
+Herentals,Lierseweg,Gewestweg,6,0,0.3763674541439714,0.0
+Herstal,Rue Basse Campagne,Gewestweg,6,0,1.1344894867417923,0.0
+Hoeselt,Tongersesteenweg,Gewestweg,6,0,0.1445445348926565,0.0
+Houffalize,Autoroute du Soleil,Autosnelweg,6,0,0.32217866078110835,0.0
+Itter,Chaussée de Nivelles,Gewestweg,6,0,0.06979800397780914,0.0
+Jette,Boulevard de Smet de Naeyer - de Smet de Naeyerlaan,Gewestweg,6,0,0.3052784982120623,0.0
+Kalmthout,Putsesteenweg,Gewestweg,6,0,0.21860100701659008,0.0
+Knokke-Heist,Elizabetlaan,Gewestweg,6,0,0.7746727793390695,0.0
+Koekelberg,Boulevard Léopold II - Leopold II-laan,Gemeenteweg,6,0,0.6802948576391559,0.0
+Kontich,Groeningenlei,Gemeenteweg,6,0,0.5706141240446598,0.0
+Kontich,Prins Boudewijnlaan,Gewestweg,6,0,0.1546013814442851,0.0
+Kortrijk,Doorniksestraat,Gewestweg,6,0,0.2874101849377121,0.0
+Kortrijk,Minister Tacklaan,Gewestweg,6,0,0.4457026414018334,0.0
+Kraainem,Wezembeeklaan - Avenue de Wezembeek,Gewestweg,6,0,0.3611396413912689,0.0
+Lendelede,Rijksweg,Gewestweg,6,0,0.3554278846189626,0.0
+Leuven,Eénmeilaan,Gemeenteweg,6,0,1.012826086978591,0.0
+Leuze-en-Hainaut,Avenue de l'Europe,Gewestweg,6,0,0.9971048592224967,0.0
+Lierde,Steenweg,Gewestweg,6,0,0.1645777768937366,0.0
+Lievegem,Hendrik Consciencelaan,Gewestweg,6,0,1.2016987733541649,0.0
+Lobbes,Rue d'Anderlues,Gewestweg,6,0,0.18806463013811048,0.0
+Lokeren,Antwerpsesteenweg,Gewestweg,6,0,2.11778319693943,0.0
+Lokeren,Markt,Gemeenteweg,6,0,0.65234291758271,0.0
+Lokeren,Stationsplein,Gemeenteweg,6,0,0.042947613792925846,0.0
+Londerzeel,Stationsstraat,Gewestweg,6,0,0.9252767216543982,0.0
+Luik,Boulevard Gustave Kleyer,Gemeenteweg,6,0,0.628023778637586,0.0
+Luik,Quai Banning,Gewestweg,6,0,0.5815327441820025,0.0
+Luik,Quai de Rome,Gewestweg,6,0,0.1446982522469138,0.0
+Luik,Rue Ernest Solvay,Gemeenteweg,6,0,1.511642506411738,0.0
+Luik,Rue Saint-Léonard,Gemeenteweg,6,0,0.4110546804431745,0.0
+Luik,Rue de Gaillarmont,Gemeenteweg,6,0,0.4642493227881761,0.0
+Luik,Rue des Guillemins,Gemeenteweg,6,0,0.46005880609857674,0.0
+Maasmechelen,Koninginnelaan,Gemeenteweg,6,0,0.1662620783249527,0.0
+Mechelen,N16,Gewestweg,6,0,1.861355163544948,0.0
+Meise,Nieuwelaan,Gewestweg,6,0,0.2996620595854501,0.0
+Merchtem,Brusselsesteenweg,Gemeenteweg,6,0,1.0531686573662133,0.0
+Moeskroen,Boulevard de l'Eurozone - Eurozonelaan,Gemeenteweg,6,0,1.7227026380854673,0.0
+Montigny-le-Tilleul,Rue de Gozée,Gewestweg,6,0,0.8644771520723006,0.0
+Morlanwelz,Chaussée Brunehaut,Gewestweg,6,0,0.1853949218956602,0.0
+Mortsel,Liersesteenweg,Gewestweg,6,0,0.6651180097289173,0.0
+Namen,Avenue Reine Astrid,Gewestweg,6,0,1.1075424990007674,0.0
+Namen,Rue de Gembloux,Gewestweg,6,0,0.4628795511444629,0.0
+Ninove,Elisabethlaan,Gewestweg,6,0,0.40261542182924526,0.0
+Ninove,Geraardsbergsesteenweg,Gewestweg,6,0,0.30310778310019953,0.0
+Oudenaarde,Broekstraat,Gemeenteweg,6,0,0.2766730415685062,0.0
+Pelt,Heerstraat,Gewestweg,6,0,0.13147724328317512,0.0
+Philippeville,Route de Mariembourg,Gewestweg,6,0,0.2345146042139451,0.0
+Pont-à-Celles,La Carolorégienne,Autosnelweg,6,0,0.16675065327126634,0.0
+Ramillies,Chaussée de Namur,Gewestweg,6,0,0.26099096256381477,0.0
+Remicourt,La Hesbignonne,Autosnelweg,6,0,0.5890703947499074,0.0
+Roeselare,E403,Autosnelweg,6,0,1.1494273223164042,0.0
+Rumst,Tiburstraat,Gemeenteweg,6,0,0.5240534641569181,0.0
+Sambreville,Rue de Velaine,Gewestweg,6,0,0.31875454571957973,0.0
+Schaarbeek,Avenue Rogier - Rogierlaan,Gemeenteweg,6,0,0.5709075919008807,0.0
+Schelle,Provinciale Steenweg,Gewestweg,6,0,0.5387793119888384,0.0
+Schoten,Churchilllaan,Gemeenteweg,6,0,0.6554038517860283,0.0
+Sint-Gillis,Rue Théodore Verhaegen - Théodore Verhaegenstraat,Gemeenteweg,6,0,0.1523862174100589,0.0
+Sint-Jans-Molenbeek,Boulevard du Jubilé - Jubelfeestlaan,Gemeenteweg,6,0,0.27648856629088464,0.0
+Sint-Jans-Molenbeek,Rue Picard - Picardstraat,Gewestweg,6,0,0.525990879277342,0.0
+Sint-Jans-Molenbeek,Rue de Ribaucourt - de Ribaucourtstraat,Gemeenteweg,6,0,0.617282816883339,0.0
+Sint-Lambrechts-Woluwe,Boulevard Brand Whitlock - Brand Whitlocklaan,Gewestweg,6,0,0.5802869033079496,0.0
+Sint-Niklaas,Hoge Bokstraat,Gemeenteweg,6,0,0.1717374523091659,0.0
+Sint-Pieters-Woluwe,Square Maréchal Montgomery - Maarschalk Montgomeryplein,Gewestweg,6,0,0.8306884792601318,0.0
+Sint-Truiden,N80,Gewestweg,6,0,0.49803621724127817,0.0
+Sprimont,Rue du Pérréon,Gewestweg,6,0,0.06066023482612793,0.0
+Tervuren,Tervurenlaan,Gewestweg,6,0,0.3447584941653683,0.0
+Tienen,Leuvenselaan,Gewestweg,6,0,0.4616567931983656,0.0
+Torhout,Oostendestraat,Gewestweg,6,0,0.6740260431445066,0.0
+Tubeke,Rue Ripainoise,Gemeenteweg,6,0,0.4172872654959953,0.0
+Turnhout,Steenweg op Merksplas,Gewestweg,6,0,0.10672494149741969,0.0
+Ukkel,Rue Vanderkindere - Vanderkinderestraat,Gemeenteweg,6,0,0.34161612672436914,0.0
+Vorst,Boulevard de la Deuxième Armée Britannique - Britse Tweedelegerlaan,Gewestweg,6,0,0.12909762824880672,0.0
+Vosselaar,Antwerpsesteenweg,Gewestweg,6,0,0.17216914047667473,0.0
+Wanze,Autoroute de Wallonie,Autosnelweg,6,0,2.4475704344004194,0.0
+Waregem,Kortrijkseweg,Gewestweg,6,0,0.43426826639575267,0.0
+Waver,Chaussée de Louvain,Gewestweg,6,0,0.46450463323190166,0.0
+Westerlo,Koning Boudewijnsnelweg,Autosnelweg,6,0,0.3677752299610586,0.0
+Wommelgem,Ternesselei,Gemeenteweg,6,0,0.1390990898762921,0.0
+Zemst,Brusselsesteenweg,Gewestweg,6,0,0.3905629045414719,0.0
+Zoersel,Rodendijk,Gewestweg,6,0,0.47769865105599785,0.0
+Zoersel,Sint-Antoniusbaan,Gemeenteweg,6,0,0.6135808188080127,0.0
+Brussel,Avenue Émile De Mot - Émile De Motlaan,Gemeenteweg,5,3,0.21264949886449155,60.0
+Wuustwezel,Bosduinstraat,Gemeenteweg,5,3,0.8295870161099758,60.0
+Aalst,Bredestraat,Gemeenteweg,5,2,0.734264404908599,40.0
+Berlare,Veerstraat,Gewestweg,5,2,0.7826907029650206,40.0
+Brussel,Boulevard du Roi Albert II - Koning Albert II-laan,Gewestweg,5,2,1.4214839495171885,40.0
+Diksmuide,Roeselarestraat,Gewestweg,5,2,0.341986733945876,40.0
+Farciennes,Route de la Basse Sambre,Gewestweg,5,2,0.9784692965251881,40.0
+Fernelmont,Autoroute de Wallonie,Autosnelweg,5,2,1.5817469996629088,40.0
+Gent,Heernislaan,Gewestweg,5,2,0.4110242358295101,40.0
+Herve,Rue de Maestricht,Gewestweg,5,2,0.6741002592731993,40.0
+Ichtegem,Oostendesteenweg,Gewestweg,5,2,0.135586041241596,40.0
+Ieper,Pilkemseweg,Gemeenteweg,5,2,0.3575634565523078,40.0
+Lokeren,Koning Boudewijnlaan,Gewestweg,5,2,0.15727132068327634,40.0
+Melle,Geraardsbergsesteenweg,Gewestweg,5,2,0.33159739303114993,40.0
+Seraing,Quai des Carmes,Gewestweg,5,2,0.17457809478060177,40.0
+Sint-Truiden,Heide,Gemeenteweg,5,2,0.6707685445538598,40.0
+Tubeke,Route Provinciale,Gemeenteweg,5,2,0.19204700740167405,40.0
+Zinnik,Chaussée d'Enghien,Gewestweg,5,2,0.17999711957199804,40.0
+Aat,Chaussée de Valenciennes,Gewestweg,5,1,0.3811870483685364,20.0
+Amay,N684,Gewestweg,5,1,0.8635575289325832,20.0
+Andenne,Avenue Roi Albert,Gewestweg,5,1,0.8022856199949533,20.0
+Anderlecht,Boulevard Maria Groeninckx-De May - Maria Groeninckx-De Maylaan,Gewestweg,5,1,0.9397576242874403,20.0
+Anderlecht,Rue Émile Carpentier - Emile Carpentierstraat,Gemeenteweg,5,1,0.5972046062857915,20.0
+Ans,Rue Edouard Colson,Gewestweg,5,1,0.4277351285321667,20.0
+Antwerpen,Frank Craeybeckxlaan,Gemeenteweg,5,1,0.9669152294401613,20.0
+Antwerpen,Kioskplaats,Gemeenteweg,5,1,1.3323985875094941,20.0
+Aubel,Route de Val-Dieu,Gewestweg,5,1,1.595678824457767,20.0
+Bergen,Avenue Wilson,Gewestweg,5,1,0.11781051813884433,20.0
+Bergen,R5,Autosnelweg,5,1,0.607413535392435,20.0
+Beveren,Gentseweg,Gewestweg,5,1,0.7098240649058735,20.0
+Binche,Avenue Léopold III,Gewestweg,5,1,0.5467527058789593,20.0
+Brasschaat,Hoge Kaart,Gemeenteweg,5,1,0.9644150965792997,20.0
+Brecht,Schotensteenweg,Gewestweg,5,1,0.2636479067150112,20.0
+Cerfontaine,Rue Royale,Gewestweg,5,1,0.30373677897920787,20.0
+Charleroi,Avenue des Alliés,Gemeenteweg,5,1,2.684361999002094,20.0
+Châtelet,Rue de Gilly,Gemeenteweg,5,1,0.819137699321979,20.0
+Courcelles,Rue du Général de Gaulle,Gewestweg,5,1,1.1760114043726944,20.0
+Crisnée,La Hesbignonne,Autosnelweg,5,1,1.6239595100456514,20.0
+Diepenbeek,Boudewijnlaan,Gewestweg,5,1,0.7408334482422305,20.0
+Edegem,Hovestraat,Gemeenteweg,5,1,0.6623103128937329,20.0
+Eeklo,Koningin Astridplein,Gewestweg,5,1,0.29229790132619254,20.0
+Eeklo,Molenstraat,Gewestweg,5,1,0.49089497639013874,20.0
+Elsene,Place Georges Brugmann - Georges Brugmannplein,Gemeenteweg,5,1,0.6709096210818993,20.0
+Estaimpuis,E403,Autosnelweg,5,1,1.2369888442069665,20.0
+Evere,Avenue des Anciens Combattants - Oud-Strijderslaan,Gemeenteweg,5,1,0.3042546873370109,20.0
+Fosses-la-Ville,Chaussée de Charleroi,Gewestweg,5,1,0.2700431111326757,20.0
+Hamois,Chaussée de Liège,Gewestweg,5,1,0.19882139393036,20.0
+Heist-op-den-Berg,Bergstraat,Gemeenteweg,5,1,0.20987175650514636,20.0
+Herentals,Poederleeseweg,Gewestweg,5,1,0.03864013070264788,20.0
+Jabbeke,Aartrijksesteenweg,Gemeenteweg,5,1,0.2401893617347177,20.0
+Jette,Avenue Charles Woeste - Charles Woestelaan,Gemeenteweg,5,1,0.10865619898792926,20.0
+Kalmthout,Brasschaatsteenweg,Gewestweg,5,1,0.6123552315846064,20.0
+Kapellen,Hoogboomsteenweg,Gemeenteweg,5,1,0.6370877097140616,20.0
+Kapellen,Kapelsestraat,Gewestweg,5,1,0.45121193841151863,20.0
+Knokke-Heist,Zoutelaan,Gemeenteweg,5,1,0.5216187266625824,20.0
+Koksijde,Veurnekeiweg,Gewestweg,5,1,0.31090707497586234,20.0
+Koksijde,Zeelaan,Gemeenteweg,5,1,0.33352801647737806,20.0
+Kortenberg,E40,Autosnelweg,5,1,1.2533068627731858,20.0
+Kortrijk,Zwevegemsestraat,Gewestweg,5,1,0.8543329290317908,20.0
+La Louvière,Chaussée de Jolimont,Gewestweg,5,1,1.1846611084183822,20.0
+Laarne,Eekhoekstraat,Gemeenteweg,5,1,0.5381164978613002,20.0
+Leuven,Brusselsestraat,Gemeenteweg,5,1,0.17035792530571647,20.0
+Leuven,Kolonel Begaultlaan,Gemeenteweg,5,1,0.29564091108310814,20.0
+Lille,Wechelsebaan,Gewestweg,5,1,0.42344985627193443,20.0
+Lokeren,Hillarestraat,Gewestweg,5,1,0.361591203075708,20.0
+Lontzen,Rue Mitoyenne - Neutralstraße,Gewestweg,5,1,0.3623809383628617,20.0
+Luik,A25,Autosnelweg,5,1,0.537541623264107,20.0
+Luik,Rue Saint-Gilles,Gemeenteweg,5,1,0.35492321022833867,20.0
+Maaseik,Diestersteenweg,Gewestweg,5,1,0.2902932606621789,20.0
+Merelbeke,Poelstraat,Gemeenteweg,5,1,0.3232519107163175,20.0
+Mettet,Rue d'Anthée,Gewestweg,5,1,0.11878538545486159,20.0
+Mol,Kiezelweg,Gewestweg,5,1,0.13784266656480806,20.0
+Namen,Avenue Albert 1er,Gewestweg,5,1,0.40016219899736466,20.0
+Nieuwerkerken,Kerkstraat,Gemeenteweg,5,1,0.2430194716178217,20.0
+Oerle,Grand'Route,Gewestweg,5,1,0.0556693066380601,20.0
+Oostende,Vindictivelaan,Gewestweg,5,1,0.5173742482374171,20.0
+Puurs-Sint-Amands,Rijksweg,Gewestweg,5,1,0.2278525495207465,20.0
+Péruwelz,Rue Neuve Chaussée,Gewestweg,5,1,0.4362513808874117,20.0
+Riemst,Visésteenweg,Gewestweg,5,1,0.2116045711901324,20.0
+Rumst,Antwerpsestraat,Gewestweg,5,1,0.6429145841058651,20.0
+Rumst,Bussestraat,Gewestweg,5,1,0.28815016285242884,20.0
+Scherpenheuvel-Zichem,Basilieklaan,Gewestweg,5,1,0.2168925052373531,20.0
+Sint-Jans-Molenbeek,Boulevard Belgica - Belgicalaan,Gewestweg,5,1,0.3481611886440346,20.0
+Sint-Katelijne-Waver,Berlaarbaan,Gemeenteweg,5,1,0.2519340407119628,20.0
+Sint-Niklaas,Tereken,Gemeenteweg,5,1,0.3818438395457922,20.0
+Sint-Niklaas,Vlyminckshoek,Gewestweg,5,1,0.1175297686044403,20.0
+Sprimont,Rue de Beaufays,Gewestweg,5,1,0.09395818119932763,20.0
+Temse,Gewestweg,Gemeenteweg,5,1,0.5363663378981041,20.0
+Turnhout,N124,Gewestweg,5,1,0.14811872282227148,20.0
+Ukkel,Chaussée de Saint-Job - Sint-Jobsesteenweg,Gemeenteweg,5,1,0.33834454848000245,20.0
+Ukkel,Drève de Lorraine - Lorrainedreef,Gemeenteweg,5,1,0.6474250073760439,20.0
+Verviers,Rue d'Ensival,Gewestweg,5,1,0.6146737087464329,20.0
+Vilvoorde,Hendrik I-lei,Gewestweg,5,1,0.31359633393459535,20.0
+Walcourt,Rue des Barrages,Gewestweg,5,1,0.7361369798003596,20.0
+Waregem,Vijfseweg,Gewestweg,5,1,0.6014401805363223,20.0
+Wervik,Kruisekestraat,Gewestweg,5,1,0.5121475515615254,20.0
+Wevelgem,Gullegemstraat,Gemeenteweg,5,1,0.083817828306029,20.0
+Wijnegem,Houtlaan,Gewestweg,5,1,0.1800812852798219,20.0
+Wuustwezel,Hoogstraatseweg,Gewestweg,5,1,1.6742947066914127,20.0
+Zinnik,Boulevard Franklin Roosevelt,Gewestweg,5,1,0.6587879751847419,20.0
+Zinnik,Rue de la Station,Gemeenteweg,5,1,0.6689025419987017,20.0
+Zwalm,Zuidlaan,Gewestweg,5,1,2.1292174402905704,20.0
+Zwijndrecht,Heirbaan,Gemeenteweg,5,1,0.16429274006186737,20.0
+Aalter,Steenweg op Deinze,Gewestweg,5,0,0.07209439708216848,0.0
+Aarschot,E314,Autosnelweg,5,0,0.26900232212026665,0.0
+Aartselaar,A12,Autosnelweg,5,0,0.13008969892787248,0.0
+Amay,Chaussée Roosevelt,Gewestweg,5,0,0.9673111136283474,0.0
+Andenne,Rue Docteur Parent,Gewestweg,5,0,0.2684817178245335,0.0
+Anderlecht,Rue Brogniez - Brogniezstraat,Gewestweg,5,0,1.088630877423872,0.0
+Anderlecht,Rue Wayez - Wayezstraat,Gemeenteweg,5,0,0.17876975154527916,0.0
+Anderlecht,Rue de Douvres - Doverstraat,Gewestweg,5,0,0.04512943385093674,0.0
+Ans,Rue des Français,Gemeenteweg,5,0,0.4156349884566347,0.0
+Antwerpen,Beukenlaan,Gemeenteweg,5,0,0.2760153269072057,0.0
+Antwerpen,Camille Huysmanslaan,Gemeenteweg,5,0,1.6849531522104126,0.0
+Antwerpen,Elisabethlaan,Gewestweg,5,0,1.0479476477565204,0.0
+Antwerpen,Fruithoflaan,Gemeenteweg,5,0,0.14959267366952503,0.0
+Antwerpen,Gallifortlei,Gemeenteweg,5,0,0.10439154591397094,0.0
+Antwerpen,Gemeentestraat,Gewestweg,5,0,0.2973308832027141,0.0
+Antwerpen,Gerard Le Grellelaan,Gewestweg,5,0,0.34468233948856575,0.0
+Antwerpen,Gijselsstraat,Gemeenteweg,5,0,0.24936891546699802,0.0
+Antwerpen,Heistraat,Gemeenteweg,5,0,1.131623332782293,0.0
+Antwerpen,Heistraat,Gewestweg,5,0,0.6798468507391341,0.0
+Antwerpen,Helmstraat,Gemeenteweg,5,0,1.2149898010083062,0.0
+Antwerpen,Karel Oomsstraat,Gemeenteweg,5,0,1.3367572606468388,0.0
+Antwerpen,Koningin Astridplein,Gemeenteweg,5,0,1.0673404999001486,0.0
+Antwerpen,Krijgsbaan,Gewestweg,5,0,0.0644686056768718,0.0
+Antwerpen,Letterkundestraat,Gemeenteweg,5,0,0.9310143487537708,0.0
+Antwerpen,Oosterweelsteenweg,Gemeenteweg,5,0,0.017857378600465768,0.0
+Antwerpen,Sneeuwbeslaan,Gemeenteweg,5,0,1.913348580588377,0.0
+Antwerpen,Statiestraat,Gemeenteweg,5,0,0.8157770146618004,0.0
+Antwerpen,Steynstraat,Gemeenteweg,5,0,0.5626709523922637,0.0
+Antwerpen,Te Couwelaarlei,Gemeenteweg,5,0,1.405075755314206,0.0
+Antwerpen,Tweemontstraat,Gemeenteweg,5,0,1.0595563418057188,0.0
+Antwerpen,Uitbreidingstraat,Gewestweg,5,0,0.9719351099150264,0.0
+Antwerpen,Zurenborgbrug,Gemeenteweg,5,0,0.01038149700795258,0.0
+Ardooie,Pittemsestraat,Gewestweg,5,0,1.0844807478840126,0.0
+As,Stationsstraat,Gewestweg,5,0,0.13211499768568402,0.0
+Asse,Z. 5 Mollem,Gemeenteweg,5,0,0.8365190433702376,0.0
+Bergen,Route d'Ath,Gewestweg,5,0,0.16549975873921463,0.0
+Bergen,Rue Grande,Gewestweg,5,0,0.25819342969401327,0.0
+Beveren,E17,Autosnelweg,5,0,0.10265515665132972,0.0
+Beveren,Liefkenshoektunnel,Autosnelweg,5,0,1.5683760712064925,0.0
+Beveren,Verrebroekstraat,Gewestweg,5,0,0.8417017461585443,0.0
+Bilzen,Rode Kruislaan,Gewestweg,5,0,0.16945161128102387,0.0
+Binche,Chaussée Brunehault,Gewestweg,5,0,0.12917891135527315,0.0
+Binche,Route de Charleroi,Gemeenteweg,5,0,0.5190174207852712,0.0
+Boom,A12,Autosnelweg,5,0,1.5116607058331113,0.0
+Borgworm,Rue de Huy,Gewestweg,5,0,0.2956084323038466,0.0
+Boutersem,Leuvensesteenweg,Gewestweg,5,0,0.28284008737209454,0.0
+Brasschaat,Kapelsesteenweg,Gewestweg,5,0,0.5086577013852266,0.0
+Bredene,Driftweg,Gewestweg,5,0,0.34227875743415387,0.0
+Bredene,Prinses Elisabethlaan,Gewestweg,5,0,0.7655803351683368,0.0
+Bree,Sportlaan,Gewestweg,5,0,0.4072602366410897,0.0
+Brugge,Ezelstraat,Gewestweg,5,0,0.5133063461223472,0.0
+Brugge,Koningin Astridlaan,Gemeenteweg,5,0,0.46283685259293333,0.0
+Brugge,Rijselstraat,Gemeenteweg,5,0,0.48212237419925874,0.0
+Brugge,Sint-Pieterskaai,Gewestweg,5,0,0.2753272669424032,0.0
+Brugge,Waggelwaterstraat,Gewestweg,5,0,0.38885298971501586,0.0
+Brussel,Avenue Lloyd George - Lloyd Georgelaan,Gewestweg,5,0,0.1339464918886813,0.0
+Brussel,Avenue de la Toison d'Or - Gulden-Vlieslaan,Gemeenteweg,5,0,21.8664027629392,0.0
+Brussel,Avenue des Arts - Kunstlaan,Gemeenteweg,5,0,1.5430917891366016,0.0
+Brussel,Avenue des Croix de Guerre - Oorlogskruisenlaan,Gemeenteweg,5,0,0.14269220370118774,0.0
+Brussel,Boulevard Adolphe Max - Adolphe Maxlaan,Gemeenteweg,5,0,0.6915635268070274,0.0
+Brussel,Boulevard Bischoffsheim - Bischoffsheimlaan,Gewestweg,5,0,1.0801247110615038,0.0
+Brussel,Boulevard d'Anvers - Antwerpselaan,Gemeenteweg,5,0,0.8096693966428433,0.0
+Brussel,Boulevard du Régent - Regentlaan,Gemeenteweg,5,0,0.20017287881629955,0.0
+Brussel,Quai de Willebroeck - Willebroekkaai,Gewestweg,5,0,0.22342569078395302,0.0
+Brussel,Rue Blaes - Blaesstraat,Gemeenteweg,5,0,0.7971219293870501,0.0
+Brussel,Rue De Wand - De Wandstraat,Gemeenteweg,5,0,0.6754955748517667,0.0
+Brussel,Rue d'Arenberg - Arenbergstraat,Gemeenteweg,5,0,0.13896328059314753,0.0
+Brussel,Rue de l'Infante Isabelle - Infante Isabellastraat,Gemeenteweg,5,0,0.36496511978771057,0.0
+Brussel,Rue du Luxembourg - Luxemburgstraat,Gemeenteweg,5,0,0.08367633127682601,0.0
+Brussel,Rue du Trône - Troonstraat,Gewestweg,5,0,0.19543974730782956,0.0
+Charleroi,A503,Autosnelweg,5,0,0.9789356145435134,0.0
+Charleroi,Avenue Marius Meurée,Gewestweg,5,0,0.7812699928530671,0.0
+Charleroi,Avenue de Philippeville,Gewestweg,5,0,2.8980965348811507,0.0
+Charleroi,Grand'Rue,Gewestweg,5,0,0.3596247691439594,0.0
+Charleroi,Rue de Jumet,Gemeenteweg,5,0,0.583089544562582,0.0
+Charleroi,Rue du Port,Gewestweg,5,0,1.8773965910134498,0.0
+Ciney,Autoroute des Ardennes,Autosnelweg,5,0,0.29944727347904765,0.0
+Courcelles,Rue de Gosselies,Gewestweg,5,0,1.4446849205241155,0.0
+Courcelles,Rue de Trazegnies,Gewestweg,5,0,1.2633491146417561,0.0
+Couvin,Avenue de la Libération,Gewestweg,5,0,1.6933488833957844,0.0
+Damme,Dorpsstraat,Gewestweg,5,0,0.21010227093482065,0.0
+Dendermonde,Noordlaan,Gewestweg,5,0,0.8818991464059237,0.0
+Diest,Schoonaerde,Gewestweg,5,0,0.2534417673686236,0.0
+Dison,Rue Léopold,Gewestweg,5,0,0.3536783713064797,0.0
+Doornik,Grand'Route,Gemeenteweg,5,0,0.0947595576260208,0.0
+Eghezée,Route d'Andenne,Gewestweg,5,0,1.721856041363681,0.0
+Eigenbrakel,Chaussée d'Alsemberg,Gemeenteweg,5,0,0.5371576066343277,0.0
+Elsene,Avenue Louis Lepoutre - Louis Lepoutrelaan,Gemeenteweg,5,0,0.4584121562057884,0.0
+Elsene,Avenue de l'Université - Hogeschoollaan,Gemeenteweg,5,0,7.311266560331295,0.0
+Erpe-Mere,E40,Autosnelweg,5,0,0.25176580398125475,0.0
+Erpe-Mere,Opaaigem,Gemeenteweg,5,0,0.38240761751209695,0.0
+Esneux,Autoroute du Soleil,Autosnelweg,5,0,0.39900433985254463,0.0
+Evergem,Polenstraat,Gewestweg,5,0,0.258856398173268,0.0
+Evergem,Schoonstraat,Gemeenteweg,5,0,0.5040185024467801,0.0
+Ganshoren,Avenue de l'Exposition Universelle - Wereldtentoonstellingslaan,Gewestweg,5,0,0.11909794612640888,0.0
+Geel,Westelijke Ring,Gewestweg,5,0,0.1835021324646587,0.0
+Genk,André Dumontlaan,Gewestweg,5,0,0.310748105102314,0.0
+Gent,Antwerpenplein,Gewestweg,5,0,0.5779619104528944,0.0
+Gent,Bevrijdingslaan,Gemeenteweg,5,0,0.5071537249488879,0.0
+Gent,Binnenring-Sint-Denijs,Autosnelweg,5,0,0.2495113545125384,0.0
+Gent,Dampoortstraat,Gemeenteweg,5,0,0.21546042773458018,0.0
+Gent,De Pintelaan,Gemeenteweg,5,0,1.6625541000344113,0.0
+Gent,Dok-Noord,Gemeenteweg,5,0,0.010563774548406499,0.0
+Gent,Doornzelestraat,Gewestweg,5,0,1.5503087102307105,0.0
+Gent,Frans van Ryhovelaan,Gemeenteweg,5,0,0.36360769370533436,0.0
+Gent,Limburgstraat,Gemeenteweg,5,0,0.3220748712637041,0.0
+Gent,Neermeerskaai,Gemeenteweg,5,0,0.3738441134807487,0.0
+Gent,Ottergemsesteenweg,Gemeenteweg,5,0,0.21727919415387278,0.0
+Gent,Oude Houtlei,Gemeenteweg,5,0,0.377436243704962,0.0
+Gent,Palinghuizen,Gewestweg,5,0,2.4167799140195965,0.0
+Gerpinnes,Route de Florennes,Gewestweg,5,0,0.2549886298145063,0.0
+Gouvy,Deiffelt,Gewestweg,5,0,0.19297375277501946,0.0
+Haaltert,Terlicht,Gewestweg,5,0,0.6761114122100411,0.0
+Halle,Alsembergsesteenweg,Gemeenteweg,5,0,0.8151795776356533,0.0
+Halle,E429,Autosnelweg,5,0,0.4143234733710863,0.0
+Halle,Nijvelsesteenweg,Gewestweg,5,0,0.7442677254863004,0.0
+Hannuit,Rue de Landen,Gewestweg,5,0,0.06823778182768384,0.0
+Harelbeke,E17,Autosnelweg,5,0,0.47479862378820753,0.0
+Harelbeke,Gentsesteenweg,Gewestweg,5,0,0.09188440724200889,0.0
+Hasselt,de Schiervellaan,Gewestweg,5,0,0.4917012238955696,0.0
+Hemiksem,Bredestraat,Gewestweg,5,0,0.07111592682231421,0.0
+Hemiksem,Provincialesteenweg,Gewestweg,5,0,0.7188786773237877,0.0
+Herentals,Herenthoutseweg,Gemeenteweg,5,0,0.26757527335107534,0.0
+Herentals,Koning Boudewijnsnelweg,Autosnelweg,5,0,0.5739878244392187,0.0
+Herenthout,Herentalse Steenweg,Gemeenteweg,5,0,0.3819739104664043,0.0
+Herselt,Herentalsesteenweg,Gewestweg,5,0,0.30116063906366647,0.0
+Heusden-Zolder,Beringersteenweg,Gewestweg,5,0,0.43296350619945556,0.0
+Hoegaarden,E40,Autosnelweg,5,0,0.5914449481750964,0.0
+Hoogstraten,Vrijheid,Gewestweg,5,0,0.5128246682312404,0.0
+Houthalen-Helchteren,Helzoldstraat,Gewestweg,5,0,0.1626752547898214,0.0
+Houthalen-Helchteren,Herebaan-West,Gemeenteweg,5,0,0.35376481526082937,0.0
+Houthalen-Helchteren,Lillo Steenweg,Gewestweg,5,0,0.23672605013558803,0.0
+Houthalen-Helchteren,Weg naar Zwartberg,Gemeenteweg,5,0,0.7347700597530077,0.0
+Ieper,Kemmelseweg,Gewestweg,5,0,0.5496827453781031,0.0
+Ieper,Oudstrijderslaan,Gewestweg,5,0,0.781404127347378,0.0
+Incourt,Chaussée de Namur,Gewestweg,5,0,0.16261069124407898,0.0
+Kampenhout,Leuvensesteenweg,Gewestweg,5,0,0.9644108178175245,0.0
+Kapellen,Hoevensebaan,Gemeenteweg,5,0,0.7779100508085605,0.0
+Kasterlee,Herentalsesteenweg,Gewestweg,5,0,0.5987698379934211,0.0
+Kasterlee,Turnhoutsebaan,Gewestweg,5,0,0.2896305217622476,0.0
+Kinrooi,Weertersteenweg,Gewestweg,5,0,0.3688500056845459,0.0
+Knokke-Heist,Knokkestraat,Gewestweg,5,0,0.547335199184172,0.0
+Kortemark,Staatsbaan,Gewestweg,5,0,0.16903649277267832,0.0
+Kortrijk,Minister Liebaertlaan,Gewestweg,5,0,0.7034843225806038,0.0
+Lanaken,Kiezelweg,Gewestweg,5,0,0.3359849293383621,0.0
+Lasne,Route de Genval,Gewestweg,5,0,0.15220677402785174,0.0
+Leopoldsburg,Dorpsstraat,Gewestweg,5,0,0.2506528689105142,0.0
+Leopoldsburg,Leopoldsburgsesteenweg,Gewestweg,5,0,0.44517253700690873,0.0
+Leuven,Blijde-Inkomststraat,Gemeenteweg,5,0,0.1174481726280383,0.0
+Leuven,Brusselsesteenweg,Gewestweg,5,0,0.8131264368704113,0.0
+Leuven,Kardinaal Mercierlaan,Gemeenteweg,5,0,0.8865900812706599,0.0
+Leuven,Koning Boudewijnlaan,Gewestweg,5,0,0.523819821523092,0.0
+Leuven,Martelarenlaan,Gewestweg,5,0,0.1793042359101864,0.0
+Leuven,Tervuursesteenweg,Gewestweg,5,0,1.0812686438678771,0.0
+Lijsem,La Hesbignonne,Autosnelweg,5,0,0.6660978078261761,0.0
+Lochristi,Dorp-West,Gewestweg,5,0,0.6476773654426411,0.0
+Lochristi,E17,Autosnelweg,5,0,0.5728074615053127,0.0
+Lokeren,Sportlaan,Gemeenteweg,5,0,0.16027997031631155,0.0
+Lommel,Kattenbos,Gewestweg,5,0,0.05804312018588582,0.0
+Luik,Avenue Maurice Destenay,Gemeenteweg,5,0,0.4985954925851371,0.0
+Luik,Boulevard Raymond Poincaré,Gewestweg,5,0,0.6757227264054086,0.0
+Luik,Boulevard Sainte-Beuve,Gemeenteweg,5,0,0.35686693439701256,0.0
+Luik,Boulevard de Colonster,Gemeenteweg,5,0,0.22397914285661358,0.0
+Luik,Place des Guillemins,Gewestweg,5,0,0.20724297034217656,0.0
+Luik,Quai Timmermans,Gewestweg,5,0,0.051229117291257224,0.0
+Luik,Rue Général de Gaulle,Gemeenteweg,5,0,0.09517622821513931,0.0
+Luik,Rue Jules de Laminne,Gewestweg,5,0,0.3602964407228757,0.0
+Luik,Rue de Bruxelles,Gewestweg,5,0,0.03478083083009544,0.0
+Luik,Rue de Hesbaye,Gemeenteweg,5,0,1.4269946286298965,0.0
+Luik,Rue de l'Île Monsin,Gemeenteweg,5,0,0.07225638538924535,0.0
+Léglise,Autoroute du Soleil,Autosnelweg,5,0,1.00855849497151,0.0
+Maasmechelen,Heirstraat,Gemeenteweg,5,0,0.32018584000121947,0.0
+Marche-en-Famenne,Chaussée de l'Ourthe,Gewestweg,5,0,0.4004186604064308,0.0
+Meerhout,Koning Boudewijnsnelweg,Autosnelweg,5,0,0.5939370944757766,0.0
+Meise,Ossegemstraat,Gewestweg,5,0,0.3431572352973235,0.0
+Mol,Rozenberg,Gewestweg,5,0,0.22916625480510208,0.0
+Mont-Saint-Guibert,N25,Gewestweg,5,0,0.4189489528633446,0.0
+Mortsel,Mechelsesteenweg,Gewestweg,5,0,1.2824087615584552,0.0
+Nassogne,N4,Gewestweg,5,0,0.25615752686879495,0.0
+Neufchâteau,Autoroute du Soleil,Autosnelweg,5,0,0.2147578561142701,0.0
+Ninove,Koning Boudewijnlaan,Gemeenteweg,5,0,0.2618771161473901,0.0
+Oostende,Verenigde Natieslaan,Gewestweg,5,0,0.32876008567668613,0.0
+Pelt,Koning Albertlaan,Gemeenteweg,5,0,0.3358699130149705,0.0
+Pelt,Leopoldlaan,Gewestweg,5,0,0.2983649143882803,0.0
+Putte,Leuvensebaan,Gemeenteweg,5,0,0.31270008008737327,0.0
+Péruwelz,Grand-Route,Gewestweg,5,0,0.8909127226029658,0.0
+Quaregnon,Rue Jules Destrée,Gewestweg,5,0,0.8067720868564648,0.0
+Ranst,Zandhovensteenweg,Gemeenteweg,5,0,0.9531000323304104,0.0
+Rebecq,Chaussée de Mons,Gewestweg,5,0,0.26223187043696944,0.0
+Rijkevorsel,Gammel,Gewestweg,5,0,0.20201370998972243,0.0
+Roeselare,Noordlaan,Gewestweg,5,0,0.17999491700285433,0.0
+Roeselare,Ooststraat,Gemeenteweg,5,0,0.10657337154900581,0.0
+Rumst,Eikenstraat,Gemeenteweg,5,0,0.5563528357921163,0.0
+Rumst,Molenstraat,Gemeenteweg,5,0,0.41467672062723676,0.0
+Rumst,Pierstraat,Gemeenteweg,5,0,1.0221318780676016,0.0
+Saint-Ghislain,Rue Defuisseaux,Gewestweg,5,0,0.10516734498243945,0.0
+Seraing,Rue du Many,Gewestweg,5,0,0.13673169445488478,0.0
+Sint-Agatha-Berchem,Avenue Josse Goffin - Josse Goffinlaan,Gemeenteweg,5,0,0.18119362988725768,0.0
+Sint-Gillis,Avenue Henri Jaspar - Henri Jasparlaan,Gemeenteweg,5,0,1.426888323067562,0.0
+Sint-Gillis,Avenue Jean Volders - Jean Volderslaan,Gemeenteweg,5,0,0.916082025838804,0.0
+Sint-Jans-Molenbeek,Rue Delaunoy - Delaunoystraat,Gemeenteweg,5,0,0.35541871899902094,0.0
+Sint-Joost-ten-Node,Chaussée de Louvain - Leuvense Steenweg,Gewestweg,5,0,0.7280970466428099,0.0
+Sint-Lambrechts-Woluwe,Avenue Georges Henri - Georges Henrilaan,Gemeenteweg,5,0,0.17775202193439235,0.0
+Sint-Lambrechts-Woluwe,Avenue de Broqueville - de Broquevillelaan,Gewestweg,5,0,0.23976326666437517,0.0
+Sint-Martens-Latem,Kortrijksesteenweg,Gewestweg,5,0,0.2562048385770275,0.0
+Sint-Niklaas,Antwerpse Steenweg,Gemeenteweg,5,0,0.45556892051765135,0.0
+Sint-Niklaas,Driekoningenstraat,Gemeenteweg,5,0,0.4516484513472411,0.0
+Sint-Niklaas,Mercatorstraat,Gemeenteweg,5,0,0.613491084782,0.0
+Sint-Niklaas,Onze-Lieve-Vrouwstraat,Gemeenteweg,5,0,0.012794359463299028,0.0
+Sint-Niklaas,Puitvoetstraat,Gemeenteweg,5,0,0.06243610497184662,0.0
+Sint-Truiden,Diestersteenweg,Gewestweg,5,0,0.22272346578569846,0.0
+Spa,Avenue Reine Astrid,Gewestweg,5,0,0.22510243133957353,0.0
+Stabroek,Antwerpse Steenweg,Gewestweg,5,0,0.8205154106583982,0.0
+Stekene,Drieschouwen,Gemeenteweg,5,0,0.531071159163041,0.0
+Stekene,Voorhout,Gewestweg,5,0,0.3586813511113493,0.0
+Temse,Krijgsbaan,Gewestweg,5,0,0.11090577723983923,0.0
+Tessenderlo,Industrieweg,Gewestweg,5,0,0.18182489444096825,0.0
+Theux,Chaussée de Verviers,Gewestweg,5,0,0.36486655336691,0.0
+Tielt,Ringlaan,Gewestweg,5,0,0.7897180821150862,0.0
+Tienen,Aandorenstraat,Gewestweg,5,0,0.04285723059831008,0.0
+Tienen,Aarschotsesteenweg,Gewestweg,5,0,0.21599615808195477,0.0
+Tienen,Sint-Truidensesteenweg,Gewestweg,5,0,0.13566347261567646,0.0
+Tongeren,Baversstraat,Gewestweg,5,0,0.3475170759042722,0.0
+Turnhout,Patersstraat,Gemeenteweg,5,0,0.6464958086608983,0.0
+Turnhout,Steenweg op Mol,Gemeenteweg,5,0,0.6496357235406613,0.0
+Ukkel,Avenue De Fré - De Frélaan,Gemeenteweg,5,0,0.2840336058019314,0.0
+Ukkel,Rue de Stalle - Stallestraat,Gewestweg,5,0,0.27870999014173575,0.0
+Verviers,Avenue Élisabeth,Gewestweg,5,0,0.2693776749388863,0.0
+Verviers,E42,Autosnelweg,5,0,0.1904284308193733,0.0
+Verviers,Rue de Franchimont,Gewestweg,5,0,0.19109937496508256,0.0
+Verviers,Rue de Hodimont,Gewestweg,5,0,1.205400819767148,0.0
+Verviers,Rue de Limbourg,Gewestweg,5,0,0.4398522859050953,0.0
+Villers-Le-Bouillet,Autoroute de Wallonie,Autosnelweg,5,0,2.4926273226360536,0.0
+Villers-Le-Bouillet,Rue de Waremme,Gewestweg,5,0,0.7359799507236016,0.0
+Vilvoorde,Benoit Hansenslaan,Gewestweg,5,0,0.3862968294639666,0.0
+Vilvoorde,E19,Autosnelweg,5,0,0.687683059961851,0.0
+Vilvoorde,Franklin Rooseveltlaan,Gemeenteweg,5,0,1.032307157935249,0.0
+Vilvoorde,Leuvensesteenweg,Gemeenteweg,5,0,0.29661357197630533,0.0
+Vilvoorde,Vuurkruisenlaan,Gewestweg,5,0,4.505448899805664,0.0
+Virton,N87,Gewestweg,5,0,0.24953114536193285,0.0
+Vorst,Avenue Brugmann - Brugmannlaan,Gewestweg,5,0,0.12503498031128724,0.0
+Walcourt,Route de Philippeville,Gewestweg,5,0,3.0813082711326776,0.0
+Waver,Chaussée des Collines,Gewestweg,5,0,0.254439651294639,0.0
+Wemmel,Romeinse Steenweg / Chaussée Romaine - Romeinsesteenweg,Gemeenteweg,5,0,0.5522683589280601,0.0
+Wommelgem,Koning Boudewijnsnelweg,Autosnelweg,5,0,0.31958787564084934,0.0
+Yvoir,Autoroute des Ardennes,Autosnelweg,5,0,0.13661731160618987,0.0
+Zemst,E19,Autosnelweg,5,0,1.1537280375615777,0.0
+Zonhoven,N74,Gewestweg,5,0,0.38289830564306715,0.0
+Zwijndrecht,Krijgsbaan,Gewestweg,5,0,0.3974226579453783,0.0

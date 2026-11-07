@@ -1,0 +1,211 @@
+﻿dataset,column,type,rows,nulls,distinct,in_gold,description,metadata_match,min,max
+road_accidents,DT_DAY,datetime64[ns],288107,0,2922,True,Day,exact,,
+road_accidents,DT_HOUR,Int64,288107,0,25,True,Time of day,exact,-1.0,24.0
+road_accidents,CD_DAY_OF_WEEK,string,288107,0,7,True,Day of week,exact,,
+road_accidents,TX_DAY_OF_WEEK_DESCR_FR,string,288107,0,7,False,Day of the month,exact,,
+road_accidents,TX_DAY_OF_WEEK_DESCR_NL,string,288107,0,7,True,Day of the month,exact,,
+road_accidents,CD_BUILD_UP_AREA,string,288107,0,3,True,Business key,exact,,
+road_accidents,TX_BUILD_UP_AREA_DESCR_NL,string,288107,0,3,True,Build up area,exact,,
+road_accidents,TX_BUILD_UP_AREA_DESCR_FR,string,288107,0,3,False,Build up area,exact,,
+road_accidents,CD_COLL_TYPE,string,288107,0,9,True,Business key,exact,,
+road_accidents,TX_COLL_TYPE_DESCR_NL,string,288107,0,9,True,Collision type,exact,,
+road_accidents,TX_COLL_TYPE_DESCR_FR,string,288107,0,9,False,Collision type,exact,,
+road_accidents,CD_LIGHT_COND,string,288107,0,5,True,Business key,exact,,
+road_accidents,TX_LIGHT_COND_DESCR_NL,string,288107,0,5,True,Light conditions,exact,,
+road_accidents,TX_LIGHT_COND_DESCR_FR,string,288107,0,5,False,Light conditions,exact,,
+road_accidents,CD_ROAD_TYPE,string,288107,0,3,True,Business key,exact,,
+road_accidents,TX_ROAD_TYPE_DESCR_NL,string,288107,0,3,True,Road type,exact,,
+road_accidents,TX_ROAD_TYPE_DESCR_FR,string,288107,0,3,False,Road type,exact,,
+road_accidents,CD_MUNTY_REFNIS,string,288107,0,594,True,REFNIS code of the municipality,exact,,
+road_accidents,TX_MUNTY_DESCR_NL,string,288107,0,603,True,Municipality name in Dutch,exact,,
+road_accidents,TX_MUNTY_DESCR_FR,string,288107,0,603,False,Municipality name in French,exact,,
+road_accidents,CD_DSTR_REFNIS,string,288107,0,43,True,REFNIS code of the district,exact,,
+road_accidents,TX_ADM_DSTR_DESCR_NL,string,288107,0,43,True,Administrative district name in Dutch,exact,,
+road_accidents,TX_ADM_DSTR_DESCR_FR,string,288107,0,43,False,Administrative district name in French,exact,,
+road_accidents,CD_PROV_REFNIS,string,288107,29788,10,True,REFNIS code of the province,exact,,
+road_accidents,TX_PROV_DESCR_NL,string,288107,29788,10,True,Province name in Dutch,exact,,
+road_accidents,TX_PROV_DESCR_FR,string,288107,29788,13,False,Province name in French,exact,,
+road_accidents,CD_RGN_REFNIS,string,288107,0,3,True,REFNIS code of the region,exact,,
+road_accidents,TX_RGN_DESCR_NL,string,288107,0,3,True,Region name in Dutch,exact,,
+road_accidents,TX_RGN_DESCR_FR,string,288107,0,3,False,Region name in French,exact,,
+road_accidents,MS_ACCT,Int64,288107,0,4,True,Number of accidents with dead or injured,exact,1.0,4.0
+road_accidents,MS_ACCT_WITH_DEAD,Int64,288107,0,3,True,Number of accidents with dead,exact,0.0,2.0
+road_accidents,MS_ACCT_WITH_DEAD_30_DAYS,Int64,288107,0,3,True,Number of accidents with dead 30 days,exact,0.0,2.0
+road_accidents,MS_ACCT_WITH_MORY_INJ,Int64,288107,0,2,True,Number of accidents with mortally injured,exact,0.0,1.0
+road_accidents,MS_ACCT_WITH_SERLY_INJ,Int64,288107,0,3,True,Number of accidents with severely injured,exact,0.0,2.0
+road_accidents,MS_ACCT_WITH_SLY_INJ,Int64,288107,0,5,True,Number of accidents with slightly injured,exact,0.0,4.0
+road_accidents,_source_file,object,288107,0,8,True,Technical provenance; not a business event key,not_documented,,
+road_accidents,_source_sheet,object,288107,0,8,True,Technical provenance; not a business event key,not_documented,,
+road_accidents,_source_row,int64,288107,0,38260,True,Technical provenance; not a business event key,not_documented,2.0,38261.0
+road_accidents,_record_id,object,288107,0,288107,True,Technical provenance; not a business event key,not_documented,,
+road_accidents,analysis_year,Int64,288107,0,8,True,Derived calendar component from source date/year/month,not_documented,2017.0,2024.0
+road_accidents,analysis_month,Int64,288107,0,12,True,Derived calendar component from source date/year/month,not_documented,1.0,12.0
+road_casualties,DT_DAY,datetime64[ns],648681,0,2922,True,Day,exact,,
+road_casualties,DT_HOUR,Int64,648681,0,25,True,Time of day,exact,0.0,99.0
+road_casualties,CD_DAY_OF_WEEK,string,648681,0,7,True,Day of week,exact,,
+road_casualties,TX_DAY_OF_WEEK_DESCR_FR,string,648681,0,7,False,Day of the month,exact,,
+road_casualties,TX_DAY_OF_WEEK_DESCR_NL,string,648681,0,7,True,Day of the month,exact,,
+road_casualties,MS_VICT,Int64,648681,0,17,True,Number of victims,alias,1.0,42.0
+road_casualties,MS_VIC_OK,Int64,648681,0,17,True,Number of uninjured,exact,0.0,39.0
+road_casualties,MS_SLY_INJ,Int64,648681,0,14,True,Number of slightly injured,exact,0.0,17.0
+road_casualties,MS_SERLY_INJ,Int64,648681,0,6,True,Number of severely injured,exact,0.0,7.0
+road_casualties,MS_DEAD_30_DAYS,Int64,648681,0,4,True,Number of dead 30 days,exact,0.0,3.0
+road_casualties,CD_BUILD_UP_AREA,string,648681,0,3,True,Business key,exact,,
+road_casualties,TX_BUILD_UP_AREA_DESCR_NL,string,648681,0,3,True,Build up area,exact,,
+road_casualties,TX_BUILD_UP_AREA_DESCR_FR,string,648681,0,3,False,Build up area,exact,,
+road_casualties,CD_VICT_TYPE,string,648681,0,8,True,Business key,alias,,
+road_casualties,TX_VICT_TYPE_DESCR_FR,string,648681,0,8,False,"Victime type (driver, passenger, other victime)",alias,,
+road_casualties,TX_VICT_TYPE_DESCR_NL,string,648681,0,9,True,"Victime type (driver, passenger, other victime)",alias,,
+road_casualties,CD_ROAD_USER_TYPE,string,648681,0,34,True,Business key,alias,,
+road_casualties,TX_ROAD_USR_TYPE_DESCR_FR,string,648681,4532,35,False,Road user type,exact,,
+road_casualties,TX_ROAD_USR_TYPE_DESCR_NL,string,648681,4532,35,True,Road user type,exact,,
+road_casualties,CD_ROAD_TYPE,string,648681,0,4,True,Business key,exact,,
+road_casualties,TX_ROAD_TYPE_DESCR_FR,string,648681,0,4,False,Road type,exact,,
+road_casualties,TX_ROAD_TYPE_DESCR_NL,string,648681,0,4,True,Road type,exact,,
+road_casualties,CD_LIGHT_COND,string,648681,0,6,True,Business key,exact,,
+road_casualties,TX_LIGHT_COND_DESCR_FR,string,648681,0,6,False,Light conditions,exact,,
+road_casualties,TX_LIGHT_COND_DESCR_NL,string,648681,0,6,True,Light conditions,exact,,
+road_casualties,CD_AGE_CLS,string,648681,0,17,True,Business key,exact,,
+road_casualties,TX_AGE_CLS_DESCR_FR,string,648681,0,17,False,Age class,exact,,
+road_casualties,TX_AGE_CLS_DESCR_NL,string,648681,0,17,True,Age class,exact,,
+road_casualties,CD_MUNTY_REFNIS,string,648681,0,594,True,REFNIS code of the municipality,exact,,
+road_casualties,TX_MUNTY_DESCR_FR,string,648681,0,603,False,Municipality name in French,exact,,
+road_casualties,TX_MUNTY_DESCR_NL,string,648681,0,603,True,Municipality name in Dutch,exact,,
+road_casualties,CD_DSTR_REFNIS,string,648681,0,43,True,REFNIS code of the district,exact,,
+road_casualties,TX_ADM_DSTR_DESCR_FR,string,648681,0,43,False,Administrative district name in French,exact,,
+road_casualties,TX_ADM_DSTR_DESCR_NL,string,648681,0,43,True,Administrative district name in Dutch,exact,,
+road_casualties,CD_PROV_REFNIS,string,648681,66056,10,True,REFNIS code of the province,exact,,
+road_casualties,TX_PROV_DESCR_FR,string,648681,66056,13,False,Province name in French,exact,,
+road_casualties,TX_PROV_DESCR_NL,string,648681,66056,10,True,Province name in Dutch,exact,,
+road_casualties,CD_RGN_REFNIS,string,648681,0,3,True,REFNIS code of the region,exact,,
+road_casualties,TX_RGN_DESCR_FR,string,648681,0,3,False,Region name in French,exact,,
+road_casualties,TX_RGN_DESCR_NL,string,648681,0,3,True,Region name in Dutch,exact,,
+road_casualties,CD_SEX,string,648681,2,3,True,Business key,exact,,
+road_casualties,TX_SEX_DESCR_FR,string,648681,2,3,False,Sex,exact,,
+road_casualties,TX_SEX_DESCR_NL,string,648681,2,3,True,Sex,exact,,
+road_casualties,_source_file,object,648681,0,8,True,Technical provenance; not a business event key,not_documented,,
+road_casualties,_source_sheet,object,648681,0,8,True,Technical provenance; not a business event key,not_documented,,
+road_casualties,_source_row,int64,648681,0,88242,True,Technical provenance; not a business event key,not_documented,2.0,88243.0
+road_casualties,_record_id,object,648681,0,648681,True,Technical provenance; not a business event key,not_documented,,
+road_casualties,analysis_year,Int64,648681,0,8,True,Derived calendar component from source date/year/month,not_documented,2017.0,2024.0
+road_casualties,analysis_month,Int64,648681,0,12,True,Derived calendar component from source date/year/month,not_documented,1.0,12.0
+vehicle_collisions,DT_YEAR_COLLISION,Int64,362123,85,8,True,Ongeval jaar,exact,2017,2024
+vehicle_collisions,DT_MONTH_COLLISION,Int64,362123,85,12,True,Ongeval maand code,exact,1,12
+vehicle_collisions,TX_MONTH_COLLISION_FR,string,362123,85,12,False,Tekst van de maand van het ongeval in FR,exact,,
+vehicle_collisions,TX_MONTH_COLLISION_NL,string,362123,85,12,True,Tekst van de maand van het ongeval in NL,exact,,
+vehicle_collisions,CD_DAY_NIGHT,string,362123,85,2,True,Tijd van de dag code,exact,,
+vehicle_collisions,TX_DAY_NIGHT_FR,string,362123,85,2,False,Tekst tijd van de dag in FR,exact,,
+vehicle_collisions,TX_DAY_NIGHT_NL,string,362123,0,3,True,Tekst tijd van de dag in NL,exact,,
+vehicle_collisions,FL_WEEKEND,string,362123,0,3,True,WEEKEND (Ja/Nee),exact,,
+vehicle_collisions,CD_VEHICLE_SEGMENT_A,string,362123,15,25,True,Auto Segment Code / Voertuig Categorie A (meer details),exact,,
+vehicle_collisions,TX_VEHICLE_SEGMENT_A_FR,string,362123,0,24,False,Tekst van autosegment / voertuigcategorie A in FR,exact,,
+vehicle_collisions,TX_VEHICLE_SEGMENT_A_NL,string,362123,0,24,True,Tekst van autosegment / voertuigcategorie A in NL,exact,,
+vehicle_collisions,CD_VEHICLE_SEGMENT_B,string,362123,15,10,True,Auto segmentcode / voertuigcategorie B (gegroepeerd),exact,,
+vehicle_collisions,TX_VEHICLE_SEGMENT_B_FR,string,362123,0,10,False,Tekst van autosegment / voertuigcategorie B in FR,exact,,
+vehicle_collisions,TX_VEHICLE_SEGMENT_B_NL,string,362123,0,10,True,Tekst van autosegment / voertuigcategorie B in NL,exact,,
+vehicle_collisions,MS_VEHICLE_AGE_AT_COLLISION_YR,Int64,362123,85,87,True,Leeftijd van het voertuig op het moment van de aanrijding,exact,0,2018
+vehicle_collisions,TX_VEHICLE_CLASS_AGE_AT_COLL_YR,string,362123,0,6,True,Tekst leeftijdsclassificatie van het voertuig op het moment van de aanrijding,alias,,
+vehicle_collisions,CD_FUEL_TYPE,string,362123,0,6,True,Brandstoftypecode,exact,,
+vehicle_collisions,TX_FUEL_TYPE_FR,string,362123,0,6,False,Tekst brandstoftype in FR,exact,,
+vehicle_collisions,TX_FUEL_TYPE_NL,string,362123,0,6,True,Brandstoftype tekst in NL,exact,,
+vehicle_collisions,CD_CYLINDER_CLASS_A,string,362123,0,4,True,Cylinderklassecode A,exact,,
+vehicle_collisions,TX_CYLINDER_CLASS_A,string,362123,0,4,True,Tekst van cylinderklasse A,exact,,
+vehicle_collisions,CD_CYLINDER_CLASS_B,string,362123,0,7,True,Cylinderklassecode B,exact,,
+vehicle_collisions,TX_CYLINDER_CLASS_B,string,362123,0,7,True,Tekst van cylinderklasse B,exact,,
+vehicle_collisions,CD_OWNER_TYPE,string,362123,0,3,True,Eigenaar Type Code,exact,,
+vehicle_collisions,TX_OWNER_TYPE_FR,string,362123,0,3,False,Tekst van eingennar type in FR,exact,,
+vehicle_collisions,TX_OWNER_TYPE_NL,string,362123,0,3,True,Tekst van eingennar type in NL,exact,,
+vehicle_collisions,FL_VEHICLE,Int64,362123,0,1,True,Total aantal voertuigen,exact,1,1
+vehicle_collisions,FL_CITY_CAR,Int64,362123,15,2,True,"Stadsauto's (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_COMPACT_CAR,Int64,362123,15,2,True,"Compacte auto's (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_BERLINE,Int64,362123,15,2,True,"Sedans (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_SUV,Int64,362123,15,2,True,"SUV (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_MONOSPACE,Int64,362123,15,2,True,"Monovolume (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_PICK_UP,Int64,362123,15,2,True,"Pick-up, bestelwagen, bestelwagen of bedrijfswagen (1=ja, 0=nee)",exact,0,1
+vehicle_collisions,FL_TRUCK_BUS,Int64,362123,15,2,True,"Vrachtwagens en bussen (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_MOTO_CYCLO,Int64,362123,15,2,True,"Motoren en bromfietsen (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_SPORT,Int64,362123,15,2,True,"Sportwagens (1=ja,0=nee)",exact,0,1
+vehicle_collisions,FL_UKN,Int64,362123,15,2,True,"Onbekend (1=ja,0=nee)",exact,0,1
+vehicle_collisions,CD_PROV_COLLISION,string,362123,85,11,True,Code refnis provincie van het ongeval,exact,,
+vehicle_collisions,TX_PROV_COLLISION_FR,string,362123,85,14,False,Tekst refnis provincie van het ongeval in FR,exact,,
+vehicle_collisions,TX_PROV_COLLISION_NL,string,362123,85,11,True,Tekst refnis provincie van het ongeval in NL,exact,,
+vehicle_collisions,TX_REGION_COLLISON_FR,string,362123,85,3,False,Tekst refnis regio van het ongeval in FR,exact,,
+vehicle_collisions,TX_REGION_COLLISON_NL,string,362123,85,3,True,Tekst refnis regio van het ongeval in NL,exact,,
+vehicle_collisions,CD_WEATHER,string,362123,85,15,True,weersomstandigheden code,exact,,
+vehicle_collisions,TX_WEATHER_FR,string,362123,85,15,False,Tekst weersomstandigheden in FR,exact,,
+vehicle_collisions,TX_WEATHER_NL,string,362123,85,15,True,Tekst weersomstandigheden in NL,exact,,
+vehicle_collisions,CD_ROAD_CONDITION,string,362123,85,13,True,wegcondities code,exact,,
+vehicle_collisions,TX_ROAD_CONDITION_FR,string,362123,85,13,False,Tekst wegcondities in FR,exact,,
+vehicle_collisions,TX_ROAD_CONDITION_NL,string,362123,85,13,True,Tekst wegcondities in NL,exact,,
+vehicle_collisions,CD_BUILD_UP_AREA,string,362123,85,3,True,Code agglomeratie/buiten agglomeratie,exact,,
+vehicle_collisions,TX_BUILD_UP_AREA_FR,string,362123,85,3,False,Tekstagglomeratie/buitenagglomeratie in FR,exact,,
+vehicle_collisions,TX_BUILD_UP_AREA_NL,string,362123,85,3,True,Tekstagglomeratie/buitenagglomeratie in NL,exact,,
+vehicle_collisions,CD_LIGHT_CONDITION,string,362123,85,6,True,Code lichtomstandigheden,exact,,
+vehicle_collisions,TX_LIGHT_CONDITION_FR,string,362123,85,6,False,Tekst lichtomstandigheden in FR,exact,,
+vehicle_collisions,TX_LIGHT_CONDITION_NL,string,362123,85,6,True,Tekst lichtomstandigheden in NL,exact,,
+vehicle_collisions,CD_ROAD_TYPE,string,362123,85,4,True,Type wegcode,exact,,
+vehicle_collisions,TX_ROAD_TYPE_FR,string,362123,0,4,False,Tekst van type weg in FR,exact,,
+vehicle_collisions,TX_ROAD_TYPE_NL,string,362123,0,4,True,Tekst van type weg in NL,exact,,
+vehicle_collisions,CD_ACCIDENT_CLASS,string,362123,0,5,True,Classificatiecode type ongeval,exact,,
+vehicle_collisions,TX_ACCIDENT_CLASS_FR,string,362123,85,4,False,Tekstclassificatie van het type ongeval in FR,exact,,
+vehicle_collisions,TX_ACCIDENT_CLASS_NL,string,362123,0,5,True,Tekstclassificatie van het type ongeval in NL,exact,,
+vehicle_collisions,CD_COLLISION_TYPE,string,362123,85,11,True,Aanrijdingcode,exact,,
+vehicle_collisions,TX_COLLISON_TYPE_FR,string,362123,85,11,False,Tekst van aanrijding type in FR,exact,,
+vehicle_collisions,TX_COLLISON_TYPE_NL,string,362123,85,11,True,Tekst van aanrijding type in NL,exact,,
+vehicle_collisions,_source_file,object,362123,0,8,True,Technical provenance; not a business event key,not_documented,,
+vehicle_collisions,_source_sheet,object,362123,0,8,True,Technical provenance; not a business event key,not_documented,,
+vehicle_collisions,_source_row,int64,362123,0,50802,True,Technical provenance; not a business event key,not_documented,2,50803
+vehicle_collisions,_record_id,object,362123,0,362123,True,Technical provenance; not a business event key,not_documented,,
+vehicle_collisions,analysis_year,Int64,362123,85,8,True,Derived calendar component from source date/year/month,not_documented,2017,2024
+vehicle_collisions,analysis_month,Int64,362123,85,12,True,Derived calendar component from source date/year/month,not_documented,1,12
+accident_map,DT_YEAR_COLLISION,Int64,289532,0,8,True,,not_documented,2017,2024
+accident_map,DT_MONTH_COLLISION,Int64,289532,0,12,True,,not_documented,1,12
+accident_map,DT_TIME,Int64,289532,0,25,True,,not_documented,0,99
+accident_map,CD_NIS,string,289532,0,581,True,,not_documented,,
+accident_map,TX_RGN_COLLISION_FR,string,289532,0,3,False,,not_documented,,
+accident_map,TX_RGN_COLLISION_NL,string,289532,0,3,True,,not_documented,,
+accident_map,TX_PROV_COLLISION_FR,string,289532,30022,10,False,,not_documented,,
+accident_map,TX_PROV_COLLISION_NL,string,289532,30022,10,True,,not_documented,,
+accident_map,TX_MUNTY_COLLISION_FR,string,289532,0,581,False,,not_documented,,
+accident_map,TX_MUNTY_COLLISION_NL,string,289532,0,581,True,,not_documented,,
+accident_map,MS_X_COORD,Float64,289532,35881,209476,True,,not_documented,23386.1,1.80850153697242e+16
+accident_map,MS_Y_COORD,Float64,289532,35881,209680,True,,not_documented,22292.902227,2003999796073200.0
+accident_map,CD_CROSSWAY,string,289532,0,3,True,,not_documented,,
+accident_map,TX_CROSSWAY_FR,string,289532,0,3,False,,not_documented,,
+accident_map,TX_CROSSWAY_NL,string,289532,0,3,True,,not_documented,,
+accident_map,CD_WEATHER,string,289532,0,16,True,,not_documented,,
+accident_map,TX_WEATHER_FR,string,289532,0,16,False,,not_documented,,
+accident_map,TX_WEATHER_NL,string,289532,0,16,True,,not_documented,,
+accident_map,CD_ROAD_CONDITION,string,289532,0,13,True,,not_documented,,
+accident_map,TX_ROAD_CONDITION_FR,string,289532,0,13,False,,not_documented,,
+accident_map,TX_ROAD_CONDITION_NL,string,289532,0,13,True,,not_documented,,
+accident_map,CD_BUILD_UP_AREA,string,289532,0,3,True,,not_documented,,
+accident_map,TX_BUILD_UP_AREA_FR,string,289532,0,3,False,,not_documented,,
+accident_map,TX_BUILD_UP_AREA_NL,string,289532,0,3,True,,not_documented,,
+accident_map,CD_LIGHT_CONDITION,string,289532,0,6,True,,not_documented,,
+accident_map,TX_LIGHT_CONDITION_FR,string,289532,0,6,False,,not_documented,,
+accident_map,TX_LIGHT_CONDITION_NL,string,289532,0,6,True,,not_documented,,
+accident_map,CD_ROAD_TYPE,string,289532,0,4,True,,not_documented,,
+accident_map,CD_ROAD_TYPE_FR,string,289532,0,4,False,,not_documented,,
+accident_map,CD_ROAD_TYPE_NL,string,289532,0,4,True,,not_documented,,
+accident_map,CD_CLASS_ACCIDENTS,string,289532,0,4,True,,not_documented,,
+accident_map,TX_CLASS_ACCIDENTS_FR,string,289532,0,4,False,,not_documented,,
+accident_map,TX_CLASS_ACCIDENTS_NL,string,289532,0,4,True,,not_documented,,
+accident_map,CD_ROAD_USR_TYPE1,string,289532,0,10,True,,not_documented,,
+accident_map,TX_ROAD_USR_TYPE1_FR,string,289532,0,10,False,,not_documented,,
+accident_map,TX_ROAD_USR_TYPE1_NL,string,289532,0,10,True,,not_documented,,
+accident_map,CD_ROAD_USR_TYPE2,string,289532,0,12,True,,not_documented,,
+accident_map,TX_ROAD_USR_TYPE2_FR,string,289532,0,12,False,,not_documented,,
+accident_map,TX_ROAD_USR_TYPE2_NL,string,289532,0,12,True,,not_documented,,
+accident_map,CD_COLLISION_TYPE,string,289532,0,11,True,,not_documented,,
+accident_map,TX_COLLISON_TYPE_FR,string,289532,0,11,False,,not_documented,,
+accident_map,TX_COLLISION_TYPE_NL,string,289532,0,11,True,,not_documented,,
+accident_map,CD_OBSTACLES,string,289532,0,25,True,,not_documented,,
+accident_map,TX_OBSTACLES_FR,string,289532,0,25,False,,not_documented,,
+accident_map,TX_OBSTACLES_NL,string,289532,0,25,True,,not_documented,,
+accident_map,_source_file,object,289532,0,1,True,Technical provenance; not a business event key,not_documented,,
+accident_map,_source_sheet,object,289532,0,1,True,Technical provenance; not a business event key,not_documented,,
+accident_map,_source_row,int64,289532,0,289532,True,Technical provenance; not a business event key,not_documented,2,289533
+accident_map,_record_id,object,289532,0,289532,True,Technical provenance; not a business event key,not_documented,,
+accident_map,analysis_year,Int64,289532,0,8,True,Derived calendar component from source date/year/month,not_documented,2017,2024
+accident_map,analysis_month,Int64,289532,0,12,True,Derived calendar component from source date/year/month,not_documented,1,12

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "datasets": 4,
+  "annual_measure_checks": 187,
+  "csv_row_and_id_checks": "PASS",
+  "parquet_retained_values": "PASS",
+  "raw_hash_checks": 28
+}

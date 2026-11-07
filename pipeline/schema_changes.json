@@ -1,0 +1,202 @@
+[
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2017.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 37827
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2018.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 38260
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2019.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 37520
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2020.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 30121
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2021.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 34496
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2022.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 37451
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2023.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 36690
+  },
+  {
+    "dataset": "road_accidents",
+    "file": "TF_ACCIDENTS_2024.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 35742
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2017.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 87566
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2018.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 88242
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2019.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 85607
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2020.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 66130
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2021.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 76732
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2022.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 82826
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2023.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 81741
+  },
+  {
+    "dataset": "road_casualties",
+    "file": "TF_ACCIDENTS_VICTIMS_2024.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 79837
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2017.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 50654
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2018.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 50802
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2019.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 46756
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2020.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 36164
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2021.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 43444
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2022.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 45928
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2023.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 1048576,
+    "actual_data_rows": 44737
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "file": "TF_VEHICLES_COLLISION_2024.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 43639,
+    "actual_data_rows": 43638
+  },
+  {
+    "dataset": "accident_map",
+    "file": "OPENDATA_MAP_2017-2024.xlsx",
+    "added": [],
+    "missing": [],
+    "declared_excel_rows": 289533,
+    "actual_data_rows": 289532
+  }
+]

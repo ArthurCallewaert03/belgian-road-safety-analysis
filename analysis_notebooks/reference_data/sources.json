@@ -1,0 +1,63 @@
+[
+  {
+    "file": "belgium_2024.geojson",
+    "url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/distribution/BE-region-01m-4326-2024.geojson",
+    "query": null,
+    "downloaded_utc": "2026-11-07T09:43:41.568279+00:00",
+    "bytes": 63985,
+    "sha256": "ad4ed52b23ce4aa91748ca40dac34f665c138615e388570574359f8404efa6b6"
+  },
+  {
+    "file": "roads\\gis_osm_roads_free_1.cpg",
+    "url": "https://download.geofabrik.de/europe/belgium-250101-free.shp.zip",
+    "snapshot": "2025-01-01",
+    "downloaded_utc": "2026-11-07T09:45:10.786289+00:00",
+    "bytes": 6,
+    "sha256": "146d6789ffe033a5297c1ad046e6a62ee35319b86b021444f05b6ea2aa8a1f4a",
+    "licence": "OpenStreetMap contributors, ODbL 1.0; Geofabrik extract"
+  },
+  {
+    "file": "roads\\gis_osm_roads_free_1.dbf",
+    "url": "https://download.geofabrik.de/europe/belgium-250101-free.shp.zip",
+    "snapshot": "2025-01-01",
+    "downloaded_utc": "2026-11-07T09:45:10.786520+00:00",
+    "bytes": 251564415,
+    "sha256": "beb2ce52bb2a1c687e9f19e4677f13b16c7b99da2c183b41d184df3ecf014630",
+    "licence": "OpenStreetMap contributors, ODbL 1.0; Geofabrik extract"
+  },
+  {
+    "file": "roads\\gis_osm_roads_free_1.prj",
+    "url": "https://download.geofabrik.de/europe/belgium-250101-free.shp.zip",
+    "snapshot": "2025-01-01",
+    "downloaded_utc": "2026-11-07T09:45:11.000235+00:00",
+    "bytes": 144,
+    "sha256": "ffc9162903c37f0867d1e7f36c20036a165f7aa555dda24c1ae0ee4328d2977f",
+    "licence": "OpenStreetMap contributors, ODbL 1.0; Geofabrik extract"
+  },
+  {
+    "file": "roads\\gis_osm_roads_free_1.shp",
+    "url": "https://download.geofabrik.de/europe/belgium-250101-free.shp.zip",
+    "snapshot": "2025-01-01",
+    "downloaded_utc": "2026-11-07T09:45:11.000534+00:00",
+    "bytes": 230856908,
+    "sha256": "84dfbc1b5e428fe4f89e80008f7d5cde34cf3ab25d57642515552e5696b6932d",
+    "licence": "OpenStreetMap contributors, ODbL 1.0; Geofabrik extract"
+  },
+  {
+    "file": "roads\\gis_osm_roads_free_1.shx",
+    "url": "https://download.geofabrik.de/europe/belgium-250101-free.shp.zip",
+    "snapshot": "2025-01-01",
+    "downloaded_utc": "2026-11-07T09:45:11.211435+00:00",
+    "bytes": 10997436,
+    "sha256": "6c42db60c53396cf023e5aee9f7b4a9bb0ac6da2818e57b9b03568bffcf8497a",
+    "licence": "OpenStreetMap contributors, ODbL 1.0; Geofabrik extract"
+  },
+  {
+    "file": "statbel_map_variables.xlsx",
+    "url": "https://statbel.fgov.be/sites/default/files/files/opendata/Accident_XY/VAR_LIST_ACC_OPENDATA_MAP.xlsx",
+    "query": null,
+    "downloaded_utc": "2026-11-07T09:45:11.616025+00:00",
+    "bytes": 14144,
+    "sha256": "de8ca851334ead1b2eac9b4151e16d8808bdb5c8f3a84a20e25210a667a27d33"
+  }
+]

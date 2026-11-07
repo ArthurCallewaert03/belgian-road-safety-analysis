@@ -1,0 +1,17 @@
+{
+  "year": 2024,
+  "accidents_2024": 35932,
+  "deaths_2024": 469,
+  "seriously_injured_2024": 2999,
+  "accident_change_pct": -5.504273504273504,
+  "death_change_pct": -22.988505747126442,
+  "invalid_hour_accidents_2024": 700,
+  "peak_weekday": "dinsdag",
+  "peak_hour": 17,
+  "peak_accidents_per_day": 11.39622641509434,
+  "suv_share_2017": 8.331030125952541,
+  "suv_share_2024": 16.868325771116915,
+  "unknown_year_vehicles": 85,
+  "highest_severity_group": "Motorfiets",
+  "highest_severity_pct": 16.77644323905463
+}

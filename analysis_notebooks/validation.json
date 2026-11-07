@@ -1,0 +1,51 @@
+{
+  "completed_utc": "2026-11-07T09:55:16.753621+00:00",
+  "notebooks": [
+    {
+      "notebook": "01_geopandas_belgie.ipynb",
+      "code_cells": 7,
+      "rendered_figures": 4,
+      "execution": "PASS"
+    },
+    {
+      "notebook": "02_analyse_presentatie.ipynb",
+      "code_cells": 8,
+      "rendered_figures": 6,
+      "execution": "PASS"
+    }
+  ],
+  "input_hashes": [
+    {
+      "path": "data\\gold\\road_accidents\\road_accidents.parquet",
+      "sha256": "d86f3f05e14edefd31bafd8ec5a4f894f8bf5347664e2c17707dbb40075de1a0"
+    },
+    {
+      "path": "data\\gold\\road_casualties\\road_casualties.parquet",
+      "sha256": "e4beb61a5b96cfd116bb8a3818cf24510772a5023c48982c195443e89864e816"
+    },
+    {
+      "path": "data\\gold\\vehicle_collisions\\vehicle_collisions.parquet",
+      "sha256": "c69aa71ff6e7a5afda6eb00dca1e02336266a39d70f78e98118d75d09f9b144b"
+    },
+    {
+      "path": "data\\gold\\accident_map\\accident_map.parquet",
+      "sha256": "9cd6ba47db40bae7ec197e427c136b5d077817d9ec700c8d46ab120dbf5c58d6"
+    }
+  ],
+  "packages": {
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0",
+    "pyogrio": "0.13.0",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "matplotlib": "3.9.2",
+    "pyarrow": "24.0.0",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "nbconvert": "7.16.6",
+    "ipykernel": "6.29.5",
+    "requests": "2.32.5"
+  },
+  "visual_review": "See VALIDATIE.md"
+}

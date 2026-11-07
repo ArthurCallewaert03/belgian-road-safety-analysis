@@ -1,0 +1,35 @@
+CD_ROAD_USER_TYPE,TX_ROAD_USR_TYPE_DESCR_NL,weggebruiker
+-4,Bromfiets A (tweewielige),Bromfiets
+-5,Motorfiets niet meer dan 400 cc,Motorfiets
+-6,Autobus,Bus / tram
+-8,Fiets met elektrische hulpmotor (<=250W en <=25km/u),E-fiets / speed pedelec
+01,Personenauto,Auto / minibus / camper
+02,Auto voor dubbel gebruik,Auto / minibus / camper
+03,Minibus,Auto / minibus / camper
+04,Lichte vrachtauto,Bestel- / vrachtverkeer
+05,Kampeerwagen,Auto / minibus / camper
+06,Vrachtwagen,Bestel- / vrachtverkeer
+07,Trekker + aanhangwagen,Bestel- / vrachtverkeer
+08,Trekker alleen,Bestel- / vrachtverkeer
+09,Landbouwtractor,Overig / onbekend
+10,Autobus,Bus / tram
+11,Tram,Bus / tram
+12,Autocar,Bus / tram
+13,Motorfiets niet meer dan 400 cc,Motorfiets
+14,Motorfiets meer dan 400 cc,Motorfiets
+15,Bromfiets A (tweewielige),Bromfiets
+16,Bromfiets B (tweewielige),Bromfiets
+17,Bromfiets met 3 of 4 wielen,Bromfiets
+18,Fiets,Fiets (zonder hulpmotor)
+19,Bespannen voertuig,Overig / onbekend
+20,Gehandicapte in rolstoel,Voetganger / rolstoel
+21,Voetganger die zijn (brom)fiets duwt,Voetganger / rolstoel
+22,Andere voetganger,Voetganger / rolstoel
+23,Ruiter,Overig / onbekend
+24,Andere weggebruiker,Overig / onbekend
+25,Fiets met elektrische hulpmotor (<=250W en <=25km/u),E-fiets / speed pedelec
+26,Gemotoriseerde fiets (<=1000W en <=25km/u),E-fiets / speed pedelec
+27,Speed pedelec (<= 4000W en <=45km/u),E-fiets / speed pedelec
+28,Gemotoriseerd voortbewegingstoestel (<=18km/u),Step / voortbeweging
+95,Elektrische step,Step / voortbeweging
+99,Onbekend,Overig / onbekend

@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-11-07T09:34:37.560446+00:00",
+  "python": "3.13.0",
+  "pandas": "2.3.3",
+  "openpyxl": "3.1.5",
+  "pyarrow": "24.0.0",
+  "script_sha256": "b7fee5a627fd620efceacbdfa07b5e705a3fdb20aac6f6b326b1afbc16e28d8d"
+}

@@ -1,0 +1,18 @@
+﻿dataset,rule,_record_id,_source_file,_source_row,DT_HOUR,DT_TIME
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:65,Road accidents\TF_ACCIDENTS_2017.xlsx,65,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:84,Road accidents\TF_ACCIDENTS_2017.xlsx,84,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:124,Road accidents\TF_ACCIDENTS_2017.xlsx,124,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:222,Road accidents\TF_ACCIDENTS_2017.xlsx,222,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:224,Road accidents\TF_ACCIDENTS_2017.xlsx,224,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:304,Road accidents\TF_ACCIDENTS_2017.xlsx,304,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:335,Road accidents\TF_ACCIDENTS_2017.xlsx,335,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:388,Road accidents\TF_ACCIDENTS_2017.xlsx,388,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:428,Road accidents\TF_ACCIDENTS_2017.xlsx,428,24.0,
+road_accidents,hour_outside_0_23,road_accidents:TF_ACCIDENTS_2017:720,Road accidents\TF_ACCIDENTS_2017.xlsx,720,24.0,
+road_casualties,hour_outside_0_23,road_casualties:TF_ACCIDENTS_VICTIMS_2019:60448,Road casualties\TF_ACCIDENTS_VICTIMS_2019.xlsx,60448,99.0,
+road_casualties,hour_outside_0_23,road_casualties:TF_ACCIDENTS_VICTIMS_2020:15578,Road casualties\TF_ACCIDENTS_VICTIMS_2020.xlsx,15578,99.0,
+road_casualties,hour_outside_0_23,road_casualties:TF_ACCIDENTS_VICTIMS_2021:49328,Road casualties\TF_ACCIDENTS_VICTIMS_2021.xlsx,49328,99.0,
+road_casualties,hour_outside_0_23,road_casualties:TF_ACCIDENTS_VICTIMS_2021:49329,Road casualties\TF_ACCIDENTS_VICTIMS_2021.xlsx,49329,99.0,
+accident_map,hour_outside_0_23,accident_map:OPENDATA_MAP_2017-2024:114198,OPENDATA_MAP_2017-2024.xlsx,114198,,99.0
+accident_map,hour_outside_0_23,accident_map:OPENDATA_MAP_2017-2024:144449,OPENDATA_MAP_2017-2024.xlsx,144449,,99.0
+accident_map,hour_outside_0_23,accident_map:OPENDATA_MAP_2017-2024:179056,OPENDATA_MAP_2017-2024.xlsx,179056,,99.0

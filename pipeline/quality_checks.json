@@ -1,0 +1,709 @@
+[
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_date",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:DT_HOUR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT_WITH_DEAD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT_WITH_DEAD_30_DAYS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT_WITH_MORY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT_WITH_SERLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "parse_numeric:MS_ACCT_WITH_SLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "weekday_matches_date",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "year_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "month_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "filename_year_matches_data",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "unique_technical_record_id",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "identical_source_rows_retained",
+    "failed_rows": 1,
+    "status": "REVIEW",
+    "detail": "Informational: no event ID; identical observations can represent separate events. Never automatically deduplicate."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT_WITH_DEAD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT_WITH_DEAD_30_DAYS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT_WITH_MORY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT_WITH_SERLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "negative_value:MS_ACCT_WITH_SLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "hour_range",
+    "failed_rows": 5729,
+    "status": "REVIEW",
+    "detail": "Out-of-range source values retained; review unknown hour codes."
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "bronze_silver_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_accidents",
+    "rule": "silver_gold_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_date",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:DT_HOUR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:MS_VICT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:MS_VIC_OK",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:MS_SLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:MS_SERLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "parse_numeric:MS_DEAD_30_DAYS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "weekday_matches_date",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "year_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "month_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "filename_year_matches_data",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "unique_technical_record_id",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "identical_source_rows_retained",
+    "failed_rows": 178,
+    "status": "REVIEW",
+    "detail": "Informational: no event ID; identical observations can represent separate events. Never automatically deduplicate."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "negative_value:MS_VICT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "negative_value:MS_VIC_OK",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "negative_value:MS_SLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "negative_value:MS_SERLY_INJ",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "negative_value:MS_DEAD_30_DAYS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "victim_components_sum",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "hour_range",
+    "failed_rows": 4,
+    "status": "REVIEW",
+    "detail": "Out-of-range source values retained; review unknown hour codes."
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "bronze_silver_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "road_casualties",
+    "rule": "silver_gold_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:DT_YEAR_COLLISION",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:DT_MONTH_COLLISION",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:MS_VEHICLE_AGE_AT_COLLISION_YR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_VEHICLE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_CITY_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_COMPACT_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_BERLINE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_SUV",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_MONOSPACE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_PICK_UP",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_TRUCK_BUS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_MOTO_CYCLO",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_SPORT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "parse_numeric:FL_UKN",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "year_range",
+    "failed_rows": 85,
+    "status": "REVIEW",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "month_range",
+    "failed_rows": 85,
+    "status": "REVIEW",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "filename_year_matches_data",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "unique_technical_record_id",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "identical_source_rows_retained",
+    "failed_rows": 2409,
+    "status": "REVIEW",
+    "detail": "Informational: no event ID; identical observations can represent separate events. Never automatically deduplicate."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:MS_VEHICLE_AGE_AT_COLLISION_YR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_VEHICLE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_CITY_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_CITY_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_COMPACT_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_COMPACT_CAR",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_BERLINE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_BERLINE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_SUV",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_SUV",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_MONOSPACE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_MONOSPACE",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_PICK_UP",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_PICK_UP",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_TRUCK_BUS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_TRUCK_BUS",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_MOTO_CYCLO",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_MOTO_CYCLO",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_SPORT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_SPORT",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "negative_value:FL_UKN",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "binary_flag:FL_UKN",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "bronze_silver_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rule": "silver_gold_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "parse_numeric:DT_YEAR_COLLISION",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "parse_numeric:DT_MONTH_COLLISION",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "parse_numeric:DT_TIME",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "parse_numeric:MS_X_COORD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "parse_numeric:MS_Y_COORD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "year_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "month_range",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "unique_technical_record_id",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "identical_source_rows_retained",
+    "failed_rows": 66,
+    "status": "REVIEW",
+    "detail": "Informational: no event ID; identical observations can represent separate events. Never automatically deduplicate."
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "negative_value:MS_X_COORD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "negative_value:MS_Y_COORD",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": "Negative values retained for review; may be source sentinel codes."
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "bronze_silver_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "dataset": "accident_map",
+    "rule": "silver_gold_row_reconciliation",
+    "failed_rows": 0,
+    "status": "PASS",
+    "detail": ""
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "dataset": "road_accidents",
+    "rows": 288107,
+    "source_columns": 35,
+    "silver_columns": 41,
+    "gold_columns": 32,
+    "removed_columns": [
+      "TX_DAY_OF_WEEK_DESCR_FR",
+      "TX_BUILD_UP_AREA_DESCR_FR",
+      "TX_COLL_TYPE_DESCR_FR",
+      "TX_LIGHT_COND_DESCR_FR",
+      "TX_ROAD_TYPE_DESCR_FR",
+      "TX_MUNTY_DESCR_FR",
+      "TX_ADM_DSTR_DESCR_FR",
+      "TX_PROV_DESCR_FR",
+      "TX_RGN_DESCR_FR"
+    ],
+    "partitions": [
+      {
+        "file": "TF_ACCIDENTS_2017.xlsx",
+        "rows": 37827
+      },
+      {
+        "file": "TF_ACCIDENTS_2018.xlsx",
+        "rows": 38260
+      },
+      {
+        "file": "TF_ACCIDENTS_2019.xlsx",
+        "rows": 37520
+      },
+      {
+        "file": "TF_ACCIDENTS_2020.xlsx",
+        "rows": 30121
+      },
+      {
+        "file": "TF_ACCIDENTS_2021.xlsx",
+        "rows": 34496
+      },
+      {
+        "file": "TF_ACCIDENTS_2022.xlsx",
+        "rows": 37451
+      },
+      {
+        "file": "TF_ACCIDENTS_2023.xlsx",
+        "rows": 36690
+      },
+      {
+        "file": "TF_ACCIDENTS_2024.xlsx",
+        "rows": 35742
+      }
+    ],
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "dataset": "road_casualties",
+    "rows": 648681,
+    "source_columns": 43,
+    "silver_columns": 49,
+    "gold_columns": 37,
+    "removed_columns": [
+      "TX_DAY_OF_WEEK_DESCR_FR",
+      "TX_BUILD_UP_AREA_DESCR_FR",
+      "TX_VICT_TYPE_DESCR_FR",
+      "TX_ROAD_USR_TYPE_DESCR_FR",
+      "TX_ROAD_TYPE_DESCR_FR",
+      "TX_LIGHT_COND_DESCR_FR",
+      "TX_AGE_CLS_DESCR_FR",
+      "TX_MUNTY_DESCR_FR",
+      "TX_ADM_DSTR_DESCR_FR",
+      "TX_PROV_DESCR_FR",
+      "TX_RGN_DESCR_FR",
+      "TX_SEX_DESCR_FR"
+    ],
+    "partitions": [
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2017.xlsx",
+        "rows": 87566
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2018.xlsx",
+        "rows": 88242
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2019.xlsx",
+        "rows": 85607
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2020.xlsx",
+        "rows": 66130
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2021.xlsx",
+        "rows": 76732
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2022.xlsx",
+        "rows": 82826
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2023.xlsx",
+        "rows": 81741
+      },
+      {
+        "file": "TF_ACCIDENTS_VICTIMS_2024.xlsx",
+        "rows": 79837
+      }
+    ],
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "dataset": "vehicle_collisions",
+    "rows": 362123,
+    "source_columns": 63,
+    "silver_columns": 69,
+    "gold_columns": 54,
+    "removed_columns": [
+      "TX_MONTH_COLLISION_FR",
+      "TX_DAY_NIGHT_FR",
+      "TX_VEHICLE_SEGMENT_A_FR",
+      "TX_VEHICLE_SEGMENT_B_FR",
+      "TX_FUEL_TYPE_FR",
+      "TX_OWNER_TYPE_FR",
+      "TX_PROV_COLLISION_FR",
+      "TX_REGION_COLLISON_FR",
+      "TX_WEATHER_FR",
+      "TX_ROAD_CONDITION_FR",
+      "TX_BUILD_UP_AREA_FR",
+      "TX_LIGHT_CONDITION_FR",
+      "TX_ROAD_TYPE_FR",
+      "TX_ACCIDENT_CLASS_FR",
+      "TX_COLLISON_TYPE_FR"
+    ],
+    "partitions": [
+      {
+        "file": "TF_VEHICLES_COLLISION_2017.xlsx",
+        "rows": 50654
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2018.xlsx",
+        "rows": 50802
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2019.xlsx",
+        "rows": 46756
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2020.xlsx",
+        "rows": 36164
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2021.xlsx",
+        "rows": 43444
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2022.xlsx",
+        "rows": 45928
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2023.xlsx",
+        "rows": 44737
+      },
+      {
+        "file": "TF_VEHICLES_COLLISION_2024.xlsx",
+        "rows": 43638
+      }
+    ],
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "dataset": "accident_map",
+    "rows": 289532,
+    "source_columns": 45,
+    "silver_columns": 51,
+    "gold_columns": 37,
+    "removed_columns": [
+      "TX_RGN_COLLISION_FR",
+      "TX_PROV_COLLISION_FR",
+      "TX_MUNTY_COLLISION_FR",
+      "TX_CROSSWAY_FR",
+      "TX_WEATHER_FR",
+      "TX_ROAD_CONDITION_FR",
+      "TX_BUILD_UP_AREA_FR",
+      "TX_LIGHT_CONDITION_FR",
+      "CD_ROAD_TYPE_FR",
+      "TX_CLASS_ACCIDENTS_FR",
+      "TX_ROAD_USR_TYPE1_FR",
+      "TX_ROAD_USR_TYPE2_FR",
+      "TX_COLLISON_TYPE_FR",
+      "TX_OBSTACLES_FR"
+    ],
+    "partitions": [
+      {
+        "file": "OPENDATA_MAP_2017-2024.xlsx",
+        "rows": 289532
+      }
+    ],
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+]

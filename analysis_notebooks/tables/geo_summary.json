@@ -1,0 +1,13 @@
+{
+  "usable_points": 253648,
+  "selected_year": 2024,
+  "selected_points": 33830,
+  "coverage_2017": 84.7258382642998,
+  "coverage_2024": 94.19200356387125,
+  "missing_coordinates": 35881,
+  "impossible_coordinates": 2,
+  "outside_border": 1,
+  "map_total_difference_2024": -16,
+  "top10_cell_share": 17.55542417972214,
+  "road_segments": 1364891
+}
