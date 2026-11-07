@@ -59,6 +59,14 @@ function zoomMunicipality(city) {
   zoomToBox(minx-1500,miny-1500,maxx+1500,maxy+1500);
   $('#map-section').scrollIntoView({behavior:'smooth',block:'start'});
 }
+function zoomProvince(province) {
+  const points=rows.filter(r=>r.valid&&r.province===province&&r.x!=null);
+  if(!points.length)return;
+  let minx=Infinity,miny=Infinity,maxx=-Infinity,maxy=-Infinity;
+  for(const p of points){minx=Math.min(minx,p.x);maxx=Math.max(maxx,p.x);miny=Math.min(miny,p.y);maxy=Math.max(maxy,p.y)}
+  $('#city').value='';
+  zoomToBox(minx-5000,miny-5000,maxx+5000,maxy+5000);
+}
 function initMapControls() {
   const city=$('#city');city.innerHTML='<option value="">Choose a municipality…</option>'+cats.municipality.filter(x=>x&&x!=='Onbekend').map(x=>`<option value="${escapeMapText(x)}">${escapeMapText(cityLabel(x))}</option>`).join('');
   city.addEventListener('change',()=>city.value?zoomMunicipality(city.value):mapHome());
@@ -137,7 +145,7 @@ function renderMap(rs) {
   const visible=mapScene==='detail'?mapView.points.length:mapScene==='heat'?mapView.cells.reduce((s,c)=>s+c.n,0):agg.points.length;
   $('#map-note').textContent=mapScene==='detail'?`${fmt(visible)} crash points in view · points are not assigned to roads`:mapScene==='network'?'OSM road network: motorways and main / secondary roads':`${fmt(visible)} locations in view · ${fmt(mapView.cells.length)} ${detail?'500 m':'5 km'} cells`;
   $('#map-legend').hidden=mapScene!=='heat';$('#local-key').hidden=!local;
-  $('#zoom-level').textContent=`${cityLabel($('#city').value||'Belgium')} · ${mapView.zoom.toFixed(1)}×`;
+  $('#zoom-level').textContent=`${$('#city').value?cityLabel($('#city').value):sel.province.value?displayLabel(sel.province.value,'province'):'Belgium'} · ${mapView.zoom.toFixed(1)}×`;
   $('#map-subtitle').textContent=mapScene==='detail'?'Brussels: local streets and individual crash points from the active selection. Click a road for its route details.':mapScene==='network'?'Main roads reveal the network; click a route, or zoom near Brussels for local streets.':`Recorded locations in ${detail?'500 m':'5 km'} cells; colour uses a logarithmic scale. Click a road to inspect it.`;
   if(mapView.selectedRoute)renderRoutePanel();
 }

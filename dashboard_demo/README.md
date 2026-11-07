@@ -14,7 +14,8 @@ Open `http://localhost:8765`. A local server is needed because browsers do not r
 
 ## Interactions
 
-- Year, region, road type, crash type and severity filter the metrics, maps and most charts together. Click a year on either line chart, or a bar in the road type or crash type chart, to filter directly.
+- Year, region, province, road type, crash type and severity filter the metrics, maps and most charts together. Click a year on either line chart, or a bar in the road type or crash type chart, to filter directly.
+- The local ranking switches between **Provinces** and **Municipalities**. Click a province to filter the dashboard and zoom to that area; click it again to clear the province filter. Brussels-Capital appears as a region because it is not a province.
 - Switch between **Road network**, **Concentrations** and **Brussels · locations**. The national view shows OSM motorways and main roads; Brussels adds local streets and individual crash points.
 - Use the municipality picker, **Brussels**, zoom buttons, mouse wheel or drag to navigate. At 7× zoom, the heatmap switches from 5 km to 500 m cells.
 - Hover a grid cell or point for its municipality, crash type and severity. Click a visible named road to inspect its OSM name and counts within 2 km of the clicked point nationally, or 500 m when zoomed in. These are proximity counts, **not crashes assigned to a road or entire route**.
