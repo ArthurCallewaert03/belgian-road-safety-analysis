@@ -20,6 +20,7 @@ Open `http://127.0.0.1:8765`. A local server is needed because browsers do not r
 - Use the municipality picker, **Brussels**, zoom buttons, mouse wheel or drag to navigate. At 7× zoom, the heatmap switches from 5 km to 500 m cells.
 - Hover a grid cell or point for its municipality, crash type and severity. Click a visible named road to inspect its OSM name and counts within 2 km of the clicked point nationally, or 500 m when zoomed in. These are proximity counts, **not crashes assigned to a road or entire route**.
 - **Download selection** exports filtered records as CSV.
+- The **Vehicles** section adds three views from the separate `vehicle_collisions` dataset: involved-vehicle counts, severe-crash share among involved vehicles, and collision-type mix. Year, region, province, road type, crash type and severity filters apply to these charts. The map and its KPIs still use `accident_map`; their totals need not match vehicle counts because a crash may involve multiple vehicles.
 
 ## Rebuild the bundled data
 
@@ -31,7 +32,7 @@ First download the Git LFS files with `git lfs pull` and install the analysis de
 
 On macOS/Linux, use `analysis_notebooks/.venv/bin/python` instead.
 
-This reads `data/gold/accident_map/accident_map.parquet`, geographic exclusions in `analysis_notebooks/tables/geo_uitgesloten.csv`, the GISCO Belgian boundary and the OSM road cache in `analysis_notebooks/reference_data`. It writes `dist/data.json` and `dist/roads.json`. The data metadata includes the source hash, column order and row count.
+This reads `data/gold/accident_map/accident_map.parquet`, geographic exclusions in `analysis_notebooks/tables/geo_uitgesloten.csv`, the GISCO Belgian boundary and the OSM road cache in `analysis_notebooks/reference_data`. It also groups `data/gold/vehicle_collisions/vehicle_collisions.parquet` for the vehicle charts. It writes `dist/data.json`, `dist/roads.json` and `dist/vehicles.json`. The data metadata includes source hashes, column order and row counts. To rebuild only the vehicle summary, run `python dashboard_demo/build_vehicle_data.py` with the same environment.
 
 ## Definitions and limits
 
@@ -41,5 +42,6 @@ This reads `data/gold/accident_map/accident_map.parquet`, geographic exclusions 
 - The Brussels detail is the fixed 20 × 20 km window from the notebook, not the administrative region boundary. Local OSM streets are bundled only for this window; other cities show main roads.
 - Road geometries come from OSM/Geofabrik, while crash classifications come from Statbel. They are separate sources. There is no validated crash-to-road assignment or traffic exposure denominator, so counts do not measure risk per trip.
 - The location coverage chart uses the full map source per year and highlights the selected year. Other charts reflect active filters. Improved geolocation from 2022 limits direct comparisons of map hotspots across earlier years.
+- Vehicle severity describes the crash involving that vehicle, not the injury of its occupants or the vehicle's responsibility. These records have no fleet-size or travel-distance denominator, so vehicle counts and severe shares do not estimate the probability that a vehicle type will crash.
 
 Sources: supplied Statbel data 2017–2024; Belgian boundary © EuroGeographics / Eurostat-GISCO 2024; roads © OpenStreetMap contributors / Geofabrik, 2025-01-01. Source download details and hashes are in `analysis_notebooks/reference_data/sources.json`.

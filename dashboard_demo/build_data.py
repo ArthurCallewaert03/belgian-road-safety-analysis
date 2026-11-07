@@ -75,3 +75,6 @@ roads_out={
 (OUT/'roads.json').write_text(json.dumps(roads_out,separators=(',',':')),encoding='utf-8')
 print('Road vectors MB:',round((OUT/'roads.json').stat().st_size/1e6,1))
 
+from build_vehicle_data import build as build_vehicle_data
+build_vehicle_data()
+

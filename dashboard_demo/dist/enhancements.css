@@ -47,3 +47,13 @@ body{background:radial-gradient(circle at 88% 3%,#d9edf1 0,transparent 30%),line
 .rank.selected{background:#e8f4f4}
 @media(max-width:1250px){.filtergrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:680px){.filtergrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.vehicle-section{margin-top:28px}
+.vehicle-intro{padding:23px 26px;margin-bottom:18px;border-radius:14px;background:linear-gradient(115deg,#11354d,#1b6979);color:#fff}
+.vehicle-intro .sectionlabel{color:#a6e0da}.vehicle-intro h2{font-size:22px;margin:7px 0}.vehicle-intro p{max-width:800px;font-size:12px;line-height:1.5;color:#d5e9ec;margin:0 0 12px}
+.vehicle-scope{display:inline-block;border:1px solid #ffffff50;border-radius:20px;padding:7px 11px;color:#f1fcfc;font-size:11px;font-weight:700}
+.vehicle-charts{grid-template-columns:1fr 1fr}.vehicle-charts .wide{grid-column:1/-1}
+.vehicle-chart svg{max-width:100%;height:auto}.vehicle-heatmap{overflow-x:auto}.vehicle-heat-scroll{min-width:780px}.vehicle-heatmap svg{display:block;width:100%;height:auto}
+.vehicle-heatmap .heat-value{font-size:11px;fill:#143b51;font-weight:750}.vehicle-heatmap .heat-value.light{fill:#fff}
+.vehicle-footnote{font-size:11px;color:#738a96;margin:11px 4px 0;line-height:1.5}.vehicle-footnote code{font-size:11px}
+@media(max-width:900px){.vehicle-charts{grid-template-columns:1fr}.vehicle-intro{padding:19px}}
+@media(max-width:550px){.vehicle-chart{overflow-x:auto}.vehicle-chart svg{min-width:620px}}
