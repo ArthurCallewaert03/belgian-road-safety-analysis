@@ -20,7 +20,7 @@ function init(){
   options(sel.region,cats.region.filter(x=>x!=='Onbekend'),'region');
   options(sel.province,cats.province.slice().sort((a,b)=>displayLabel(a,'province').localeCompare(displayLabel(b,'province'))),'province');
   options(sel.road,cats.road.filter(x=>x!=='onbekend'),'road');
-  options(sel.collision,cats.collision,'collision');options(sel.severity,['Severe','Slight injury']);options(sel.weather,cats.weather,'','All weather');
+  options(sel.collision,cats.collision,'collision');options(sel.severity,['Fatal crashes','Severe','Slight injury']);options(sel.weather,cats.weather,'','All weather');
   sel.year.value='2024';Object.values(sel).forEach(e=>e.addEventListener('change',render));
   sel.province.addEventListener('change',()=>{if(sel.province.value)zoomProvince(sel.province.value);else mapHome()});
   $('#show-provinces').addEventListener('click',()=>setLocalRanking('province'));
@@ -29,9 +29,25 @@ function init(){
   document.querySelectorAll('[data-map]').forEach(b=>b.addEventListener('click',()=>{mapMode=b.dataset.map;document.querySelectorAll('[data-map]').forEach(x=>x.classList.toggle('chosen',x===b));renderMap(window.currentRows)}));
   $('#download').addEventListener('click',download);window.addEventListener('resize',()=>renderMap(window.currentRows));initMapControls();render();
 }
-function matches(r,withoutYear=false,withoutProvince=false,withoutWeather=false){return(!sel.year.value||withoutYear||r.year===+sel.year.value)&&(!sel.region.value||r.region===sel.region.value)&&(!sel.province.value||withoutProvince||r.province===sel.province.value)&&(!sel.road.value||r.road===sel.road.value)&&(!sel.collision.value||r.collision===sel.collision.value)&&(!sel.severity.value||(sel.severity.value==='Severe'?severe(r.severity):r.severity==='4'))&&(!sel.weather.value||withoutWeather||r.weather===sel.weather.value)}
+function matches(r,withoutYear=false,withoutProvince=false,withoutWeather=false,withoutSeverity=false){return(!sel.year.value||withoutYear||r.year===+sel.year.value)&&(!sel.region.value||r.region===sel.region.value)&&(!sel.province.value||withoutProvince||r.province===sel.province.value)&&(!sel.road.value||r.road===sel.road.value)&&(!sel.collision.value||r.collision===sel.collision.value)&&(!sel.severity.value||withoutSeverity||(sel.severity.value==='Fatal crashes'?r.severity==='1':sel.severity.value==='Severe'?severe(r.severity):r.severity==='4'))&&(!sel.weather.value||withoutWeather||r.weather===sel.weather.value)}
 function countBy(rs,key){let o=new Map();for(const r of rs){let k=r[key]??'Onbekend';o.set(k,(o.get(k)||0)+1)}return [...o].sort((a,b)=>b[1]-a[1])}
-function render(){let rs=rows.filter(r=>matches(r));window.currentRows=rs;let n=rs.length,s=rs.filter(r=>severe(r.severity)).length,g=rs.filter(r=>r.valid).length;$('#scope').textContent=`${fmt(n)} records in this selection`;$('#kpi-count').textContent=fmt(n);$('#kpi-severe').textContent=fmt(s);$('#kpi-rate').textContent=n?pct(100*s/n):'—';$('#kpi-geo').textContent=n?pct(100*g/n):'—';$('#kpi-count-sub').textContent=sel.year.value?`Map source · ${sel.year.value}`:'Map source · 2017–2024';$('#kpi-severe-sub').textContent=`${fmt(s)} of ${fmt(n)} crashes`;renderMap(rs);renderProvinceRank();renderRank(rs);renderTrend();renderRoad(rs);renderCollisions(rs);renderSeverity(rs);renderCoverage();renderMonth(rs);renderVehicles();renderFatality(rs)}
+function render(){
+  const rs=rows.filter(r=>matches(r)),base=sel.severity.value?rows.filter(r=>matches(r,false,false,false,true)):rs;
+  window.currentRows=rs;
+  const n=rs.length,measure=sel.severity.value?n:rs.filter(r=>severe(r.severity)).length,g=rs.filter(r=>r.valid).length;
+  const label=sel.severity.value==='Fatal crashes'?'Fatal':sel.severity.value==='Slight injury'?'Slight-injury':'Severe';
+  $('#scope').textContent=`${fmt(n)} records in this selection`;
+  $('#kpi-count').textContent=fmt(n);
+  $('#kpi-class-title').textContent=`${label} crash class`;
+  $('#kpi-severe').textContent=fmt(measure);
+  $('#kpi-rate-title').textContent=`${label} share`;
+  $('#kpi-rate').textContent=base.length?pct(100*measure/base.length):'—';
+  $('#kpi-rate-sub').textContent=sel.severity.value?'Of injury crashes under other filters':'Of selected injury crashes';
+  $('#kpi-geo').textContent=n?pct(100*g/n):'—';
+  $('#kpi-count-sub').textContent=sel.year.value?`Map source · ${sel.year.value}`:'Map source · 2017–2024';
+  $('#kpi-severe-sub').textContent=`${fmt(measure)} of ${fmt(base.length)} crashes`;
+  renderMap(rs);renderProvinceRank();renderRank(rs);renderTrend();renderRoad(rs);renderCollisions(rs);renderSeverity(rs,base);renderCoverage();renderMonth(rs);renderVehicles();renderFatality(rs);
+}
 function renderRank(rs){let v=countBy(rs,'municipality').filter(([x])=>x&&x!=='Onbekend').slice(0,8),max=v[0]?.[1]||1;$('#municipality-list').innerHTML=v.length?v.map(([name,n],i)=>`<div class="rank" data-city="${name.replaceAll('&','&amp;').replaceAll('"','&quot;')}" role="button" tabindex="0" title="Zoom to ${cityLabel(name)}"><span class="index">${String(i+1).padStart(2,'0')}</span><span class="name" title="${name}">${cityLabel(name)}</span><span class="value">${fmt(n)}</span><div class="track"><div class="fill" style="width:${100*n/max}%"></div></div></div>`).join(''):'<div class="empty">No records for this selection</div>';$('#municipality-list').querySelectorAll('[data-city]').forEach(el=>{el.addEventListener('click',()=>zoomMunicipality(el.dataset.city));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();zoomMunicipality(el.dataset.city)}})})}
 function setLocalRanking(mode){localRanking=mode;$('#show-provinces').classList.toggle('chosen',mode==='province');$('#show-municipalities').classList.toggle('chosen',mode==='municipality');$('#province-list').hidden=mode!=='province';$('#municipality-list').hidden=mode!=='municipality';$('#local-title').textContent=mode==='province'?'Provinces with most crashes':'Municipalities with most crashes';$('#local-subtitle').textContent=mode==='province'?'Click a province to filter the dashboard and zoom to it.':'Click a municipality to zoom in.';$('#local-footnote').textContent=mode==='province'?'Brussels-Capital is shown as a region because it is not a province. Counts are not risk rates.':'High counts can reflect more residents or traffic. This is not a risk ranking.'}
 function renderProvinceRank(){const base=rows.filter(r=>matches(r,false,true)),v=countBy(base,'province'),max=v[0]?.[1]||1;$('#province-list').innerHTML=v.length?v.map(([name,n],i)=>`<div class="rank ${sel.province.value===name?'selected':''}" data-province="${name.replaceAll('&','&amp;').replaceAll('"','&quot;')}" role="button" tabindex="0" title="Filter to ${displayLabel(name,'province')}"><span class="index">${String(i+1).padStart(2,'0')}</span><span class="name">${displayLabel(name,'province')}</span><span class="value">${fmt(n)}</span><div class="track"><div class="fill" style="width:${100*n/max}%"></div></div></div>`).join(''):'<div class="empty">No records for this selection</div>';$('#province-list').querySelectorAll('[data-province]').forEach(el=>{const choose=()=>{sel.province.value=sel.province.value===el.dataset.province?'':el.dataset.province;render();if(sel.province.value)zoomProvince(sel.province.value);else mapHome()};el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose()}})})}
@@ -43,7 +59,21 @@ function barChart(el,values,{height=225,maxItems=8,short=false,filter=null}={}){
 }
 function renderRoad(rs){barChart('#road-chart',countBy(rs,'road'),{maxItems:5,filter:'road'})}
 function renderCollisions(rs){barChart('#collision-chart',countBy(rs,'collision'),{height:315,maxItems:11,short:true,filter:'collision'})}
-function renderSeverity(rs){let groups=new Map();for(const r of rs){let x=groups.get(r.collision)||[0,0];x[0]++;if(severe(r.severity))x[1]++;groups.set(r.collision,x)}let v=[...groups].filter(([,x])=>x[0]>=30).map(([name,[n,s]])=>[name,100*s/n,n]).sort((a,b)=>b[1]-a[1]);let target=$('#severity-chart'),w=650,h=315,l=225,r=70,row=(h-16)/Math.max(1,v.length);if(!v.length){target.innerHTML='<div class="empty">At least 30 records per type needed</div>';return}target.innerHTML=`<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Severe share by crash type">${v.map(([name,rate,n],i)=>{let y=8+i*row,bw=(w-l-r)*rate/100,full=crashLabel(name),label=full.length>32?full.slice(0,31)+'…':full;return `<text x="${l-10}" y="${y+row*.57}" text-anchor="end" class="bar-label"><title>${full}</title>${label.replaceAll('&','&amp;')}</text><rect x="${l}" y="${y+row*.16}" width="${Math.max(1,bw)}" height="${row*.55}" rx="3" fill="${i===0?COLORS.orange:COLORS.pale}"><title>${name}: ${pct(rate)} severe among ${fmt(n)} crashes</title></rect><text x="${Math.min(w-r+5,l+bw+7)}" y="${y+row*.58}" class="value-text">${pct(rate)}</text>`}).join('')}</svg>`}
+function renderSeverity(rs,base){
+  const denominator=new Map(),numerator=new Map();
+  for(const r of base)denominator.set(r.collision,(denominator.get(r.collision)||0)+1);
+  for(const r of rs)if(sel.severity.value||severe(r.severity))numerator.set(r.collision,(numerator.get(r.collision)||0)+1);
+  const label=sel.severity.value==='Fatal crashes'?'Fatal':sel.severity.value==='Slight injury'?'Slight-injury':'Severe';
+  $('#severity-chart-title').textContent=`${label} share by crash type`;
+  $('#severity-chart-note').textContent=sel.severity.value?'Percentage within each type under the other active filters; at least 30 source records per type.':'Types with at least 30 selected records; percentage within each type.';
+  const values=[...denominator].filter(([,n])=>n>=30).map(([name,n])=>({name,n,selected:numerator.get(name)||0,rate:100*(numerator.get(name)||0)/n})).sort((a,b)=>b.rate-a.rate);
+  const target=$('#severity-chart');if(!values.length){target.innerHTML='<div class="empty">At least 30 records per type needed</div>';return}
+  const w=680,h=Math.max(325,values.length*30+28),l=225,r=100,t=10,b=30,row=(h-t-b)/values.length,max=Math.max(5,Math.ceil(Math.max(...values.map(x=>x.rate))/5)*5);
+  target.innerHTML=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${label} share by crash type">
+    ${[0,max/2,max].map(v=>`<line x1="${l+(w-l-r)*v/max}" x2="${l+(w-l-r)*v/max}" y1="${t}" y2="${h-b}" stroke="${COLORS.grid}"/><text x="${l+(w-l-r)*v/max}" y="${h-7}" text-anchor="middle" class="axis-text">${pct(v)}</text>`).join('')}
+    ${values.map((v,i)=>{const y=t+i*row+row*.17,width=(w-l-r)*v.rate/max,full=crashLabel(v.name),name=full.length>31?full.slice(0,30)+'…':full;return `<g><title>${full}: ${fmt(v.selected)} of ${fmt(v.n)} crashes (${pct(v.rate)})</title><text x="${l-10}" y="${y+row*.46}" text-anchor="end" class="bar-label">${name.replaceAll('&','&amp;')}</text><rect x="${l}" y="${y}" width="${Math.max(1,width)}" height="${row*.56}" rx="3" fill="${i===0?COLORS.orange:COLORS.pale}"/><text x="${Math.min(w-r+7,l+width+7)}" y="${y+row*.46}" class="value-text">${pct(v.rate)}</text></g>`}).join('')}
+  </svg>`;
+}
 function renderTrend(){
   const counts=new Map(data.meta.years.map(y=>[y,0]));
   for(const r of rows)if(matches(r,true))counts.set(r.year,(counts.get(r.year)||0)+1);
@@ -59,4 +89,4 @@ function renderTrend(){
   $('#trend-desc').textContent='Region, road type, crash type and severity stay active; click a year to select it.';
 }
 function download(){let selected=rows.filter(r=>matches(r)),cols=['year','month','region','province','road_type','crash_type','severity_code','weather','municipality','mappable'];let csv=[cols.join(';'),...selected.map(r=>[r.year,r.month,r.region,r.province,r.road,r.collision,r.severity,r.weather,r.municipality,r.valid?'yes':'no'].map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(';'))].join('\n');let url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='belgian_crashes_selection.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
-Promise.all(['data.json?v=fatal-weather-20261109','roads.json','vehicles.json?v=fatal-weather-20261109'].map(name=>fetch(name).then(r=>{if(!r.ok)throw Error(name+' unavailable');return r.json()}))).then(([x,roads,vehicles])=>{data=x;roadVectors=roads;vehicleData=vehicles;init()}).catch(e=>{$('#scope').textContent='Loading failed';document.querySelector('.map-wrap').innerHTML='<p class="empty">Start the local server as described in README.md to open the dashboard.</p>';console.error(e)});
+Promise.all(['data.json?v=fatal-filter-20261109','roads.json','vehicles.json?v=fatal-filter-20261109'].map(name=>fetch(name).then(r=>{if(!r.ok)throw Error(name+' unavailable');return r.json()}))).then(([x,roads,vehicles])=>{data=x;roadVectors=roads;vehicleData=vehicles;init()}).catch(e=>{$('#scope').textContent='Loading failed';document.querySelector('.map-wrap').innerHTML='<p class="empty">Start the local server as described in README.md to open the dashboard.</p>';console.error(e)});

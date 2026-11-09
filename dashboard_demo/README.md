@@ -22,6 +22,7 @@ Open `http://127.0.0.1:8765`. A local server is needed because browsers do not r
 - **Download selection** exports filtered records as CSV.
 - The **Vehicles** section adds three views from the separate `vehicle_collisions` dataset: involved-vehicle counts, severe-crash share among involved vehicles, and collision-type mix. All dashboard filters, including weather, apply to these charts. The map and its KPIs still use `accident_map`; their totals need not match vehicle counts because a crash may involve multiple vehicles.
 - The **Fatal crashes** section shows source-class-1 crash counts, a yearly trend, collision types and fatal-crash share within each recorded weather category. This counts crashes classified “with deaths,” not people killed; class 2 (“fatally injured”) is excluded. Weather categories are grouped from the source codes and remain available as a dashboard filter. Small weather groups are suppressed below 100 selected crashes in the share chart.
+- Choose **Fatal crashes** in the Severity filter to apply that class across the dashboard, including the map and vehicle charts. With this filter, the weather chart switches from shares to fatal-crash counts so the comparison remains informative. Severity share charts and the fatal summary percentage use all injury crashes under the other active filters as their denominator.
 
 ## Rebuild the bundled data
 

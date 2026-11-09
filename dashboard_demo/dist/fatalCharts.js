@@ -1,8 +1,8 @@
 const fatalCrash=r=>r.severity==='1';
 function renderFatality(rs){
-  const fatal=rs.filter(fatalCrash),n=rs.length;
+  const fatal=rs.filter(fatalCrash),baseline=rows.filter(r=>matches(r,false,false,false,true));
   $('#fatal-count').textContent=fmt(fatal.length);
-  $('#fatal-share').textContent=n?pct(100*fatal.length/n):'—';
+  $('#fatal-share').textContent=baseline.length?pct(100*fatal.length/baseline.length):'—';
   renderFatalTrend();renderFatalWeather(rs);renderFatalTypes(fatal);
 }
 function renderFatalTrend(){
@@ -20,8 +20,22 @@ function renderFatalTrend(){
 }
 function renderFatalWeather(rs){
   const groups=new Map();for(const r of rs){const v=groups.get(r.weather)||[0,0];v[0]++;if(fatalCrash(r))v[1]++;groups.set(r.weather,v)}
+  if(sel.severity.value==='Fatal crashes'){
+    const values=[...groups].filter(([,v])=>v[1]>0).map(([name,[,fatal]])=>({name,fatal})).sort((a,b)=>b.fatal-a.fatal);
+    const target=$('#fatal-weather-chart');
+    $('#fatal-weather-title').textContent='Fatal crashes by weather';
+    $('#fatal-weather-note').textContent='Counts of selected fatal crashes by recorded weather; no traffic-exposure denominator.';
+    if(!values.length){target.innerHTML='<div class="empty">No fatal crashes under these filters</div>';return}
+    const w=660,h=Math.max(240,values.length*34+45),l=130,r=75,t=12,b=32,row=(h-t-b)/values.length,max=values[0].fatal;
+    target.innerHTML=`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Fatal crashes by weather">
+      ${[0,max/2,max].map(v=>`<line x1="${l+(w-l-r)*v/max}" x2="${l+(w-l-r)*v/max}" y1="${t}" y2="${h-b}" stroke="#e5ecef"/><text x="${l+(w-l-r)*v/max}" y="${h-7}" text-anchor="middle" class="axis-text">${fmt(Math.round(v))}</text>`).join('')}
+      ${values.map((v,i)=>{const y=t+i*row+row*.18,width=(w-l-r)*v.fatal/max;return `<g><title>${v.name}: ${fmt(v.fatal)} fatal crashes</title><text x="${l-10}" y="${y+row*.47}" text-anchor="end" class="bar-label">${v.name}</text><rect x="${l}" y="${y}" width="${Math.max(1,width)}" height="${row*.58}" rx="3" fill="${i===0?'#c85740':'#d99877'}"/><text x="${Math.min(w-r+8,l+width+7)}" y="${y+row*.47}" class="value-text">${fmt(v.fatal)}</text></g>`}).join('')}
+    </svg>`;
+    return;
+  }
   const values=[...groups].filter(([,v])=>v[0]>=100).map(([name,[n,fatal]])=>({name,n,fatal,rate:100*fatal/n})).sort((a,b)=>b.rate-a.rate);
   const target=$('#fatal-weather-chart');
+  $('#fatal-weather-title').textContent='Fatal-crash share by weather';
   const scope=sel.severity.value?` The ${sel.severity.value.toLowerCase()} filter also changes the denominator.`:'';
   $('#fatal-weather-note').textContent=(sel.weather.value?'Weather filter is active; clear it to compare conditions.':'Share within each recorded weather category; minimum 100 selected crashes.')+scope;
   if(!values.length){target.innerHTML='<div class="empty">At least 100 selected crashes per weather category are needed</div>';return}
