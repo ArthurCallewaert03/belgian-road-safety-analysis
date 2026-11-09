@@ -95,10 +95,11 @@ function aggregateMap(rs,detail) {
   const size=detail?500:5000,keyX=detail?'gx500':'gx',keyY=detail?'gy500':'gy',grid=new Map(),cities=new Map(),points=[];
   for(const row of rs){if(!row.valid||row[keyX]==null)continue;
     if(mapMode==='severe'&&!severe(row.severity))continue;
+    if(mapMode==='fatal'&&row.severity!=='1')continue;
     if(mapMode==='ped'&&row.collision!=='Met een voetganger')continue;
     const key=row[keyX]+','+row[keyY];let cell=grid.get(key);
-    if(!cell){cell={x:row[keyX],y:row[keyY],n:0,severe:0,cities:new Map(),roads:new Map(),types:new Map()};grid.set(key,cell)}
-    cell.n++;if(severe(row.severity))cell.severe++;
+    if(!cell){cell={x:row[keyX],y:row[keyY],n:0,severe:0,fatal:0,cities:new Map(),roads:new Map(),types:new Map()};grid.set(key,cell)}
+    cell.n++;if(severe(row.severity))cell.severe++;if(row.severity==='1')cell.fatal++;
     for(const [m,k] of [[cell.cities,row.municipality],[cell.roads,row.road],[cell.types,row.collision]])m.set(k,(m.get(k)||0)+1);
     let city=cities.get(row.municipality)||{n:0,sx:0,sy:0};city.n++;city.sx+=row.x;city.sy+=row.y;cities.set(row.municipality,city);
     if(row.x!=null)points.push(row);
@@ -169,10 +170,10 @@ function renderRoutePanel(){
   const selected=mapView.selectedRoute;if(!selected)return;
   const [name,kind]=selected.route,radius=mapView.zoom>=7?500:2000,near=[];
   for(const p of window.currentRows||[])if(p.valid&&p.x!=null&&Math.abs(p.x-selected.x)<=radius&&Math.abs(p.y-selected.y)<=radius&&Math.hypot(p.x-selected.x,p.y-selected.y)<=radius)near.push(p);
-  const severeCount=near.filter(p=>severe(p.severity)).length,types=new Map();for(const p of near)types.set(p.collision,(types.get(p.collision)||0)+1);
+  const severeCount=near.filter(p=>severe(p.severity)).length,fatalCount=near.filter(p=>p.severity==='1').length,types=new Map();for(const p of near)types.set(p.collision,(types.get(p.collision)||0)+1);
   const top=types.size?crashLabel([...types].sort((a,b)=>b[1]-a[1])[0][0]):'—';
   const roadKind=kind.replaceAll('_',' ').replace(/\b\w/g,c=>c.toUpperCase());
-  $('#route-panel').innerHTML=`<div><span class="sectionlabel">SELECTED OSM ROAD</span><h3>${escapeMapText(name)}</h3><p>${escapeMapText(roadKind)} · click location EPSG:31370 ${fmt(Math.round(selected.x))}, ${fmt(Math.round(selected.y))}</p></div><div class="route-stats"><span><strong>${fmt(near.length)}</strong> crashes within ${fmt(radius)} m</span><span><strong>${fmt(severeCount)}</strong> severe class</span><span><strong>${escapeMapText(top)}</strong> most common type</span></div><p class="route-caveat">Proximity around the clicked point in the active selection; crashes are not matched to this road or its full route. No traffic exposure denominator is available.</p>`;
+  $('#route-panel').innerHTML=`<div><span class="sectionlabel">SELECTED OSM ROAD</span><h3>${escapeMapText(name)}</h3><p>${escapeMapText(roadKind)} · click location EPSG:31370 ${fmt(Math.round(selected.x))}, ${fmt(Math.round(selected.y))}</p></div><div class="route-stats"><span><strong>${fmt(near.length)}</strong> crashes within ${fmt(radius)} m</span><span><strong>${fmt(severeCount)}</strong> severe class</span><span><strong>${fmt(fatalCount)}</strong> fatal class</span><span><strong>${escapeMapText(top)}</strong> most common type</span></div><p class="route-caveat">Proximity around the clicked point in the active selection; crashes are not matched to this road or its full route. No traffic exposure denominator is available.</p>`;
 }
 function escapeMapText(x){return String(x).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')}
 function topLabel(m){return [...m].sort((a,b)=>b[1]-a[1])[0]?.[0]||'Unknown'}
@@ -181,8 +182,8 @@ function hoverMap(e){const r=mapCanvas.getBoundingClientRect(),x=e.clientX-r.lef
   const city=mapView.cities.find(c=>Math.hypot(c.x-x,c.y-y)<12);
   const cell=mapScene==='heat'?mapView.cells.find(c=>x>=c.px&&x<=c.px+c.ps&&y>=c.py&&y<=c.py+c.ps):null;
   if(!point&&!cell&&!city){tip.hidden=true;return}
-  if(point){const p=point.row;tip.innerHTML=`<strong>${escapeMapText(cityLabel(p.municipality))}</strong><br>${p.year} · ${escapeMapText(crashLabel(p.collision))}<br>${escapeMapText(displayLabel(p.road,'road'))} · ${severe(p.severity)?'severe class':'slight injury'}<br><small>Location rounded to 10 m · ${fmt(p.x)}, ${fmt(p.y)}</small>`}
-  else if(cell){tip.innerHTML=`<strong>${escapeMapText(cityLabel(topLabel(cell.cities)))}</strong><br>${fmt(cell.n)} crashes · ${fmt(cell.severe)} severe<br>${escapeMapText(crashLabel(topLabel(cell.types)))}<br>${escapeMapText(displayLabel(topLabel(cell.roads),'road'))}<br><small>Grid centre EPSG:31370</small>`}
+  if(point){const p=point.row;tip.innerHTML=`<strong>${escapeMapText(cityLabel(p.municipality))}</strong><br>${p.year} · ${escapeMapText(crashLabel(p.collision))}<br>${escapeMapText(displayLabel(p.road,'road'))} · ${p.severity==='1'?'fatal class':severe(p.severity)?'severe class':'slight injury'} · ${escapeMapText(p.weather)}<br><small>Location rounded to 10 m · ${fmt(p.x)}, ${fmt(p.y)}</small>`}
+  else if(cell){tip.innerHTML=`<strong>${escapeMapText(cityLabel(topLabel(cell.cities)))}</strong><br>${fmt(cell.n)} crashes · ${fmt(cell.severe)} severe · ${fmt(cell.fatal)} fatal<br>${escapeMapText(crashLabel(topLabel(cell.types)))}<br>${escapeMapText(displayLabel(topLabel(cell.roads),'road'))}<br><small>Grid centre EPSG:31370</small>`}
   else tip.innerHTML=`<strong>${escapeMapText(cityLabel(city.name))}</strong><br>${fmt(city.n)} selected locations`;
   tip.style.left=Math.max(8,Math.min(x+13,r.width-265))+'px';tip.style.top=Math.max(8,Math.min(y+13,r.height-115))+'px';tip.hidden=false;
 }

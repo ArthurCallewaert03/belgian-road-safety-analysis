@@ -19,12 +19,13 @@ const mixTypes=[
 const vehicleOrder=['City cars','Compact cars','SUVs','Sedans','Vans & pick-ups','Trucks & buses','Motorcycles & mopeds','MPVs & people carriers','Sports cars'];
 function vehicleRows(){
   const c=vehicleData.meta.categories;
-  return vehicleData.rows.map(r=>({year:r[0],region:c.region[r[1]],province:c.province[r[2]],road:c.road[r[3]],collision:c.collision[r[4]],severity:c.severity[r[5]],vehicle:vehicleNames[c.vehicle[r[6]]]||c.vehicle[r[6]],count:r[7]}));
+  return vehicleData.rows.map(r=>({year:r[0],region:c.region[r[1]],province:c.province[r[2]],road:c.road[r[3]],collision:c.collision[r[4]],severity:c.severity[r[5]],weather:c.weather[r[6]],vehicle:vehicleNames[c.vehicle[r[7]]]||c.vehicle[r[7]],count:r[8]}));
 }
 function vehicleMatches(r){
   return (!sel.year.value||r.year===+sel.year.value)&&(!sel.region.value||r.region===sel.region.value)
     &&(!sel.province.value||r.province===sel.province.value)&&(!sel.road.value||r.road===sel.road.value)
     &&(!sel.collision.value||r.collision===sel.collision.value)
+    &&(!sel.weather.value||r.weather===sel.weather.value)
     &&(!sel.severity.value||(sel.severity.value==='Severe'?vehicleSevere(r.severity):r.severity==='met lichtgewonden'));
 }
 function vehicleSevere(s){return s==='met zwaargewonden'||s==='met doden'||s==='met dodelijk gewonden'}

@@ -14,13 +14,14 @@ Open `http://127.0.0.1:8765`. A local server is needed because browsers do not r
 
 ## Interactions
 
-- Year, region, province, road type, crash type and severity filter the metrics, maps and most charts together. Click a year on either line chart, or a bar in the road type or crash type chart, to filter directly.
+- Year, region, province, road type, crash type, severity and recorded weather filter the metrics, maps and most charts together. Click a year on a line chart, or a bar in the road type or crash type chart, to filter directly.
 - The local ranking switches between **Provinces** and **Municipalities**. Click a province to filter the dashboard and zoom to that area; click it again to clear the province filter. Brussels-Capital appears as a region because it is not a province.
-- Switch between **Road network**, **Concentrations** and **Brussels · locations**. The national view shows OSM motorways and main roads; Brussels adds local streets and individual crash points.
+- Switch between **Road network**, **Concentrations** and **Brussels · locations**. The national view shows OSM motorways and main roads; Brussels adds local streets and individual crash points. The map's **Fatal** mode displays only crashes in source class 1.
 - Use the municipality picker, **Brussels**, zoom buttons, mouse wheel or drag to navigate. At 7× zoom, the heatmap switches from 5 km to 500 m cells.
 - Hover a grid cell or point for its municipality, crash type and severity. Click a visible named road to inspect its OSM name and counts within 2 km of the clicked point nationally, or 500 m when zoomed in. These are proximity counts, **not crashes assigned to a road or entire route**.
 - **Download selection** exports filtered records as CSV.
-- The **Vehicles** section adds three views from the separate `vehicle_collisions` dataset: involved-vehicle counts, severe-crash share among involved vehicles, and collision-type mix. Year, region, province, road type, crash type and severity filters apply to these charts. The map and its KPIs still use `accident_map`; their totals need not match vehicle counts because a crash may involve multiple vehicles.
+- The **Vehicles** section adds three views from the separate `vehicle_collisions` dataset: involved-vehicle counts, severe-crash share among involved vehicles, and collision-type mix. All dashboard filters, including weather, apply to these charts. The map and its KPIs still use `accident_map`; their totals need not match vehicle counts because a crash may involve multiple vehicles.
+- The **Fatal crashes** section shows source-class-1 crash counts, a yearly trend, collision types and fatal-crash share within each recorded weather category. This counts crashes classified “with deaths,” not people killed; class 2 (“fatally injured”) is excluded. Weather categories are grouped from the source codes and remain available as a dashboard filter. Small weather groups are suppressed below 100 selected crashes in the share chart.
 
 ## Rebuild the bundled data
 
@@ -43,5 +44,6 @@ This reads `data/gold/accident_map/accident_map.parquet`, geographic exclusions 
 - Road geometries come from OSM/Geofabrik, while crash classifications come from Statbel. They are separate sources. There is no validated crash-to-road assignment or traffic exposure denominator, so counts do not measure risk per trip.
 - The location coverage chart uses the full map source per year and highlights the selected year. Other charts reflect active filters. Improved geolocation from 2022 limits direct comparisons of map hotspots across earlier years.
 - Vehicle severity describes the crash involving that vehicle, not the injury of its occupants or the vehicle's responsibility. These records have no fleet-size or travel-distance denominator, so vehicle counts and severe shares do not estimate the probability that a vehicle type will crash.
+- Fatal-crash share by weather is conditional on already-recorded injury crashes. The data have no traffic exposure by weather, so apparent differences do not measure the chance of a fatal crash per trip or establish a weather effect. Missing and combined weather codes are kept as `Unknown` and `Mixed conditions`.
 
 Sources: supplied Statbel data 2017–2024; Belgian boundary © EuroGeographics / Eurostat-GISCO 2024; roads © OpenStreetMap contributors / Geofabrik, 2025-01-01. Source download details and hashes are in `analysis_notebooks/reference_data/sources.json`.

@@ -3,10 +3,11 @@ import json,hashlib
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import mapping, box
+from weather_categories import weather_category
 B=Path(__file__).resolve().parent; ROOT=B.parent; OUT=B/'dist';OUT.mkdir(exist_ok=True)
 d=pd.read_parquet(ROOT/'data/gold/accident_map/accident_map.parquet')
 bad=set(pd.read_csv(ROOT/'analysis_notebooks/tables/geo_uitgesloten.csv',usecols=['_record_id'])._record_id)
-e=d[['_record_id','analysis_year','analysis_month','TX_RGN_COLLISION_NL','CD_ROAD_TYPE_NL','TX_COLLISION_TYPE_NL','CD_CLASS_ACCIDENTS','TX_MUNTY_COLLISION_NL','MS_X_COORD','MS_Y_COORD','TX_PROV_COLLISION_NL']].copy()
+e=d[['_record_id','analysis_year','analysis_month','TX_RGN_COLLISION_NL','CD_ROAD_TYPE_NL','TX_COLLISION_TYPE_NL','CD_CLASS_ACCIDENTS','TX_MUNTY_COLLISION_NL','MS_X_COORD','MS_Y_COORD','TX_PROV_COLLISION_NL','CD_WEATHER']].copy()
 e['valid']=~e._record_id.isin(bad)
 e['gx']=(e.MS_X_COORD//5000).where(e.valid).astype('Int64')
 e['gy']=(e.MS_Y_COORD//5000).where(e.valid).astype('Int64')
@@ -15,11 +16,12 @@ e['gy500']=(e.MS_Y_COORD//500).where(e.valid).astype('Int64')
 e['x']=e.MS_X_COORD.round(-1).where(e.valid).astype('Int64')
 e['y']=e.MS_Y_COORD.round(-1).where(e.valid).astype('Int64')
 e=e.drop(columns=['_record_id','MS_X_COORD','MS_Y_COORD'])
-e.columns=['year','month','region','road','collision','severity','municipality','province','valid','gx','gy','gx500','gy500','x','y']
-e=e[['year','month','region','road','collision','severity','municipality','valid','gx','gy','gx500','gy500','x','y','province']]
+e.columns=['year','month','region','road','collision','severity','municipality','province','weather','valid','gx','gy','gx500','gy500','x','y']
+e['weather']=e['weather'].map(weather_category)
+e=e[['year','month','region','road','collision','severity','municipality','valid','gx','gy','gx500','gy500','x','y','province','weather']]
 e['province']=e['province'].fillna('Brussels-Capital Region')
-for c in ['region','road','collision','severity','municipality','province'] : e[c]=e[c].fillna('Onbekend').astype(str)
-cats={c:sorted(e[c].unique().tolist()) for c in ['region','road','collision','severity','municipality','province']}
+for c in ['region','road','collision','severity','municipality','province','weather'] : e[c]=e[c].fillna('Onbekend').astype(str)
+cats={c:sorted(e[c].unique().tolist()) for c in ['region','road','collision','severity','municipality','province','weather']}
 for c in cats: e[c]=pd.Categorical(e[c],categories=cats[c]).codes
 rows=[[None if pd.isna(v) else int(v) if c!='valid' else bool(v) for c,v in zip(e.columns,row)] for row in e.itertuples(index=False,name=None)]
 geo=gpd.read_file(ROOT/'analysis_notebooks/reference_data/belgium_2024.geojson').to_crs(31370)

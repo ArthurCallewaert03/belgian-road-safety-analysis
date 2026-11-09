@@ -4,6 +4,7 @@ import hashlib
 import json
 
 import pandas as pd
+from weather_categories import weather_category
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/gold/vehicle_collisions/vehicle_collisions.parquet"
@@ -16,6 +17,7 @@ COLUMNS = {
     "road": "TX_ROAD_TYPE_NL",
     "collision": "TX_COLLISON_TYPE_NL",
     "severity": "TX_ACCIDENT_CLASS_NL",
+    "weather": "CD_WEATHER",
     "vehicle": "TX_VEHICLE_SEGMENT_B_NL",
 }
 
@@ -26,6 +28,7 @@ def build() -> None:
     )
     frame["province"] = frame["province"].replace("Brussel-Hoofdstad", "Brussels-Capital Region")
     frame["road"] = frame["road"].str.capitalize()
+    frame["weather"] = frame["weather"].map(weather_category)
     for column in COLUMNS:
         if column != "year":
             frame[column] = frame[column].fillna("Onbekend").astype(str)
