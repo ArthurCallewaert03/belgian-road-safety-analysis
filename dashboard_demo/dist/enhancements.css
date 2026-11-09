@@ -67,3 +67,7 @@ body{background:radial-gradient(circle at 88% 3%,#d9edf1 0,transparent 30%),line
 @media(max-width:680px){.fatal-intro{padding:19px}.fatal-summary strong{font-size:23px}.fatal-charts .chart{overflow-x:auto}.fatal-charts .chart svg{min-width:560px}}
 
 .brand{padding:4px 7px 30px}.brand-logo{display:block;width:100%;max-width:205px;height:auto;object-fit:contain}.sidebar .brand{min-height:80px}@media(max-width:680px){.sidebar .brand{min-height:0;padding:0}.brand-logo{max-width:170px}}
+
+.fatal-breakdowns{margin-bottom:18px}.fatal-rank-list{padding:2px 22px 20px}.fatal-rank{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding:10px 2px;border-bottom:1px solid #edf1f3}.fatal-rank:last-child{border-bottom:0}.fatal-rank-label{font-size:12px;font-weight:750;color:#263e4d;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fatal-rank strong{font:800 13px Manrope;color:#9a4e42}.fatal-rank-track{grid-column:1/-1;height:6px;border-radius:6px;background:#f4e9e5;overflow:hidden}.fatal-rank-track span{display:block;height:100%;border-radius:6px;background:linear-gradient(90deg,#d47a62,#a6474f)}.fatal-rank small{grid-column:1/-1;font-size:10px;color:#718693}.fatal-rank.chart-hit:hover .fatal-rank-label,.fatal-rank.chart-hit:focus-visible .fatal-rank-label{color:#b84e45}.fatal-rank-note{margin:0 22px 20px;color:#718693;font-size:10px;line-height:1.45}.fatal-rank-list .empty{padding:25px 0}
+
+.fatal-trend-top{margin-bottom:18px}.fatal-trend-top .chart svg{height:240px}

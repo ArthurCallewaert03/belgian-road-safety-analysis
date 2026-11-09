@@ -79,4 +79,6 @@ print('Road vectors MB:',round((OUT/'roads.json').stat().st_size/1e6,1))
 
 from build_vehicle_data import build as build_vehicle_data
 build_vehicle_data()
+from build_fatal_routes import build as build_fatal_routes
+build_fatal_routes()
 

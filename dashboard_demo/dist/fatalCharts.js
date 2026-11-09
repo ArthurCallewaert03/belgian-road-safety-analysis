@@ -3,7 +3,30 @@ function renderFatality(rs){
   const fatal=rs.filter(fatalCrash),baseline=rows.filter(r=>matches(r,false,false,false,true));
   $('#fatal-count').textContent=fmt(fatal.length);
   $('#fatal-share').textContent=baseline.length?pct(100*fatal.length/baseline.length):'—';
-  renderFatalTrend();renderFatalWeather(rs);renderFatalTypes(fatal);
+  renderFatalBreakdowns(fatal,baseline);renderFatalTrend();renderFatalWeather(rs);renderFatalTypes(fatal);
+}
+function fatalRank(targetId,items,labelKind,filterKey){
+  const target=$(targetId),max=items[0]?.count||1,esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+  if(!items.length){target.innerHTML='<div class="empty">No fatal crashes under these filters</div>';return}
+  target.innerHTML=items.map((item,i)=>{
+    const label=labelKind?displayLabel(item.name,labelKind):item.name;
+    const detail=item.detail||(item.total?`${pct(100*item.count/item.total)} of ${fmt(item.total)} injury crashes`:'');
+    return `<div class="fatal-rank ${filterKey?'chart-hit':''}" data-rank="${i}" ${filterKey?'role="button" tabindex="0"':''} title="${esc(label)}: ${fmt(item.count)} fatal crashes${detail?' · '+esc(detail):''}"><span class="fatal-rank-label">${esc(label)}</span><strong>${fmt(item.count)}</strong><span class="fatal-rank-track"><span style="width:${100*item.count/max}%"></span></span>${detail?`<small>${esc(detail)}</small>`:''}</div>`
+  }).join('');
+  if(filterKey)target.querySelectorAll('[data-rank]').forEach(el=>{const choose=()=>{const value=items[+el.dataset.rank].name;if(filterKey==='municipality'){zoomMunicipality(value)}else{sel[filterKey].value=value;render()}};el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose()}})});
+}
+function renderFatalBreakdowns(fatal,baseline){
+  for(const [key,target,limit] of [['road','#fatal-road-chart',4],['region','#fatal-region-chart',3],['municipality','#fatal-municipality-chart',10]]){
+    const totals=new Map(countBy(baseline,key)),counts=countBy(fatal,key);
+    fatalRank(target,counts.filter(([name])=>key!=='road'||name!=='onbekend').slice(0,limit).map(([name,count])=>({name,count,total:key==='municipality'?null:totals.get(name)||0})),key,key);
+  }
+  const target=$('#fatal-route-chart');
+  if(!window.fatalRouteData){target.innerHTML='<div class="empty">Route matches unavailable</div>';return}
+  const selected=window.fatalRouteData.rows.filter(r=>(!sel.year.value||r.year===+sel.year.value)&&(!sel.region.value||r.region===sel.region.value)&&(!sel.province.value||r.province===sel.province.value)&&(!sel.road.value||r.road===sel.road.value)&&(!sel.collision.value||r.collision===sel.collision.value)&&(!sel.weather.value||r.weather===sel.weather.value)&&(!sel.severity.value||sel.severity.value!=='Slight injury'));
+  const counts=new Map();for(const r of selected)counts.set(r.ref,(counts.get(r.ref)||0)+1);
+  fatalRank('#fatal-route-chart',[...counts].sort((a,b)=>b[1]-a[1]).slice(0,8).map(([name,count])=>({name,count,detail:'Approximate nearby OSM route match'})),null,null);
+  const total=fatal.filter(r=>r.road==='Autosnelweg').length;
+  $('#fatal-route-note').textContent=`${fmt(selected.length)} named-route matches of ${fmt(total)} fatal motorway-class crashes in this selection. Missing coordinates and unmatched roads are excluded. A nearby OSM route is not a verified crash road.`;
 }
 function renderFatalTrend(){
   const years=data.meta.years,counts=years.map(y=>rows.reduce((n,r)=>n+(r.year===y&&matches(r,true)&&fatalCrash(r)?1:0),0));
