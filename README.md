@@ -1,4 +1,4 @@
-# RoadLens — Belgian road safety analysis
+# RoadLens - Belgian road safety analysis
 
 Reproducible analysis of Belgian injury crashes, with bronze/silver/gold datasets, six analysis notebooks, a preparation pipeline, and an interactive local dashboard.
 
