@@ -1,6 +1,8 @@
-# Belgian Road Safety dashboard
+# RoadLens — Belgian Road Safety dashboard
 
 An offline, presentation-ready dashboard based on the supplied Statbel crash map data for 2017–2024. It follows sections 3–6 of `analysis_notebooks/01_geopandas_belgie.ipynb`: road network, location coverage, crash concentrations and a Brussels street-level example.
+
+The RoadLens logo appears in the sidebar and its icon in the browser tab. The dashboard uses local copies in `dist/assets`, taken from the project’s `logo` folder; no external image service is required.
 
 ## Run locally
 

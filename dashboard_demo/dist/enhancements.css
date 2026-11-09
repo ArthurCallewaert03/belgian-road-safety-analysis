@@ -65,3 +65,5 @@ body{background:radial-gradient(circle at 88% 3%,#d9edf1 0,transparent 30%),line
 .fatal-charts .wide{grid-column:1/-1}.fatal-footnote{font-size:11px;color:#738a96;margin:11px 4px 0;line-height:1.5}
 .fatal-footnote code{font-size:11px}.fatal-charts .chart svg{max-width:100%;height:auto}
 @media(max-width:680px){.fatal-intro{padding:19px}.fatal-summary strong{font-size:23px}.fatal-charts .chart{overflow-x:auto}.fatal-charts .chart svg{min-width:560px}}
+
+.brand{padding:4px 7px 30px}.brand-logo{display:block;width:100%;max-width:205px;height:auto;object-fit:contain}.sidebar .brand{min-height:80px}@media(max-width:680px){.sidebar .brand{min-height:0;padding:0}.brand-logo{max-width:170px}}

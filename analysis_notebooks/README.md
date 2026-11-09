@@ -8,7 +8,6 @@ Begin met `01_geopandas_belgie.ipynb` voor de kaarten en de coördinatencontrole
 - `02_analyse_presentatie.ipynb`: zes aanvullende figuren met tabellen en interpretaties.
 - `figures/`: PNG en SVG voor een presentatie. PNG werkt rechtstreeks in PowerPoint; SVG blijft scherp bij vergroten.
 - `tables/`: onderliggende berekeningen, bronafwijkingen en expliciete codegroeperingen.
-- `PRESENTATIEVERHAAL.md`: voorgestelde slidevolgorde en spreekpunten met berekende cijfers.
 - `reference_data/`: gecachte landsgrens, wegen, aanvullende Statbel-metadata en bronmanifest.
 - `VALIDATIE.md`: uitvoeringsstatus en controles.
 
@@ -63,7 +62,7 @@ Open `03_paradoxen_en_extremen.ipynb` voor ranglijsten naar wegtype, vergelijkin
 
 ## Wegen en ongevalstypeclusters
 
-`04_wegen_en_botsingstype_hotspots.ipynb` is volledig uitgevoerd. De figuren 15–17 en controlelijsten staan in `figures/` en `tables/`. De wegtoewijzing is benaderend (maximaal 30 meter tot OSM) en de twee typeclusters zijn signalen, geen bewezen oorzaken. Zie `PRESENTATIEVERHAAL.md` voor de exacte uitkomsten en mogelijke vervolgonderzoeken.
+`04_wegen_en_botsingstype_hotspots.ipynb` is volledig uitgevoerd. De figuren 15–17 en controlelijsten staan in `figures/` en `tables/`. De wegtoewijzing is benaderend (maximaal 30 meter tot OSM) en de twee typeclusters zijn signalen, geen bewezen oorzaken. De exacte uitkomsten staan in de notebook en bijbehorende tabellen.
 
 ## Ernstverdieping
 

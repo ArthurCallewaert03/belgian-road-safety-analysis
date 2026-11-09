@@ -1,6 +1,8 @@
-# Belgian road safety analysis
+# RoadLens — Belgian road safety analysis
 
 Reproducible analysis of Belgian injury crashes, with bronze/silver/gold datasets, six analysis notebooks, a preparation pipeline, and an interactive local dashboard.
+
+The interactive dashboard is branded **RoadLens**. Its sidebar logo and browser icon are bundled in `dashboard_demo/dist/assets`, so they appear when someone runs the dashboard from a fresh clone.
 
 ## Repository layout
 

@@ -42,7 +42,7 @@ def load(name): return pd.read_parquet(GOLD/name/f'{name}.parquet')
 geo=[md('''
 # België: wegen en ongevalslocaties met GeoPandas
 ## tl;dr
-Dit notebook onderzoekt het wegennet, de ruimtelijke spreiding van geregistreerde letselongevallen en de kwaliteit van de coördinaten. De berekende kernpunten staan bij de resultaten en in `PRESENTATIEVERHAAL.md`.
+Dit notebook onderzoekt het wegennet, de ruimtelijke spreiding van geregistreerde letselongevallen en de kwaliteit van de coördinaten. De berekende kernpunten staan bij de resultaten en in `tables/`.
 
 ## Context & Methods
 We tonen **2024** in detail en gebruiken 2017–2024 om de dekking te beoordelen. Kaartpunten zijn registraties uit `accident_map`, geen koppeling met de andere facttabellen.
@@ -373,7 +373,7 @@ summary={'year':YEAR,'accidents_2024':int(annual.loc[YEAR,'ongevallen']),'deaths
 - De letsellast per weggebruiker ondersteunt de keuze van vervolgvragen. De ernstpercentages zijn conditioneel op geregistreerde gewonden/doden en kunnen beïnvloed zijn door onderregistratie en samenstelling.
 - De voertuigverdeling is een beschrijving van deze bron. Koppel een groeiend SUV-aandeel niet aan een causaal effect zonder wagenpark, gebruik en confounders te onderzoeken.
 
-Alle exacte tabellen staan in `tables`. `PRESENTATIEVERHAAL.md` geeft een voorstel voor de volgorde en spreektekst. De eerdere datavoorbereiding staat in `../pipeline/HANDOVER.md`.
+Alle exacte tabellen staan in `tables`. De berekende waarden staan in `tables/`. De eerdere datavoorbereiding staat in `../pipeline/HANDOVER.md`.
 
 Brondefinities en beperkingen: [Statbel verkeersongevallen](https://statbel.fgov.be/nl/themas/mobiliteit/verkeer/verkeersongevallen), [methodologische nota voertuiggegevens](https://statbel.fgov.be/sites/default/files/files/opendata/Datalab-accidents/Accident_Method_en.pdf). De analyses gebruiken uitsluitend de aangeleverde periode 2017–2024, geen recentere tellingen van de website.
 ''')]
