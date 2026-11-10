@@ -11,7 +11,7 @@ function fatalRank(targetId,items,labelKind,filterKey){
   target.innerHTML=items.map((item,i)=>{
     const label=labelKind?displayLabel(item.name,labelKind):item.name;
     const detail=item.detail||(item.total?`${pct(100*item.count/item.total)} of ${fmt(item.total)} injury crashes`:'');
-    return `<div class="fatal-rank ${filterKey?'chart-hit':''}" data-rank="${i}" ${filterKey?'role="button" tabindex="0"':''} title="${esc(label)}: ${fmt(item.count)} fatal crashes${detail?' · '+esc(detail):''}"><span class="fatal-rank-label">${esc(label)}</span><strong>${fmt(item.count)}</strong><span class="fatal-rank-track"><span style="width:${100*item.count/max}%"></span></span>${detail?`<small>${esc(detail)}</small>`:''}</div>`
+    return `<div class="fatal-rank ${filterKey?'chart-hit':''}" data-rank="${i}" ${filterKey?'role="button" tabindex="0"':''} title="${esc(label)}: ${fmt(item.count)} fatal crashes${detail?' · '+esc(detail):''}"><span class="fatal-rank-label">${esc(label)}</span><strong>${fmt(item.count)}</strong><span class="fatal-rank-track">${rankMeter(100*item.count/max,'fatal-'+targetId.slice(1)+'-'+i,true)}</span>${detail?`<small>${esc(detail)}</small>`:''}</div>`
   }).join('');
   if(filterKey)target.querySelectorAll('[data-rank]').forEach(el=>{const choose=()=>{const value=items[+el.dataset.rank].name;if(filterKey==='municipality'){zoomMunicipality(value)}else{sel[filterKey].value=value;render()}};el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose()}})});
 }
